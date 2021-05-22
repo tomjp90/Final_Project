@@ -3,7 +3,7 @@ import requests
 import os
 import pandas as pd
 from splinter import Browser
-from webdriver_manager.chrome import ChromeDriverManager
+# from webdriver_manager.chrome import ChromeDriverManager
 import time
 import sys
 from datetime import datetime
