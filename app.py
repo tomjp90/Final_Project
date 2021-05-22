@@ -167,7 +167,7 @@ def login():
                               print(X)
                               model = load("xgboost_best_model_2024.joblib")
                               # run predict function from persist
-                              predict = round(model.predict(X))
+                              predict = model.predict(X)
                               print("I PREDICTED")
                               print(predict)
                               # format value predicted
