@@ -1,15 +1,50 @@
 from flask import Flask, render_template, redirect, jsonify, request
 import scrape
 from match_csvs import melb_avg, distance_crime
-from model.persist import load_model, load_model_NL, predict_value, predict_value_NL
+# from model.persist import load_model, load_model_NL, predict_value, predict_value_NL
 
 import requests
 from flask import Flask, redirect, url_for, request
 import numpy as np
 import pandas as pd
+
+
+from joblib import dump, load
 import xgboost
 
+
 app = Flask(__name__)
+#---------------------- LOAD MODELS   -----------------------------------
+MODEL_PATH = "xgboost_best_model_2024.joblib"
+
+def load_model():
+
+      return load(MODEL_PATH)
+      print("I loaded")
+
+
+MODEL_PATH_NL = "final_model_no_landsize.joblib"
+
+def load_model_NL():
+      
+      return load(MODEL_PATH_NL)
+
+#-------------------- PREDICTION FUNCTIONS -----------------------------
+def predict_value(X):
+
+      model = load_model()
+      prediction = model.predict(X)     
+      print(prediction)            
+
+      return prediction
+
+
+def predict_value_NL(X):
+
+      model = load_model_NL()
+      prediction = model.predict(X)                 
+
+      return prediction
 
 # Home route ----------------------------------------------------------------------------------------
 @app.route("/")
@@ -17,6 +52,11 @@ def home():
       #return index html from home route    
       return render_template("index_template.html", name="default")
 # predict route ----------------------------------------------------------------------------------------
+
+
+
+
+
 
 @app.route('/predict', methods=['POST', 'GET'])
 def login():
@@ -113,6 +153,8 @@ def login():
                               # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
                               X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                       ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
+                              
+                              
                               # run predict function from persist
                               predict = round(predict_value(X)[0])
                               print(X)
@@ -201,6 +243,7 @@ def login():
                               # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
                               X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                       ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
+                           
                               # run predict function from persist
                               predict = round(predict_value_NL(X)[0])
                               print(X)
