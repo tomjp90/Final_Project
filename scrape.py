@@ -41,13 +41,19 @@ def scrape_house_listing(url):
             
             # DRIVER_PATH = 'chromedriver'
             # driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
-            driver.get(url)            
+            driver.get(url) 
+            time.sleep(10)           
             html = driver.page_source 
+            time.sleep(10)          
+            print(html)
+            print("HTML SHOULD BE BEFORE THIS")
       
  
             # find and store relevant html
             soup = bs(html, 'html.parser')
+
             summary = soup.find("div", class_="css-fpm9y")
+             
             property_features = summary.find_all('span', class_='css-1rzse3v')
             
             # extract property features
