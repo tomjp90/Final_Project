@@ -2,17 +2,20 @@ from bs4 import BeautifulSoup as bs
 import requests
 import os
 import pandas as pd
-from splinter import Browser
+# from splinter import Browser
+from selenium import webdriver
 # from webdriver_manager.chrome import ChromeDriverManager
 import time
 import sys
 from datetime import datetime
+from selenium import webdriver
+# from selenium.webdriver.chrome.options import Options
+
 
 #------------------------------------------------------
 def scrape_house_listing(url):
       # load chrome driver and browser for scraping
-      executable_path = {'executable_path': "chromedriver.exe"}
-      browser =  Browser("chrome", **executable_path, headless=False)
+      # executable_path = {'executable_path': "chromedriver.exe"}
       
       # check if domain or realestate website
       domain = 'domain'
@@ -27,14 +30,26 @@ def scrape_house_listing(url):
       # ------------------------ DOMAIN.COM.AU SCRAPE -----------------------------------
       try:
             # visit url and save html
-            response = requests.get(url)
-            browser.visit(url)
-            html = browser.html
-            soup = bs(html, 'html.parser')
-            browser.quit()  
+            options = webdriver.ChromeOptions()
+            options.add_argument("--headless")
+            options.add_argument("--disable-dev-shm-usage")
+            options.add_argument("--no-sandbox")
+            options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+            driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=options)
+
+            options.headless = True
+            
+            # DRIVER_PATH = 'chromedriver'
+            # driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
+            driver.get(url)            
+            html = driver.page_source 
+      
+            driver.quit()
+        
 
             try:
                   # find and store relevant html
+                  soup = bs(html, 'html.parser')
                   summary = soup.find("div", class_="css-fpm9y")
                   property_features = summary.find_all('span', class_='css-1rzse3v')
                   
