@@ -12,7 +12,7 @@ import xgboost
 app = Flask(__name__)
 
 # Home route ----------------------------------------------------------------------------------------
-@app.route("/home")
+@app.route("/")
 def home():
       #return index html from home route    
       return render_template("index_template.html", name="default")
