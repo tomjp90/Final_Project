@@ -1,0 +1,2371 @@
+Year,Year ending,Local Government Area,Charge Status,Incidents Recorded
+2020,September,Alpine,Charges laid,188
+2020,September,Alpine,No charges laid,133
+2020,September,Alpine,Unsolved,124
+2020,September,Ararat,Charges laid,464
+2020,September,Ararat,No charges laid,225
+2020,September,Ararat,Unsolved,314
+2020,September,Ballarat,Charges laid,"2,871"
+2020,September,Ballarat,No charges laid,"1,188"
+2020,September,Ballarat,Unsolved,"3,969"
+2020,September,Banyule,Charges laid,"2,773"
+2020,September,Banyule,No charges laid,"1,291"
+2020,September,Banyule,Unsolved,"2,845"
+2020,September,Bass Coast,Charges laid,770
+2020,September,Bass Coast,No charges laid,460
+2020,September,Bass Coast,Unsolved,688
+2020,September,Baw Baw,Charges laid,"1,478"
+2020,September,Baw Baw,No charges laid,877
+2020,September,Baw Baw,Unsolved,"1,300"
+2020,September,Bayside,Charges laid,974
+2020,September,Bayside,No charges laid,787
+2020,September,Bayside,Unsolved,"2,443"
+2020,September,Benalla,Charges laid,397
+2020,September,Benalla,No charges laid,241
+2020,September,Benalla,Unsolved,347
+2020,September,Boroondara,Charges laid,"1,497"
+2020,September,Boroondara,No charges laid,964
+2020,September,Boroondara,Unsolved,"4,080"
+2020,September,Brimbank,Charges laid,"5,590"
+2020,September,Brimbank,No charges laid,"3,170"
+2020,September,Brimbank,Unsolved,"7,400"
+2020,September,Buloke,Charges laid,103
+2020,September,Buloke,No charges laid,80
+2020,September,Buloke,Unsolved,129
+2020,September,Campaspe,Charges laid,"1,116"
+2020,September,Campaspe,No charges laid,543
+2020,September,Campaspe,Unsolved,920
+2020,September,Cardinia,Charges laid,"1,871"
+2020,September,Cardinia,No charges laid,"1,621"
+2020,September,Cardinia,Unsolved,"2,377"
+2020,September,Casey,Charges laid,"5,281"
+2020,September,Casey,No charges laid,"4,561"
+2020,September,Casey,Unsolved,"7,909"
+2020,September,Central Goldfields,Charges laid,375
+2020,September,Central Goldfields,No charges laid,221
+2020,September,Central Goldfields,Unsolved,250
+2020,September,Colac-Otway,Charges laid,486
+2020,September,Colac-Otway,No charges laid,423
+2020,September,Colac-Otway,Unsolved,449
+2020,September,Corangamite,Charges laid,240
+2020,September,Corangamite,No charges laid,179
+2020,September,Corangamite,Unsolved,224
+2020,September,Darebin,Charges laid,"3,771"
+2020,September,Darebin,No charges laid,"2,254"
+2020,September,Darebin,Unsolved,"6,062"
+2020,September,East Gippsland,Charges laid,"1,572"
+2020,September,East Gippsland,No charges laid,944
+2020,September,East Gippsland,Unsolved,"1,183"
+2020,September,Frankston,Charges laid,"4,635"
+2020,September,Frankston,No charges laid,"2,869"
+2020,September,Frankston,Unsolved,"3,840"
+2020,September,Gannawarra,Charges laid,284
+2020,September,Gannawarra,No charges laid,198
+2020,September,Gannawarra,Unsolved,175
+2020,September,Glen Eira,Charges laid,"1,446"
+2020,September,Glen Eira,No charges laid,"1,287"
+2020,September,Glen Eira,Unsolved,"3,721"
+2020,September,Glenelg,Charges laid,539
+2020,September,Glenelg,No charges laid,262
+2020,September,Glenelg,Unsolved,303
+2020,September,Golden Plains,Charges laid,119
+2020,September,Golden Plains,No charges laid,73
+2020,September,Golden Plains,Unsolved,275
+2020,September,Greater Bendigo,Charges laid,"3,416"
+2020,September,Greater Bendigo,No charges laid,"1,523"
+2020,September,Greater Bendigo,Unsolved,"3,138"
+2020,September,Greater Dandenong,Charges laid,"4,899"
+2020,September,Greater Dandenong,No charges laid,"4,119"
+2020,September,Greater Dandenong,Unsolved,"6,250"
+2020,September,Greater Geelong,Charges laid,"6,298"
+2020,September,Greater Geelong,No charges laid,"2,881"
+2020,September,Greater Geelong,Unsolved,"7,880"
+2020,September,Greater Shepparton,Charges laid,"2,614"
+2020,September,Greater Shepparton,No charges laid,"1,266"
+2020,September,Greater Shepparton,Unsolved,"2,222"
+2020,September,Hepburn,Charges laid,194
+2020,September,Hepburn,No charges laid,113
+2020,September,Hepburn,Unsolved,335
+2020,September,Hindmarsh,Charges laid,119
+2020,September,Hindmarsh,No charges laid,55
+2020,September,Hindmarsh,Unsolved,113
+2020,September,Hobsons Bay,Charges laid,"1,471"
+2020,September,Hobsons Bay,No charges laid,"1,084"
+2020,September,Hobsons Bay,Unsolved,"2,111"
+2020,September,Horsham,Charges laid,770
+2020,September,Horsham,No charges laid,379
+2020,September,Horsham,Unsolved,340
+2020,September,Hume,Charges laid,"5,556"
+2020,September,Hume,No charges laid,"4,508"
+2020,September,Hume,Unsolved,"6,618"
+2020,September,Indigo,Charges laid,133
+2020,September,Indigo,No charges laid,91
+2020,September,Indigo,Unsolved,213
+2020,September,Kingston,Charges laid,"2,826"
+2020,September,Kingston,No charges laid,"1,877"
+2020,September,Kingston,Unsolved,"4,224"
+2020,September,Knox,Charges laid,"2,945"
+2020,September,Knox,No charges laid,"1,858"
+2020,September,Knox,Unsolved,"4,229"
+2020,September,Latrobe,Charges laid,"4,399"
+2020,September,Latrobe,No charges laid,"2,073"
+2020,September,Latrobe,Unsolved,"3,462"
+2020,September,Loddon,Charges laid,162
+2020,September,Loddon,No charges laid,88
+2020,September,Loddon,Unsolved,129
+2020,September,Macedon Ranges,Charges laid,759
+2020,September,Macedon Ranges,No charges laid,441
+2020,September,Macedon Ranges,Unsolved,632
+2020,September,Manningham,Charges laid,"1,014"
+2020,September,Manningham,No charges laid,677
+2020,September,Manningham,Unsolved,"1,848"
+2020,September,Mansfield,Charges laid,140
+2020,September,Mansfield,No charges laid,104
+2020,September,Mansfield,Unsolved,111
+2020,September,Maribyrnong,Charges laid,"2,121"
+2020,September,Maribyrnong,No charges laid,"1,326"
+2020,September,Maribyrnong,Unsolved,"4,015"
+2020,September,Maroondah,Charges laid,"2,293"
+2020,September,Maroondah,No charges laid,"1,263"
+2020,September,Maroondah,Unsolved,"2,257"
+2020,September,Melbourne,Charges laid,"8,370"
+2020,September,Melbourne,No charges laid,"7,923"
+2020,September,Melbourne,Unsolved,"11,114"
+2020,September,Melton,Charges laid,"3,331"
+2020,September,Melton,No charges laid,"2,015"
+2020,September,Melton,Unsolved,"4,955"
+2020,September,Mildura,Charges laid,"2,378"
+2020,September,Mildura,No charges laid,"1,081"
+2020,September,Mildura,Unsolved,"1,589"
+2020,September,Mitchell,Charges laid,"1,315"
+2020,September,Mitchell,No charges laid,895
+2020,September,Mitchell,Unsolved,"1,078"
+2020,September,Moira,Charges laid,723
+2020,September,Moira,No charges laid,335
+2020,September,Moira,Unsolved,635
+2020,September,Monash,Charges laid,"2,629"
+2020,September,Monash,No charges laid,"2,004"
+2020,September,Monash,Unsolved,"5,163"
+2020,September,Moonee Valley,Charges laid,"1,858"
+2020,September,Moonee Valley,No charges laid,"1,612"
+2020,September,Moonee Valley,Unsolved,"3,296"
+2020,September,Moorabool,Charges laid,583
+2020,September,Moorabool,No charges laid,535
+2020,September,Moorabool,Unsolved,859
+2020,September,Moreland,Charges laid,"2,916"
+2020,September,Moreland,No charges laid,"2,079"
+2020,September,Moreland,Unsolved,"6,268"
+2020,September,Mornington Peninsula,Charges laid,"2,876"
+2020,September,Mornington Peninsula,No charges laid,"2,365"
+2020,September,Mornington Peninsula,Unsolved,"3,305"
+2020,September,Mount Alexander,Charges laid,371
+2020,September,Mount Alexander,No charges laid,141
+2020,September,Mount Alexander,Unsolved,297
+2020,September,Moyne,Charges laid,208
+2020,September,Moyne,No charges laid,130
+2020,September,Moyne,Unsolved,189
+2020,September,Murrindindi,Charges laid,178
+2020,September,Murrindindi,No charges laid,207
+2020,September,Murrindindi,Unsolved,273
+2020,September,Nillumbik,Charges laid,529
+2020,September,Nillumbik,No charges laid,368
+2020,September,Nillumbik,Unsolved,713
+2020,September,Northern Grampians,Charges laid,314
+2020,September,Northern Grampians,No charges laid,251
+2020,September,Northern Grampians,Unsolved,216
+2020,September,Port Phillip,Charges laid,"2,799"
+2020,September,Port Phillip,No charges laid,"2,231"
+2020,September,Port Phillip,Unsolved,"5,365"
+2020,September,Pyrenees,Charges laid,128
+2020,September,Pyrenees,No charges laid,57
+2020,September,Pyrenees,Unsolved,202
+2020,September,Queenscliffe,Charges laid,12
+2020,September,Queenscliffe,No charges laid,17
+2020,September,Queenscliffe,Unsolved,75
+2020,September,South Gippsland,Charges laid,565
+2020,September,South Gippsland,No charges laid,294
+2020,September,South Gippsland,Unsolved,461
+2020,September,Southern Grampians,Charges laid,410
+2020,September,Southern Grampians,No charges laid,196
+2020,September,Southern Grampians,Unsolved,260
+2020,September,Stonnington,Charges laid,"2,492"
+2020,September,Stonnington,No charges laid,"2,133"
+2020,September,Stonnington,Unsolved,"4,869"
+2020,September,Strathbogie,Charges laid,166
+2020,September,Strathbogie,No charges laid,102
+2020,September,Strathbogie,Unsolved,199
+2020,September,Surf Coast,Charges laid,357
+2020,September,Surf Coast,No charges laid,232
+2020,September,Surf Coast,Unsolved,538
+2020,September,Swan Hill,Charges laid,858
+2020,September,Swan Hill,No charges laid,542
+2020,September,Swan Hill,Unsolved,440
+2020,September,Towong,Charges laid,66
+2020,September,Towong,No charges laid,23
+2020,September,Towong,Unsolved,75
+2020,September,Wangaratta,Charges laid,756
+2020,September,Wangaratta,No charges laid,513
+2020,September,Wangaratta,Unsolved,492
+2020,September,Warrnambool,Charges laid,"1,187"
+2020,September,Warrnambool,No charges laid,520
+2020,September,Warrnambool,Unsolved,688
+2020,September,Wellington,Charges laid,"1,342"
+2020,September,Wellington,No charges laid,965
+2020,September,Wellington,Unsolved,"1,024"
+2020,September,West Wimmera,Charges laid,43
+2020,September,West Wimmera,No charges laid,32
+2020,September,West Wimmera,Unsolved,50
+2020,September,Whitehorse,Charges laid,"2,083"
+2020,September,Whitehorse,No charges laid,"1,274"
+2020,September,Whitehorse,Unsolved,"3,914"
+2020,September,Whittlesea,Charges laid,"4,041"
+2020,September,Whittlesea,No charges laid,"3,082"
+2020,September,Whittlesea,Unsolved,"5,219"
+2020,September,Wodonga,Charges laid,"1,088"
+2020,September,Wodonga,No charges laid,604
+2020,September,Wodonga,Unsolved,999
+2020,September,Wyndham,Charges laid,"4,638"
+2020,September,Wyndham,No charges laid,"2,895"
+2020,September,Wyndham,Unsolved,"6,375"
+2020,September,Yarra,Charges laid,"3,019"
+2020,September,Yarra,No charges laid,"2,499"
+2020,September,Yarra,Unsolved,"5,901"
+2020,September,Yarra Ranges,Charges laid,"2,107"
+2020,September,Yarra Ranges,No charges laid,"1,679"
+2020,September,Yarra Ranges,Unsolved,"2,605"
+2020,September,Yarriambiack,Charges laid,118
+2020,September,Yarriambiack,No charges laid,91
+2020,September,Yarriambiack,Unsolved,129
+2019,September,Alpine,Charges laid,223
+2019,September,Alpine,No charges laid,57
+2019,September,Alpine,Unsolved,121
+2019,September,Ararat,Charges laid,464
+2019,September,Ararat,No charges laid,183
+2019,September,Ararat,Unsolved,201
+2019,September,Ballarat,Charges laid,"3,418"
+2019,September,Ballarat,No charges laid,754
+2019,September,Ballarat,Unsolved,"4,370"
+2019,September,Banyule,Charges laid,"3,318"
+2019,September,Banyule,No charges laid,733
+2019,September,Banyule,Unsolved,"3,033"
+2019,September,Bass Coast,Charges laid,846
+2019,September,Bass Coast,No charges laid,327
+2019,September,Bass Coast,Unsolved,721
+2019,September,Baw Baw,Charges laid,"1,676"
+2019,September,Baw Baw,No charges laid,466
+2019,September,Baw Baw,Unsolved,"1,437"
+2019,September,Bayside,Charges laid,991
+2019,September,Bayside,No charges laid,498
+2019,September,Bayside,Unsolved,"2,429"
+2019,September,Benalla,Charges laid,512
+2019,September,Benalla,No charges laid,180
+2019,September,Benalla,Unsolved,290
+2019,September,Boroondara,Charges laid,"1,549"
+2019,September,Boroondara,No charges laid,514
+2019,September,Boroondara,Unsolved,"3,813"
+2019,September,Brimbank,Charges laid,"6,237"
+2019,September,Brimbank,No charges laid,"1,677"
+2019,September,Brimbank,Unsolved,"6,599"
+2019,September,Buloke,Charges laid,55
+2019,September,Buloke,No charges laid,52
+2019,September,Buloke,Unsolved,91
+2019,September,Campaspe,Charges laid,"1,357"
+2019,September,Campaspe,No charges laid,382
+2019,September,Campaspe,Unsolved,"1,268"
+2019,September,Cardinia,Charges laid,"1,914"
+2019,September,Cardinia,No charges laid,833
+2019,September,Cardinia,Unsolved,"2,251"
+2019,September,Casey,Charges laid,"5,575"
+2019,September,Casey,No charges laid,"3,186"
+2019,September,Casey,Unsolved,"7,871"
+2019,September,Central Goldfields,Charges laid,455
+2019,September,Central Goldfields,No charges laid,174
+2019,September,Central Goldfields,Unsolved,253
+2019,September,Colac-Otway,Charges laid,609
+2019,September,Colac-Otway,No charges laid,223
+2019,September,Colac-Otway,Unsolved,491
+2019,September,Corangamite,Charges laid,249
+2019,September,Corangamite,No charges laid,79
+2019,September,Corangamite,Unsolved,190
+2019,September,Darebin,Charges laid,"3,788"
+2019,September,Darebin,No charges laid,"1,115"
+2019,September,Darebin,Unsolved,"6,515"
+2019,September,East Gippsland,Charges laid,"1,668"
+2019,September,East Gippsland,No charges laid,781
+2019,September,East Gippsland,Unsolved,960
+2019,September,Frankston,Charges laid,"5,221"
+2019,September,Frankston,No charges laid,"1,490"
+2019,September,Frankston,Unsolved,"4,248"
+2019,September,Gannawarra,Charges laid,343
+2019,September,Gannawarra,No charges laid,158
+2019,September,Gannawarra,Unsolved,140
+2019,September,Glen Eira,Charges laid,"1,403"
+2019,September,Glen Eira,No charges laid,744
+2019,September,Glen Eira,Unsolved,"3,299"
+2019,September,Glenelg,Charges laid,570
+2019,September,Glenelg,No charges laid,185
+2019,September,Glenelg,Unsolved,247
+2019,September,Golden Plains,Charges laid,121
+2019,September,Golden Plains,No charges laid,85
+2019,September,Golden Plains,Unsolved,261
+2019,September,Greater Bendigo,Charges laid,"4,296"
+2019,September,Greater Bendigo,No charges laid,"1,172"
+2019,September,Greater Bendigo,Unsolved,"3,161"
+2019,September,Greater Dandenong,Charges laid,"5,846"
+2019,September,Greater Dandenong,No charges laid,"2,317"
+2019,September,Greater Dandenong,Unsolved,"6,508"
+2019,September,Greater Geelong,Charges laid,"7,040"
+2019,September,Greater Geelong,No charges laid,"1,925"
+2019,September,Greater Geelong,Unsolved,"7,346"
+2019,September,Greater Shepparton,Charges laid,"3,045"
+2019,September,Greater Shepparton,No charges laid,907
+2019,September,Greater Shepparton,Unsolved,"2,549"
+2019,September,Hepburn,Charges laid,219
+2019,September,Hepburn,No charges laid,112
+2019,September,Hepburn,Unsolved,348
+2019,September,Hindmarsh,Charges laid,112
+2019,September,Hindmarsh,No charges laid,56
+2019,September,Hindmarsh,Unsolved,79
+2019,September,Hobsons Bay,Charges laid,"2,031"
+2019,September,Hobsons Bay,No charges laid,743
+2019,September,Hobsons Bay,Unsolved,"2,220"
+2019,September,Horsham,Charges laid,797
+2019,September,Horsham,No charges laid,291
+2019,September,Horsham,Unsolved,292
+2019,September,Hume,Charges laid,"6,455"
+2019,September,Hume,No charges laid,"2,412"
+2019,September,Hume,Unsolved,"6,841"
+2019,September,Indigo,Charges laid,169
+2019,September,Indigo,No charges laid,52
+2019,September,Indigo,Unsolved,196
+2019,September,Kingston,Charges laid,"3,339"
+2019,September,Kingston,No charges laid,"1,329"
+2019,September,Kingston,Unsolved,"4,215"
+2019,September,Knox,Charges laid,"3,268"
+2019,September,Knox,No charges laid,"1,161"
+2019,September,Knox,Unsolved,"3,991"
+2019,September,Latrobe,Charges laid,"5,296"
+2019,September,Latrobe,No charges laid,"1,541"
+2019,September,Latrobe,Unsolved,"3,203"
+2019,September,Loddon,Charges laid,157
+2019,September,Loddon,No charges laid,42
+2019,September,Loddon,Unsolved,172
+2019,September,Macedon Ranges,Charges laid,722
+2019,September,Macedon Ranges,No charges laid,225
+2019,September,Macedon Ranges,Unsolved,817
+2019,September,Manningham,Charges laid,"1,125"
+2019,September,Manningham,No charges laid,459
+2019,September,Manningham,Unsolved,"2,107"
+2019,September,Mansfield,Charges laid,140
+2019,September,Mansfield,No charges laid,67
+2019,September,Mansfield,Unsolved,130
+2019,September,Maribyrnong,Charges laid,"2,466"
+2019,September,Maribyrnong,No charges laid,702
+2019,September,Maribyrnong,Unsolved,"3,557"
+2019,September,Maroondah,Charges laid,"2,713"
+2019,September,Maroondah,No charges laid,941
+2019,September,Maroondah,Unsolved,"2,549"
+2019,September,Melbourne,Charges laid,"10,114"
+2019,September,Melbourne,No charges laid,"5,110"
+2019,September,Melbourne,Unsolved,"11,570"
+2019,September,Melton,Charges laid,"3,438"
+2019,September,Melton,No charges laid,967
+2019,September,Melton,Unsolved,"4,159"
+2019,September,Mildura,Charges laid,"2,910"
+2019,September,Mildura,No charges laid,970
+2019,September,Mildura,Unsolved,"1,750"
+2019,September,Mitchell,Charges laid,"1,505"
+2019,September,Mitchell,No charges laid,610
+2019,September,Mitchell,Unsolved,998
+2019,September,Moira,Charges laid,957
+2019,September,Moira,No charges laid,237
+2019,September,Moira,Unsolved,722
+2019,September,Monash,Charges laid,"2,740"
+2019,September,Monash,No charges laid,"1,145"
+2019,September,Monash,Unsolved,"4,801"
+2019,September,Moonee Valley,Charges laid,"2,108"
+2019,September,Moonee Valley,No charges laid,930
+2019,September,Moonee Valley,Unsolved,"3,313"
+2019,September,Moorabool,Charges laid,655
+2019,September,Moorabool,No charges laid,189
+2019,September,Moorabool,Unsolved,754
+2019,September,Moreland,Charges laid,"3,525"
+2019,September,Moreland,No charges laid,"1,393"
+2019,September,Moreland,Unsolved,"5,836"
+2019,September,Mornington Peninsula,Charges laid,"3,335"
+2019,September,Mornington Peninsula,No charges laid,"1,411"
+2019,September,Mornington Peninsula,Unsolved,"3,758"
+2019,September,Mount Alexander,Charges laid,389
+2019,September,Mount Alexander,No charges laid,146
+2019,September,Mount Alexander,Unsolved,350
+2019,September,Moyne,Charges laid,256
+2019,September,Moyne,No charges laid,96
+2019,September,Moyne,Unsolved,175
+2019,September,Murrindindi,Charges laid,233
+2019,September,Murrindindi,No charges laid,157
+2019,September,Murrindindi,Unsolved,211
+2019,September,Nillumbik,Charges laid,586
+2019,September,Nillumbik,No charges laid,288
+2019,September,Nillumbik,Unsolved,822
+2019,September,Northern Grampians,Charges laid,377
+2019,September,Northern Grampians,No charges laid,173
+2019,September,Northern Grampians,Unsolved,233
+2019,September,Port Phillip,Charges laid,"3,193"
+2019,September,Port Phillip,No charges laid,"1,324"
+2019,September,Port Phillip,Unsolved,"5,166"
+2019,September,Pyrenees,Charges laid,140
+2019,September,Pyrenees,No charges laid,85
+2019,September,Pyrenees,Unsolved,166
+2019,September,Queenscliffe,Charges laid,25
+2019,September,Queenscliffe,No charges laid,12
+2019,September,Queenscliffe,Unsolved,74
+2019,September,South Gippsland,Charges laid,622
+2019,September,South Gippsland,No charges laid,169
+2019,September,South Gippsland,Unsolved,420
+2019,September,Southern Grampians,Charges laid,536
+2019,September,Southern Grampians,No charges laid,194
+2019,September,Southern Grampians,Unsolved,227
+2019,September,Stonnington,Charges laid,"2,691"
+2019,September,Stonnington,No charges laid,"1,157"
+2019,September,Stonnington,Unsolved,"4,912"
+2019,September,Strathbogie,Charges laid,163
+2019,September,Strathbogie,No charges laid,87
+2019,September,Strathbogie,Unsolved,198
+2019,September,Surf Coast,Charges laid,334
+2019,September,Surf Coast,No charges laid,162
+2019,September,Surf Coast,Unsolved,471
+2019,September,Swan Hill,Charges laid,997
+2019,September,Swan Hill,No charges laid,345
+2019,September,Swan Hill,Unsolved,484
+2019,September,Towong,Charges laid,61
+2019,September,Towong,No charges laid,23
+2019,September,Towong,Unsolved,63
+2019,September,Wangaratta,Charges laid,869
+2019,September,Wangaratta,No charges laid,355
+2019,September,Wangaratta,Unsolved,481
+2019,September,Warrnambool,Charges laid,"1,563"
+2019,September,Warrnambool,No charges laid,483
+2019,September,Warrnambool,Unsolved,755
+2019,September,Wellington,Charges laid,"1,549"
+2019,September,Wellington,No charges laid,687
+2019,September,Wellington,Unsolved,906
+2019,September,West Wimmera,Charges laid,72
+2019,September,West Wimmera,No charges laid,21
+2019,September,West Wimmera,Unsolved,49
+2019,September,Whitehorse,Charges laid,"2,305"
+2019,September,Whitehorse,No charges laid,707
+2019,September,Whitehorse,Unsolved,"4,038"
+2019,September,Whittlesea,Charges laid,"4,530"
+2019,September,Whittlesea,No charges laid,"1,816"
+2019,September,Whittlesea,Unsolved,"5,664"
+2019,September,Wodonga,Charges laid,"1,300"
+2019,September,Wodonga,No charges laid,279
+2019,September,Wodonga,Unsolved,"1,106"
+2019,September,Wyndham,Charges laid,"5,184"
+2019,September,Wyndham,No charges laid,"1,688"
+2019,September,Wyndham,Unsolved,"5,665"
+2019,September,Yarra,Charges laid,"3,235"
+2019,September,Yarra,No charges laid,"1,228"
+2019,September,Yarra,Unsolved,"6,487"
+2019,September,Yarra Ranges,Charges laid,"2,475"
+2019,September,Yarra Ranges,No charges laid,937
+2019,September,Yarra Ranges,Unsolved,"2,703"
+2019,September,Yarriambiack,Charges laid,162
+2019,September,Yarriambiack,No charges laid,46
+2019,September,Yarriambiack,Unsolved,95
+2018,September,Alpine,Charges laid,211
+2018,September,Alpine,No charges laid,60
+2018,September,Alpine,Unsolved,103
+2018,September,Ararat,Charges laid,544
+2018,September,Ararat,No charges laid,175
+2018,September,Ararat,Unsolved,212
+2018,September,Ballarat,Charges laid,"3,530"
+2018,September,Ballarat,No charges laid,859
+2018,September,Ballarat,Unsolved,"3,723"
+2018,September,Banyule,Charges laid,"3,234"
+2018,September,Banyule,No charges laid,657
+2018,September,Banyule,Unsolved,"3,312"
+2018,September,Bass Coast,Charges laid,703
+2018,September,Bass Coast,No charges laid,321
+2018,September,Bass Coast,Unsolved,587
+2018,September,Baw Baw,Charges laid,"1,489"
+2018,September,Baw Baw,No charges laid,448
+2018,September,Baw Baw,Unsolved,"1,130"
+2018,September,Bayside,Charges laid,"1,007"
+2018,September,Bayside,No charges laid,577
+2018,September,Bayside,Unsolved,"2,230"
+2018,September,Benalla,Charges laid,441
+2018,September,Benalla,No charges laid,173
+2018,September,Benalla,Unsolved,287
+2018,September,Boroondara,Charges laid,"1,423"
+2018,September,Boroondara,No charges laid,535
+2018,September,Boroondara,Unsolved,"3,591"
+2018,September,Brimbank,Charges laid,"6,329"
+2018,September,Brimbank,No charges laid,"1,341"
+2018,September,Brimbank,Unsolved,"6,827"
+2018,September,Buloke,Charges laid,62
+2018,September,Buloke,No charges laid,32
+2018,September,Buloke,Unsolved,80
+2018,September,Campaspe,Charges laid,"1,227"
+2018,September,Campaspe,No charges laid,317
+2018,September,Campaspe,Unsolved,"1,101"
+2018,September,Cardinia,Charges laid,"1,663"
+2018,September,Cardinia,No charges laid,718
+2018,September,Cardinia,Unsolved,"2,094"
+2018,September,Casey,Charges laid,"5,601"
+2018,September,Casey,No charges laid,"2,525"
+2018,September,Casey,Unsolved,"6,951"
+2018,September,Central Goldfields,Charges laid,547
+2018,September,Central Goldfields,No charges laid,208
+2018,September,Central Goldfields,Unsolved,246
+2018,September,Colac-Otway,Charges laid,529
+2018,September,Colac-Otway,No charges laid,210
+2018,September,Colac-Otway,Unsolved,497
+2018,September,Corangamite,Charges laid,277
+2018,September,Corangamite,No charges laid,94
+2018,September,Corangamite,Unsolved,192
+2018,September,Darebin,Charges laid,"3,894"
+2018,September,Darebin,No charges laid,958
+2018,September,Darebin,Unsolved,"6,655"
+2018,September,East Gippsland,Charges laid,"1,651"
+2018,September,East Gippsland,No charges laid,751
+2018,September,East Gippsland,Unsolved,775
+2018,September,Frankston,Charges laid,"5,469"
+2018,September,Frankston,No charges laid,"1,537"
+2018,September,Frankston,Unsolved,"4,088"
+2018,September,Gannawarra,Charges laid,246
+2018,September,Gannawarra,No charges laid,71
+2018,September,Gannawarra,Unsolved,146
+2018,September,Glen Eira,Charges laid,"1,379"
+2018,September,Glen Eira,No charges laid,721
+2018,September,Glen Eira,Unsolved,"2,871"
+2018,September,Glenelg,Charges laid,520
+2018,September,Glenelg,No charges laid,200
+2018,September,Glenelg,Unsolved,354
+2018,September,Golden Plains,Charges laid,167
+2018,September,Golden Plains,No charges laid,59
+2018,September,Golden Plains,Unsolved,279
+2018,September,Greater Bendigo,Charges laid,"3,849"
+2018,September,Greater Bendigo,No charges laid,"1,106"
+2018,September,Greater Bendigo,Unsolved,"2,386"
+2018,September,Greater Dandenong,Charges laid,"5,673"
+2018,September,Greater Dandenong,No charges laid,"2,186"
+2018,September,Greater Dandenong,Unsolved,"6,074"
+2018,September,Greater Geelong,Charges laid,"6,567"
+2018,September,Greater Geelong,No charges laid,"1,829"
+2018,September,Greater Geelong,Unsolved,"7,571"
+2018,September,Greater Shepparton,Charges laid,"2,976"
+2018,September,Greater Shepparton,No charges laid,958
+2018,September,Greater Shepparton,Unsolved,"2,236"
+2018,September,Hepburn,Charges laid,252
+2018,September,Hepburn,No charges laid,73
+2018,September,Hepburn,Unsolved,320
+2018,September,Hindmarsh,Charges laid,124
+2018,September,Hindmarsh,No charges laid,59
+2018,September,Hindmarsh,Unsolved,65
+2018,September,Hobsons Bay,Charges laid,"2,035"
+2018,September,Hobsons Bay,No charges laid,558
+2018,September,Hobsons Bay,Unsolved,"2,145"
+2018,September,Horsham,Charges laid,932
+2018,September,Horsham,No charges laid,309
+2018,September,Horsham,Unsolved,376
+2018,September,Hume,Charges laid,"6,023"
+2018,September,Hume,No charges laid,"2,042"
+2018,September,Hume,Unsolved,"7,545"
+2018,September,Indigo,Charges laid,129
+2018,September,Indigo,No charges laid,61
+2018,September,Indigo,Unsolved,145
+2018,September,Kingston,Charges laid,"3,128"
+2018,September,Kingston,No charges laid,"1,247"
+2018,September,Kingston,Unsolved,"3,845"
+2018,September,Knox,Charges laid,"3,318"
+2018,September,Knox,No charges laid,"1,158"
+2018,September,Knox,Unsolved,"3,606"
+2018,September,Latrobe,Charges laid,"5,472"
+2018,September,Latrobe,No charges laid,"1,505"
+2018,September,Latrobe,Unsolved,"2,902"
+2018,September,Loddon,Charges laid,151
+2018,September,Loddon,No charges laid,53
+2018,September,Loddon,Unsolved,163
+2018,September,Macedon Ranges,Charges laid,691
+2018,September,Macedon Ranges,No charges laid,225
+2018,September,Macedon Ranges,Unsolved,692
+2018,September,Manningham,Charges laid,"1,145"
+2018,September,Manningham,No charges laid,388
+2018,September,Manningham,Unsolved,"1,941"
+2018,September,Mansfield,Charges laid,135
+2018,September,Mansfield,No charges laid,55
+2018,September,Mansfield,Unsolved,134
+2018,September,Maribyrnong,Charges laid,"2,312"
+2018,September,Maribyrnong,No charges laid,695
+2018,September,Maribyrnong,Unsolved,"3,967"
+2018,September,Maroondah,Charges laid,"2,723"
+2018,September,Maroondah,No charges laid,890
+2018,September,Maroondah,Unsolved,"2,089"
+2018,September,Melbourne,Charges laid,"10,682"
+2018,September,Melbourne,No charges laid,"5,169"
+2018,September,Melbourne,Unsolved,"11,552"
+2018,September,Melton,Charges laid,"3,066"
+2018,September,Melton,No charges laid,914
+2018,September,Melton,Unsolved,"4,037"
+2018,September,Mildura,Charges laid,"2,721"
+2018,September,Mildura,No charges laid,887
+2018,September,Mildura,Unsolved,"1,697"
+2018,September,Mitchell,Charges laid,"1,426"
+2018,September,Mitchell,No charges laid,573
+2018,September,Mitchell,Unsolved,995
+2018,September,Moira,Charges laid,792
+2018,September,Moira,No charges laid,214
+2018,September,Moira,Unsolved,493
+2018,September,Monash,Charges laid,"2,495"
+2018,September,Monash,No charges laid,906
+2018,September,Monash,Unsolved,"4,874"
+2018,September,Moonee Valley,Charges laid,"2,219"
+2018,September,Moonee Valley,No charges laid,908
+2018,September,Moonee Valley,Unsolved,"3,718"
+2018,September,Moorabool,Charges laid,733
+2018,September,Moorabool,No charges laid,205
+2018,September,Moorabool,Unsolved,807
+2018,September,Moreland,Charges laid,"3,300"
+2018,September,Moreland,No charges laid,"1,418"
+2018,September,Moreland,Unsolved,"6,819"
+2018,September,Mornington Peninsula,Charges laid,"3,374"
+2018,September,Mornington Peninsula,No charges laid,"1,422"
+2018,September,Mornington Peninsula,Unsolved,"3,300"
+2018,September,Mount Alexander,Charges laid,344
+2018,September,Mount Alexander,No charges laid,90
+2018,September,Mount Alexander,Unsolved,233
+2018,September,Moyne,Charges laid,167
+2018,September,Moyne,No charges laid,90
+2018,September,Moyne,Unsolved,135
+2018,September,Murrindindi,Charges laid,209
+2018,September,Murrindindi,No charges laid,128
+2018,September,Murrindindi,Unsolved,212
+2018,September,Nillumbik,Charges laid,532
+2018,September,Nillumbik,No charges laid,243
+2018,September,Nillumbik,Unsolved,859
+2018,September,Northern Grampians,Charges laid,378
+2018,September,Northern Grampians,No charges laid,170
+2018,September,Northern Grampians,Unsolved,201
+2018,September,Port Phillip,Charges laid,"3,149"
+2018,September,Port Phillip,No charges laid,"1,312"
+2018,September,Port Phillip,Unsolved,"5,476"
+2018,September,Pyrenees,Charges laid,132
+2018,September,Pyrenees,No charges laid,55
+2018,September,Pyrenees,Unsolved,151
+2018,September,Queenscliffe,Charges laid,29
+2018,September,Queenscliffe,No charges laid,13
+2018,September,Queenscliffe,Unsolved,52
+2018,September,South Gippsland,Charges laid,509
+2018,September,South Gippsland,No charges laid,186
+2018,September,South Gippsland,Unsolved,297
+2018,September,Southern Grampians,Charges laid,641
+2018,September,Southern Grampians,No charges laid,229
+2018,September,Southern Grampians,Unsolved,253
+2018,September,Stonnington,Charges laid,"2,756"
+2018,September,Stonnington,No charges laid,"1,195"
+2018,September,Stonnington,Unsolved,"4,287"
+2018,September,Strathbogie,Charges laid,207
+2018,September,Strathbogie,No charges laid,79
+2018,September,Strathbogie,Unsolved,166
+2018,September,Surf Coast,Charges laid,270
+2018,September,Surf Coast,No charges laid,160
+2018,September,Surf Coast,Unsolved,431
+2018,September,Swan Hill,Charges laid,"1,142"
+2018,September,Swan Hill,No charges laid,269
+2018,September,Swan Hill,Unsolved,398
+2018,September,Towong,Charges laid,64
+2018,September,Towong,No charges laid,28
+2018,September,Towong,Unsolved,85
+2018,September,Wangaratta,Charges laid,860
+2018,September,Wangaratta,No charges laid,419
+2018,September,Wangaratta,Unsolved,459
+2018,September,Warrnambool,Charges laid,"1,566"
+2018,September,Warrnambool,No charges laid,534
+2018,September,Warrnambool,Unsolved,634
+2018,September,Wellington,Charges laid,"1,319"
+2018,September,Wellington,No charges laid,564
+2018,September,Wellington,Unsolved,820
+2018,September,West Wimmera,Charges laid,45
+2018,September,West Wimmera,No charges laid,26
+2018,September,West Wimmera,Unsolved,47
+2018,September,Whitehorse,Charges laid,"2,163"
+2018,September,Whitehorse,No charges laid,654
+2018,September,Whitehorse,Unsolved,"3,448"
+2018,September,Whittlesea,Charges laid,"4,531"
+2018,September,Whittlesea,No charges laid,"1,707"
+2018,September,Whittlesea,Unsolved,"5,669"
+2018,September,Wodonga,Charges laid,"1,332"
+2018,September,Wodonga,No charges laid,302
+2018,September,Wodonga,Unsolved,779
+2018,September,Wyndham,Charges laid,"4,738"
+2018,September,Wyndham,No charges laid,"1,298"
+2018,September,Wyndham,Unsolved,"5,127"
+2018,September,Yarra,Charges laid,"3,388"
+2018,September,Yarra,No charges laid,"1,147"
+2018,September,Yarra,Unsolved,"6,808"
+2018,September,Yarra Ranges,Charges laid,"2,419"
+2018,September,Yarra Ranges,No charges laid,913
+2018,September,Yarra Ranges,Unsolved,"2,184"
+2018,September,Yarriambiack,Charges laid,155
+2018,September,Yarriambiack,No charges laid,64
+2018,September,Yarriambiack,Unsolved,132
+2017,September,Alpine,Charges laid,149
+2017,September,Alpine,No charges laid,70
+2017,September,Alpine,Unsolved,75
+2017,September,Ararat,Charges laid,525
+2017,September,Ararat,No charges laid,162
+2017,September,Ararat,Unsolved,238
+2017,September,Ballarat,Charges laid,"3,488"
+2017,September,Ballarat,No charges laid,847
+2017,September,Ballarat,Unsolved,"4,993"
+2017,September,Banyule,Charges laid,"3,158"
+2017,September,Banyule,No charges laid,677
+2017,September,Banyule,Unsolved,"3,624"
+2017,September,Bass Coast,Charges laid,"1,003"
+2017,September,Bass Coast,No charges laid,364
+2017,September,Bass Coast,Unsolved,705
+2017,September,Baw Baw,Charges laid,"1,310"
+2017,September,Baw Baw,No charges laid,456
+2017,September,Baw Baw,Unsolved,999
+2017,September,Bayside,Charges laid,"1,058"
+2017,September,Bayside,No charges laid,563
+2017,September,Bayside,Unsolved,"2,121"
+2017,September,Benalla,Charges laid,518
+2017,September,Benalla,No charges laid,155
+2017,September,Benalla,Unsolved,301
+2017,September,Boroondara,Charges laid,"1,695"
+2017,September,Boroondara,No charges laid,598
+2017,September,Boroondara,Unsolved,"3,966"
+2017,September,Brimbank,Charges laid,"5,628"
+2017,September,Brimbank,No charges laid,"1,106"
+2017,September,Brimbank,Unsolved,"6,565"
+2017,September,Buloke,Charges laid,74
+2017,September,Buloke,No charges laid,24
+2017,September,Buloke,Unsolved,56
+2017,September,Campaspe,Charges laid,"1,224"
+2017,September,Campaspe,No charges laid,320
+2017,September,Campaspe,Unsolved,"1,071"
+2017,September,Cardinia,Charges laid,"1,801"
+2017,September,Cardinia,No charges laid,674
+2017,September,Cardinia,Unsolved,"2,214"
+2017,September,Casey,Charges laid,"5,876"
+2017,September,Casey,No charges laid,"2,603"
+2017,September,Casey,Unsolved,"7,817"
+2017,September,Central Goldfields,Charges laid,464
+2017,September,Central Goldfields,No charges laid,167
+2017,September,Central Goldfields,Unsolved,237
+2017,September,Colac-Otway,Charges laid,679
+2017,September,Colac-Otway,No charges laid,245
+2017,September,Colac-Otway,Unsolved,598
+2017,September,Corangamite,Charges laid,399
+2017,September,Corangamite,No charges laid,112
+2017,September,Corangamite,Unsolved,299
+2017,September,Darebin,Charges laid,"4,136"
+2017,September,Darebin,No charges laid,995
+2017,September,Darebin,Unsolved,"6,815"
+2017,September,East Gippsland,Charges laid,"1,449"
+2017,September,East Gippsland,No charges laid,682
+2017,September,East Gippsland,Unsolved,793
+2017,September,Frankston,Charges laid,"5,760"
+2017,September,Frankston,No charges laid,"1,565"
+2017,September,Frankston,Unsolved,"4,064"
+2017,September,Gannawarra,Charges laid,262
+2017,September,Gannawarra,No charges laid,81
+2017,September,Gannawarra,Unsolved,164
+2017,September,Glen Eira,Charges laid,"1,640"
+2017,September,Glen Eira,No charges laid,809
+2017,September,Glen Eira,Unsolved,"3,102"
+2017,September,Glenelg,Charges laid,667
+2017,September,Glenelg,No charges laid,180
+2017,September,Glenelg,Unsolved,477
+2017,September,Golden Plains,Charges laid,207
+2017,September,Golden Plains,No charges laid,66
+2017,September,Golden Plains,Unsolved,251
+2017,September,Greater Bendigo,Charges laid,"3,989"
+2017,September,Greater Bendigo,No charges laid,965
+2017,September,Greater Bendigo,Unsolved,"2,661"
+2017,September,Greater Dandenong,Charges laid,"5,725"
+2017,September,Greater Dandenong,No charges laid,"2,201"
+2017,September,Greater Dandenong,Unsolved,"6,269"
+2017,September,Greater Geelong,Charges laid,"6,751"
+2017,September,Greater Geelong,No charges laid,"1,702"
+2017,September,Greater Geelong,Unsolved,"8,635"
+2017,September,Greater Shepparton,Charges laid,"2,932"
+2017,September,Greater Shepparton,No charges laid,883
+2017,September,Greater Shepparton,Unsolved,"2,121"
+2017,September,Hepburn,Charges laid,241
+2017,September,Hepburn,No charges laid,59
+2017,September,Hepburn,Unsolved,352
+2017,September,Hindmarsh,Charges laid,123
+2017,September,Hindmarsh,No charges laid,62
+2017,September,Hindmarsh,Unsolved,90
+2017,September,Hobsons Bay,Charges laid,"1,981"
+2017,September,Hobsons Bay,No charges laid,552
+2017,September,Hobsons Bay,Unsolved,"2,406"
+2017,September,Horsham,Charges laid,935
+2017,September,Horsham,No charges laid,310
+2017,September,Horsham,Unsolved,380
+2017,September,Hume,Charges laid,"5,704"
+2017,September,Hume,No charges laid,"1,933"
+2017,September,Hume,Unsolved,"7,814"
+2017,September,Indigo,Charges laid,150
+2017,September,Indigo,No charges laid,63
+2017,September,Indigo,Unsolved,163
+2017,September,Kingston,Charges laid,"2,982"
+2017,September,Kingston,No charges laid,"1,242"
+2017,September,Kingston,Unsolved,"3,794"
+2017,September,Knox,Charges laid,"3,629"
+2017,September,Knox,No charges laid,"1,051"
+2017,September,Knox,Unsolved,"4,231"
+2017,September,Latrobe,Charges laid,"5,267"
+2017,September,Latrobe,No charges laid,"1,579"
+2017,September,Latrobe,Unsolved,"2,686"
+2017,September,Loddon,Charges laid,141
+2017,September,Loddon,No charges laid,35
+2017,September,Loddon,Unsolved,128
+2017,September,Macedon Ranges,Charges laid,799
+2017,September,Macedon Ranges,No charges laid,215
+2017,September,Macedon Ranges,Unsolved,633
+2017,September,Manningham,Charges laid,"1,274"
+2017,September,Manningham,No charges laid,417
+2017,September,Manningham,Unsolved,"2,131"
+2017,September,Mansfield,Charges laid,231
+2017,September,Mansfield,No charges laid,67
+2017,September,Mansfield,Unsolved,228
+2017,September,Maribyrnong,Charges laid,"2,254"
+2017,September,Maribyrnong,No charges laid,659
+2017,September,Maribyrnong,Unsolved,"3,620"
+2017,September,Maroondah,Charges laid,"3,037"
+2017,September,Maroondah,No charges laid,833
+2017,September,Maroondah,Unsolved,"2,693"
+2017,September,Melbourne,Charges laid,"10,368"
+2017,September,Melbourne,No charges laid,"4,730"
+2017,September,Melbourne,Unsolved,"11,515"
+2017,September,Melton,Charges laid,"3,288"
+2017,September,Melton,No charges laid,725
+2017,September,Melton,Unsolved,"4,334"
+2017,September,Mildura,Charges laid,"2,401"
+2017,September,Mildura,No charges laid,"1,008"
+2017,September,Mildura,Unsolved,"1,553"
+2017,September,Mitchell,Charges laid,"1,528"
+2017,September,Mitchell,No charges laid,586
+2017,September,Mitchell,Unsolved,"1,021"
+2017,September,Moira,Charges laid,828
+2017,September,Moira,No charges laid,258
+2017,September,Moira,Unsolved,438
+2017,September,Monash,Charges laid,"2,774"
+2017,September,Monash,No charges laid,842
+2017,September,Monash,Unsolved,"4,832"
+2017,September,Moonee Valley,Charges laid,"2,303"
+2017,September,Moonee Valley,No charges laid,861
+2017,September,Moonee Valley,Unsolved,"3,726"
+2017,September,Moorabool,Charges laid,836
+2017,September,Moorabool,No charges laid,213
+2017,September,Moorabool,Unsolved,827
+2017,September,Moreland,Charges laid,"3,205"
+2017,September,Moreland,No charges laid,"1,221"
+2017,September,Moreland,Unsolved,"6,382"
+2017,September,Mornington Peninsula,Charges laid,"3,340"
+2017,September,Mornington Peninsula,No charges laid,"1,775"
+2017,September,Mornington Peninsula,Unsolved,"3,680"
+2017,September,Mount Alexander,Charges laid,402
+2017,September,Mount Alexander,No charges laid,127
+2017,September,Mount Alexander,Unsolved,284
+2017,September,Moyne,Charges laid,209
+2017,September,Moyne,No charges laid,88
+2017,September,Moyne,Unsolved,218
+2017,September,Murrindindi,Charges laid,229
+2017,September,Murrindindi,No charges laid,106
+2017,September,Murrindindi,Unsolved,208
+2017,September,Nillumbik,Charges laid,653
+2017,September,Nillumbik,No charges laid,269
+2017,September,Nillumbik,Unsolved,"1,103"
+2017,September,Northern Grampians,Charges laid,431
+2017,September,Northern Grampians,No charges laid,216
+2017,September,Northern Grampians,Unsolved,234
+2017,September,Port Phillip,Charges laid,"3,041"
+2017,September,Port Phillip,No charges laid,"1,251"
+2017,September,Port Phillip,Unsolved,"5,629"
+2017,September,Pyrenees,Charges laid,122
+2017,September,Pyrenees,No charges laid,56
+2017,September,Pyrenees,Unsolved,177
+2017,September,Queenscliffe,Charges laid,35
+2017,September,Queenscliffe,No charges laid,12
+2017,September,Queenscliffe,Unsolved,83
+2017,September,South Gippsland,Charges laid,573
+2017,September,South Gippsland,No charges laid,158
+2017,September,South Gippsland,Unsolved,353
+2017,September,Southern Grampians,Charges laid,581
+2017,September,Southern Grampians,No charges laid,167
+2017,September,Southern Grampians,Unsolved,246
+2017,September,Stonnington,Charges laid,"2,671"
+2017,September,Stonnington,No charges laid,"1,132"
+2017,September,Stonnington,Unsolved,"4,276"
+2017,September,Strathbogie,Charges laid,204
+2017,September,Strathbogie,No charges laid,69
+2017,September,Strathbogie,Unsolved,173
+2017,September,Surf Coast,Charges laid,312
+2017,September,Surf Coast,No charges laid,149
+2017,September,Surf Coast,Unsolved,586
+2017,September,Swan Hill,Charges laid,"1,025"
+2017,September,Swan Hill,No charges laid,346
+2017,September,Swan Hill,Unsolved,386
+2017,September,Towong,Charges laid,76
+2017,September,Towong,No charges laid,33
+2017,September,Towong,Unsolved,61
+2017,September,Wangaratta,Charges laid,966
+2017,September,Wangaratta,No charges laid,388
+2017,September,Wangaratta,Unsolved,506
+2017,September,Warrnambool,Charges laid,"1,445"
+2017,September,Warrnambool,No charges laid,487
+2017,September,Warrnambool,Unsolved,761
+2017,September,Wellington,Charges laid,"1,354"
+2017,September,Wellington,No charges laid,583
+2017,September,Wellington,Unsolved,"1,002"
+2017,September,West Wimmera,Charges laid,59
+2017,September,West Wimmera,No charges laid,32
+2017,September,West Wimmera,Unsolved,46
+2017,September,Whitehorse,Charges laid,"2,243"
+2017,September,Whitehorse,No charges laid,674
+2017,September,Whitehorse,Unsolved,"3,734"
+2017,September,Whittlesea,Charges laid,"4,165"
+2017,September,Whittlesea,No charges laid,"1,398"
+2017,September,Whittlesea,Unsolved,"6,068"
+2017,September,Wodonga,Charges laid,"1,273"
+2017,September,Wodonga,No charges laid,310
+2017,September,Wodonga,Unsolved,828
+2017,September,Wyndham,Charges laid,"4,375"
+2017,September,Wyndham,No charges laid,"1,056"
+2017,September,Wyndham,Unsolved,"5,352"
+2017,September,Yarra,Charges laid,"3,472"
+2017,September,Yarra,No charges laid,"1,142"
+2017,September,Yarra,Unsolved,"6,094"
+2017,September,Yarra Ranges,Charges laid,"2,779"
+2017,September,Yarra Ranges,No charges laid,795
+2017,September,Yarra Ranges,Unsolved,"2,275"
+2017,September,Yarriambiack,Charges laid,170
+2017,September,Yarriambiack,No charges laid,47
+2017,September,Yarriambiack,Unsolved,125
+2016,September,Alpine,Charges laid,137
+2016,September,Alpine,No charges laid,57
+2016,September,Alpine,Unsolved,83
+2016,September,Ararat,Charges laid,446
+2016,September,Ararat,No charges laid,188
+2016,September,Ararat,Unsolved,238
+2016,September,Ballarat,Charges laid,"3,398"
+2016,September,Ballarat,No charges laid,965
+2016,September,Ballarat,Unsolved,"4,844"
+2016,September,Banyule,Charges laid,"2,566"
+2016,September,Banyule,No charges laid,661
+2016,September,Banyule,Unsolved,"4,047"
+2016,September,Bass Coast,Charges laid,830
+2016,September,Bass Coast,No charges laid,426
+2016,September,Bass Coast,Unsolved,773
+2016,September,Baw Baw,Charges laid,"1,396"
+2016,September,Baw Baw,No charges laid,454
+2016,September,Baw Baw,Unsolved,"1,041"
+2016,September,Bayside,Charges laid,"1,068"
+2016,September,Bayside,No charges laid,544
+2016,September,Bayside,Unsolved,"2,647"
+2016,September,Benalla,Charges laid,495
+2016,September,Benalla,No charges laid,183
+2016,September,Benalla,Unsolved,311
+2016,September,Boroondara,Charges laid,"1,694"
+2016,September,Boroondara,No charges laid,642
+2016,September,Boroondara,Unsolved,"4,445"
+2016,September,Brimbank,Charges laid,"5,955"
+2016,September,Brimbank,No charges laid,"1,213"
+2016,September,Brimbank,Unsolved,"8,203"
+2016,September,Buloke,Charges laid,72
+2016,September,Buloke,No charges laid,28
+2016,September,Buloke,Unsolved,70
+2016,September,Campaspe,Charges laid,"1,266"
+2016,September,Campaspe,No charges laid,405
+2016,September,Campaspe,Unsolved,"1,094"
+2016,September,Cardinia,Charges laid,"1,801"
+2016,September,Cardinia,No charges laid,859
+2016,September,Cardinia,Unsolved,"2,673"
+2016,September,Casey,Charges laid,"5,842"
+2016,September,Casey,No charges laid,"2,470"
+2016,September,Casey,Unsolved,"9,030"
+2016,September,Central Goldfields,Charges laid,531
+2016,September,Central Goldfields,No charges laid,158
+2016,September,Central Goldfields,Unsolved,290
+2016,September,Colac-Otway,Charges laid,630
+2016,September,Colac-Otway,No charges laid,231
+2016,September,Colac-Otway,Unsolved,452
+2016,September,Corangamite,Charges laid,262
+2016,September,Corangamite,No charges laid,85
+2016,September,Corangamite,Unsolved,286
+2016,September,Darebin,Charges laid,"4,176"
+2016,September,Darebin,No charges laid,"1,129"
+2016,September,Darebin,Unsolved,"7,681"
+2016,September,East Gippsland,Charges laid,"1,422"
+2016,September,East Gippsland,No charges laid,679
+2016,September,East Gippsland,Unsolved,"1,084"
+2016,September,Frankston,Charges laid,"5,659"
+2016,September,Frankston,No charges laid,"1,501"
+2016,September,Frankston,Unsolved,"4,768"
+2016,September,Gannawarra,Charges laid,233
+2016,September,Gannawarra,No charges laid,81
+2016,September,Gannawarra,Unsolved,154
+2016,September,Glen Eira,Charges laid,"1,483"
+2016,September,Glen Eira,No charges laid,776
+2016,September,Glen Eira,Unsolved,"3,319"
+2016,September,Glenelg,Charges laid,601
+2016,September,Glenelg,No charges laid,191
+2016,September,Glenelg,Unsolved,554
+2016,September,Golden Plains,Charges laid,172
+2016,September,Golden Plains,No charges laid,75
+2016,September,Golden Plains,Unsolved,392
+2016,September,Greater Bendigo,Charges laid,"3,438"
+2016,September,Greater Bendigo,No charges laid,937
+2016,September,Greater Bendigo,Unsolved,"2,979"
+2016,September,Greater Dandenong,Charges laid,"5,833"
+2016,September,Greater Dandenong,No charges laid,"2,172"
+2016,September,Greater Dandenong,Unsolved,"7,103"
+2016,September,Greater Geelong,Charges laid,"6,301"
+2016,September,Greater Geelong,No charges laid,"1,888"
+2016,September,Greater Geelong,Unsolved,"10,883"
+2016,September,Greater Shepparton,Charges laid,"2,937"
+2016,September,Greater Shepparton,No charges laid,857
+2016,September,Greater Shepparton,Unsolved,"2,349"
+2016,September,Hepburn,Charges laid,216
+2016,September,Hepburn,No charges laid,64
+2016,September,Hepburn,Unsolved,396
+2016,September,Hindmarsh,Charges laid,110
+2016,September,Hindmarsh,No charges laid,57
+2016,September,Hindmarsh,Unsolved,57
+2016,September,Hobsons Bay,Charges laid,"2,054"
+2016,September,Hobsons Bay,No charges laid,609
+2016,September,Hobsons Bay,Unsolved,"2,822"
+2016,September,Horsham,Charges laid,984
+2016,September,Horsham,No charges laid,312
+2016,September,Horsham,Unsolved,528
+2016,September,Hume,Charges laid,"6,060"
+2016,September,Hume,No charges laid,"1,863"
+2016,September,Hume,Unsolved,"9,115"
+2016,September,Indigo,Charges laid,156
+2016,September,Indigo,No charges laid,48
+2016,September,Indigo,Unsolved,140
+2016,September,Kingston,Charges laid,"2,998"
+2016,September,Kingston,No charges laid,"1,238"
+2016,September,Kingston,Unsolved,"4,235"
+2016,September,Knox,Charges laid,"3,015"
+2016,September,Knox,No charges laid,"1,058"
+2016,September,Knox,Unsolved,"4,455"
+2016,September,Latrobe,Charges laid,"5,162"
+2016,September,Latrobe,No charges laid,"1,697"
+2016,September,Latrobe,Unsolved,"3,237"
+2016,September,Loddon,Charges laid,137
+2016,September,Loddon,No charges laid,89
+2016,September,Loddon,Unsolved,152
+2016,September,Macedon Ranges,Charges laid,739
+2016,September,Macedon Ranges,No charges laid,202
+2016,September,Macedon Ranges,Unsolved,658
+2016,September,Manningham,Charges laid,"1,110"
+2016,September,Manningham,No charges laid,418
+2016,September,Manningham,Unsolved,"2,232"
+2016,September,Mansfield,Charges laid,211
+2016,September,Mansfield,No charges laid,83
+2016,September,Mansfield,Unsolved,172
+2016,September,Maribyrnong,Charges laid,"2,784"
+2016,September,Maribyrnong,No charges laid,650
+2016,September,Maribyrnong,Unsolved,"3,893"
+2016,September,Maroondah,Charges laid,"2,933"
+2016,September,Maroondah,No charges laid,811
+2016,September,Maroondah,Unsolved,"2,731"
+2016,September,Melbourne,Charges laid,"10,432"
+2016,September,Melbourne,No charges laid,"4,803"
+2016,September,Melbourne,Unsolved,"12,073"
+2016,September,Melton,Charges laid,"3,280"
+2016,September,Melton,No charges laid,715
+2016,September,Melton,Unsolved,"5,128"
+2016,September,Mildura,Charges laid,"2,251"
+2016,September,Mildura,No charges laid,856
+2016,September,Mildura,Unsolved,"1,916"
+2016,September,Mitchell,Charges laid,"1,338"
+2016,September,Mitchell,No charges laid,553
+2016,September,Mitchell,Unsolved,"1,217"
+2016,September,Moira,Charges laid,586
+2016,September,Moira,No charges laid,246
+2016,September,Moira,Unsolved,403
+2016,September,Monash,Charges laid,"2,590"
+2016,September,Monash,No charges laid,859
+2016,September,Monash,Unsolved,"5,255"
+2016,September,Moonee Valley,Charges laid,"2,274"
+2016,September,Moonee Valley,No charges laid,924
+2016,September,Moonee Valley,Unsolved,"4,460"
+2016,September,Moorabool,Charges laid,801
+2016,September,Moorabool,No charges laid,200
+2016,September,Moorabool,Unsolved,889
+2016,September,Moreland,Charges laid,"3,318"
+2016,September,Moreland,No charges laid,"1,111"
+2016,September,Moreland,Unsolved,"7,731"
+2016,September,Mornington Peninsula,Charges laid,"3,341"
+2016,September,Mornington Peninsula,No charges laid,"1,590"
+2016,September,Mornington Peninsula,Unsolved,"4,058"
+2016,September,Mount Alexander,Charges laid,387
+2016,September,Mount Alexander,No charges laid,150
+2016,September,Mount Alexander,Unsolved,424
+2016,September,Moyne,Charges laid,176
+2016,September,Moyne,No charges laid,91
+2016,September,Moyne,Unsolved,182
+2016,September,Murrindindi,Charges laid,192
+2016,September,Murrindindi,No charges laid,113
+2016,September,Murrindindi,Unsolved,246
+2016,September,Nillumbik,Charges laid,671
+2016,September,Nillumbik,No charges laid,255
+2016,September,Nillumbik,Unsolved,"1,227"
+2016,September,Northern Grampians,Charges laid,462
+2016,September,Northern Grampians,No charges laid,197
+2016,September,Northern Grampians,Unsolved,260
+2016,September,Port Phillip,Charges laid,"2,785"
+2016,September,Port Phillip,No charges laid,"1,405"
+2016,September,Port Phillip,Unsolved,"6,160"
+2016,September,Pyrenees,Charges laid,127
+2016,September,Pyrenees,No charges laid,57
+2016,September,Pyrenees,Unsolved,216
+2016,September,Queenscliffe,Charges laid,36
+2016,September,Queenscliffe,No charges laid,9
+2016,September,Queenscliffe,Unsolved,115
+2016,September,South Gippsland,Charges laid,499
+2016,September,South Gippsland,No charges laid,162
+2016,September,South Gippsland,Unsolved,381
+2016,September,Southern Grampians,Charges laid,524
+2016,September,Southern Grampians,No charges laid,177
+2016,September,Southern Grampians,Unsolved,259
+2016,September,Stonnington,Charges laid,"2,725"
+2016,September,Stonnington,No charges laid,"1,067"
+2016,September,Stonnington,Unsolved,"5,187"
+2016,September,Strathbogie,Charges laid,204
+2016,September,Strathbogie,No charges laid,63
+2016,September,Strathbogie,Unsolved,195
+2016,September,Surf Coast,Charges laid,338
+2016,September,Surf Coast,No charges laid,148
+2016,September,Surf Coast,Unsolved,686
+2016,September,Swan Hill,Charges laid,911
+2016,September,Swan Hill,No charges laid,374
+2016,September,Swan Hill,Unsolved,381
+2016,September,Towong,Charges laid,92
+2016,September,Towong,No charges laid,35
+2016,September,Towong,Unsolved,63
+2016,September,Wangaratta,Charges laid,861
+2016,September,Wangaratta,No charges laid,398
+2016,September,Wangaratta,Unsolved,505
+2016,September,Warrnambool,Charges laid,"1,242"
+2016,September,Warrnambool,No charges laid,413
+2016,September,Warrnambool,Unsolved,740
+2016,September,Wellington,Charges laid,"1,489"
+2016,September,Wellington,No charges laid,609
+2016,September,Wellington,Unsolved,"1,115"
+2016,September,West Wimmera,Charges laid,41
+2016,September,West Wimmera,No charges laid,28
+2016,September,West Wimmera,Unsolved,42
+2016,September,Whitehorse,Charges laid,"1,854"
+2016,September,Whitehorse,No charges laid,609
+2016,September,Whitehorse,Unsolved,"3,436"
+2016,September,Whittlesea,Charges laid,"3,919"
+2016,September,Whittlesea,No charges laid,"1,311"
+2016,September,Whittlesea,Unsolved,"7,338"
+2016,September,Wodonga,Charges laid,"1,302"
+2016,September,Wodonga,No charges laid,306
+2016,September,Wodonga,Unsolved,893
+2016,September,Wyndham,Charges laid,"4,469"
+2016,September,Wyndham,No charges laid,"1,092"
+2016,September,Wyndham,Unsolved,"7,007"
+2016,September,Yarra,Charges laid,"3,523"
+2016,September,Yarra,No charges laid,"1,114"
+2016,September,Yarra,Unsolved,"6,494"
+2016,September,Yarra Ranges,Charges laid,"2,740"
+2016,September,Yarra Ranges,No charges laid,899
+2016,September,Yarra Ranges,Unsolved,"2,669"
+2016,September,Yarriambiack,Charges laid,158
+2016,September,Yarriambiack,No charges laid,65
+2016,September,Yarriambiack,Unsolved,113
+2015,September,Alpine,Charges laid,153
+2015,September,Alpine,No charges laid,89
+2015,September,Alpine,Unsolved,103
+2015,September,Ararat,Charges laid,408
+2015,September,Ararat,No charges laid,176
+2015,September,Ararat,Unsolved,270
+2015,September,Ballarat,Charges laid,"3,118"
+2015,September,Ballarat,No charges laid,"1,091"
+2015,September,Ballarat,Unsolved,"4,409"
+2015,September,Banyule,Charges laid,"2,837"
+2015,September,Banyule,No charges laid,"1,081"
+2015,September,Banyule,Unsolved,"3,117"
+2015,September,Bass Coast,Charges laid,823
+2015,September,Bass Coast,No charges laid,423
+2015,September,Bass Coast,Unsolved,643
+2015,September,Baw Baw,Charges laid,"1,149"
+2015,September,Baw Baw,No charges laid,465
+2015,September,Baw Baw,Unsolved,782
+2015,September,Bayside,Charges laid,884
+2015,September,Bayside,No charges laid,537
+2015,September,Bayside,Unsolved,"2,002"
+2015,September,Benalla,Charges laid,354
+2015,September,Benalla,No charges laid,152
+2015,September,Benalla,Unsolved,228
+2015,September,Boroondara,Charges laid,"1,288"
+2015,September,Boroondara,No charges laid,590
+2015,September,Boroondara,Unsolved,"3,777"
+2015,September,Brimbank,Charges laid,"5,695"
+2015,September,Brimbank,No charges laid,"1,217"
+2015,September,Brimbank,Unsolved,"7,802"
+2015,September,Buloke,Charges laid,61
+2015,September,Buloke,No charges laid,34
+2015,September,Buloke,Unsolved,104
+2015,September,Campaspe,Charges laid,987
+2015,September,Campaspe,No charges laid,323
+2015,September,Campaspe,Unsolved,"1,007"
+2015,September,Cardinia,Charges laid,"1,637"
+2015,September,Cardinia,No charges laid,787
+2015,September,Cardinia,Unsolved,"1,969"
+2015,September,Casey,Charges laid,"5,191"
+2015,September,Casey,No charges laid,"2,223"
+2015,September,Casey,Unsolved,"7,207"
+2015,September,Central Goldfields,Charges laid,434
+2015,September,Central Goldfields,No charges laid,154
+2015,September,Central Goldfields,Unsolved,246
+2015,September,Colac-Otway,Charges laid,479
+2015,September,Colac-Otway,No charges laid,221
+2015,September,Colac-Otway,Unsolved,427
+2015,September,Corangamite,Charges laid,185
+2015,September,Corangamite,No charges laid,70
+2015,September,Corangamite,Unsolved,203
+2015,September,Darebin,Charges laid,"3,446"
+2015,September,Darebin,No charges laid,"1,114"
+2015,September,Darebin,Unsolved,"6,473"
+2015,September,East Gippsland,Charges laid,"1,308"
+2015,September,East Gippsland,No charges laid,714
+2015,September,East Gippsland,Unsolved,"1,051"
+2015,September,Frankston,Charges laid,"5,055"
+2015,September,Frankston,No charges laid,"1,800"
+2015,September,Frankston,Unsolved,"4,074"
+2015,September,Gannawarra,Charges laid,196
+2015,September,Gannawarra,No charges laid,83
+2015,September,Gannawarra,Unsolved,137
+2015,September,Glen Eira,Charges laid,"1,216"
+2015,September,Glen Eira,No charges laid,671
+2015,September,Glen Eira,Unsolved,"2,855"
+2015,September,Glenelg,Charges laid,572
+2015,September,Glenelg,No charges laid,214
+2015,September,Glenelg,Unsolved,510
+2015,September,Golden Plains,Charges laid,144
+2015,September,Golden Plains,No charges laid,48
+2015,September,Golden Plains,Unsolved,343
+2015,September,Greater Bendigo,Charges laid,"2,725"
+2015,September,Greater Bendigo,No charges laid,"1,057"
+2015,September,Greater Bendigo,Unsolved,"2,414"
+2015,September,Greater Dandenong,Charges laid,"5,444"
+2015,September,Greater Dandenong,No charges laid,"1,958"
+2015,September,Greater Dandenong,Unsolved,"5,752"
+2015,September,Greater Geelong,Charges laid,"4,908"
+2015,September,Greater Geelong,No charges laid,"2,094"
+2015,September,Greater Geelong,Unsolved,"7,887"
+2015,September,Greater Shepparton,Charges laid,"2,455"
+2015,September,Greater Shepparton,No charges laid,790
+2015,September,Greater Shepparton,Unsolved,"2,278"
+2015,September,Hepburn,Charges laid,174
+2015,September,Hepburn,No charges laid,54
+2015,September,Hepburn,Unsolved,324
+2015,September,Hindmarsh,Charges laid,75
+2015,September,Hindmarsh,No charges laid,35
+2015,September,Hindmarsh,Unsolved,37
+2015,September,Hobsons Bay,Charges laid,"1,853"
+2015,September,Hobsons Bay,No charges laid,623
+2015,September,Hobsons Bay,Unsolved,"2,820"
+2015,September,Horsham,Charges laid,"1,082"
+2015,September,Horsham,No charges laid,368
+2015,September,Horsham,Unsolved,508
+2015,September,Hume,Charges laid,"5,382"
+2015,September,Hume,No charges laid,"1,738"
+2015,September,Hume,Unsolved,"7,230"
+2015,September,Indigo,Charges laid,119
+2015,September,Indigo,No charges laid,54
+2015,September,Indigo,Unsolved,175
+2015,September,Kingston,Charges laid,"2,844"
+2015,September,Kingston,No charges laid,"1,202"
+2015,September,Kingston,Unsolved,"3,625"
+2015,September,Knox,Charges laid,"2,735"
+2015,September,Knox,No charges laid,934
+2015,September,Knox,Unsolved,"3,555"
+2015,September,Latrobe,Charges laid,"4,460"
+2015,September,Latrobe,No charges laid,"1,610"
+2015,September,Latrobe,Unsolved,"2,707"
+2015,September,Loddon,Charges laid,129
+2015,September,Loddon,No charges laid,45
+2015,September,Loddon,Unsolved,125
+2015,September,Macedon Ranges,Charges laid,581
+2015,September,Macedon Ranges,No charges laid,215
+2015,September,Macedon Ranges,Unsolved,676
+2015,September,Manningham,Charges laid,983
+2015,September,Manningham,No charges laid,450
+2015,September,Manningham,Unsolved,"1,868"
+2015,September,Mansfield,Charges laid,127
+2015,September,Mansfield,No charges laid,54
+2015,September,Mansfield,Unsolved,139
+2015,September,Maribyrnong,Charges laid,"2,298"
+2015,September,Maribyrnong,No charges laid,781
+2015,September,Maribyrnong,Unsolved,"3,562"
+2015,September,Maroondah,Charges laid,"2,477"
+2015,September,Maroondah,No charges laid,758
+2015,September,Maroondah,Unsolved,"2,649"
+2015,September,Melbourne,Charges laid,"9,272"
+2015,September,Melbourne,No charges laid,"5,318"
+2015,September,Melbourne,Unsolved,"10,085"
+2015,September,Melton,Charges laid,"2,750"
+2015,September,Melton,No charges laid,726
+2015,September,Melton,Unsolved,"4,488"
+2015,September,Mildura,Charges laid,"1,903"
+2015,September,Mildura,No charges laid,861
+2015,September,Mildura,Unsolved,"1,779"
+2015,September,Mitchell,Charges laid,"1,082"
+2015,September,Mitchell,No charges laid,482
+2015,September,Mitchell,Unsolved,929
+2015,September,Moira,Charges laid,479
+2015,September,Moira,No charges laid,246
+2015,September,Moira,Unsolved,380
+2015,September,Monash,Charges laid,"2,117"
+2015,September,Monash,No charges laid,757
+2015,September,Monash,Unsolved,"4,312"
+2015,September,Moonee Valley,Charges laid,"2,019"
+2015,September,Moonee Valley,No charges laid,911
+2015,September,Moonee Valley,Unsolved,"3,860"
+2015,September,Moorabool,Charges laid,577
+2015,September,Moorabool,No charges laid,236
+2015,September,Moorabool,Unsolved,750
+2015,September,Moreland,Charges laid,"2,963"
+2015,September,Moreland,No charges laid,"1,145"
+2015,September,Moreland,Unsolved,"6,715"
+2015,September,Mornington Peninsula,Charges laid,"2,803"
+2015,September,Mornington Peninsula,No charges laid,"1,584"
+2015,September,Mornington Peninsula,Unsolved,"3,394"
+2015,September,Mount Alexander,Charges laid,308
+2015,September,Mount Alexander,No charges laid,127
+2015,September,Mount Alexander,Unsolved,229
+2015,September,Moyne,Charges laid,181
+2015,September,Moyne,No charges laid,64
+2015,September,Moyne,Unsolved,171
+2015,September,Murrindindi,Charges laid,162
+2015,September,Murrindindi,No charges laid,95
+2015,September,Murrindindi,Unsolved,243
+2015,September,Nillumbik,Charges laid,592
+2015,September,Nillumbik,No charges laid,260
+2015,September,Nillumbik,Unsolved,"1,002"
+2015,September,Northern Grampians,Charges laid,376
+2015,September,Northern Grampians,No charges laid,169
+2015,September,Northern Grampians,Unsolved,230
+2015,September,Port Phillip,Charges laid,"2,669"
+2015,September,Port Phillip,No charges laid,"1,540"
+2015,September,Port Phillip,Unsolved,"5,296"
+2015,September,Pyrenees,Charges laid,107
+2015,September,Pyrenees,No charges laid,41
+2015,September,Pyrenees,Unsolved,200
+2015,September,Queenscliffe,Charges laid,23
+2015,September,Queenscliffe,No charges laid,14
+2015,September,Queenscliffe,Unsolved,84
+2015,September,South Gippsland,Charges laid,442
+2015,September,South Gippsland,No charges laid,142
+2015,September,South Gippsland,Unsolved,341
+2015,September,Southern Grampians,Charges laid,359
+2015,September,Southern Grampians,No charges laid,145
+2015,September,Southern Grampians,Unsolved,245
+2015,September,Stonnington,Charges laid,"2,302"
+2015,September,Stonnington,No charges laid,"1,024"
+2015,September,Stonnington,Unsolved,"4,224"
+2015,September,Strathbogie,Charges laid,123
+2015,September,Strathbogie,No charges laid,58
+2015,September,Strathbogie,Unsolved,140
+2015,September,Surf Coast,Charges laid,274
+2015,September,Surf Coast,No charges laid,149
+2015,September,Surf Coast,Unsolved,607
+2015,September,Swan Hill,Charges laid,887
+2015,September,Swan Hill,No charges laid,372
+2015,September,Swan Hill,Unsolved,381
+2015,September,Towong,Charges laid,52
+2015,September,Towong,No charges laid,28
+2015,September,Towong,Unsolved,62
+2015,September,Wangaratta,Charges laid,695
+2015,September,Wangaratta,No charges laid,477
+2015,September,Wangaratta,Unsolved,435
+2015,September,Warrnambool,Charges laid,"1,031"
+2015,September,Warrnambool,No charges laid,369
+2015,September,Warrnambool,Unsolved,738
+2015,September,Wellington,Charges laid,"1,242"
+2015,September,Wellington,No charges laid,547
+2015,September,Wellington,Unsolved,"1,118"
+2015,September,West Wimmera,Charges laid,48
+2015,September,West Wimmera,No charges laid,16
+2015,September,West Wimmera,Unsolved,17
+2015,September,Whitehorse,Charges laid,"1,863"
+2015,September,Whitehorse,No charges laid,584
+2015,September,Whitehorse,Unsolved,"3,387"
+2015,September,Whittlesea,Charges laid,"3,318"
+2015,September,Whittlesea,No charges laid,"1,299"
+2015,September,Whittlesea,Unsolved,"5,497"
+2015,September,Wodonga,Charges laid,"1,371"
+2015,September,Wodonga,No charges laid,270
+2015,September,Wodonga,Unsolved,912
+2015,September,Wyndham,Charges laid,"3,687"
+2015,September,Wyndham,No charges laid,"1,003"
+2015,September,Wyndham,Unsolved,"6,176"
+2015,September,Yarra,Charges laid,"3,161"
+2015,September,Yarra,No charges laid,"1,207"
+2015,September,Yarra,Unsolved,"5,416"
+2015,September,Yarra Ranges,Charges laid,"2,091"
+2015,September,Yarra Ranges,No charges laid,822
+2015,September,Yarra Ranges,Unsolved,"2,351"
+2015,September,Yarriambiack,Charges laid,116
+2015,September,Yarriambiack,No charges laid,53
+2015,September,Yarriambiack,Unsolved,101
+2014,September,Alpine,Charges laid,147
+2014,September,Alpine,No charges laid,71
+2014,September,Alpine,Unsolved,98
+2014,September,Ararat,Charges laid,369
+2014,September,Ararat,No charges laid,197
+2014,September,Ararat,Unsolved,236
+2014,September,Ballarat,Charges laid,"2,643"
+2014,September,Ballarat,No charges laid,"1,231"
+2014,September,Ballarat,Unsolved,"3,562"
+2014,September,Banyule,Charges laid,"2,620"
+2014,September,Banyule,No charges laid,676
+2014,September,Banyule,Unsolved,"3,522"
+2014,September,Bass Coast,Charges laid,835
+2014,September,Bass Coast,No charges laid,474
+2014,September,Bass Coast,Unsolved,828
+2014,September,Baw Baw,Charges laid,996
+2014,September,Baw Baw,No charges laid,488
+2014,September,Baw Baw,Unsolved,788
+2014,September,Bayside,Charges laid,801
+2014,September,Bayside,No charges laid,513
+2014,September,Bayside,Unsolved,"2,027"
+2014,September,Benalla,Charges laid,405
+2014,September,Benalla,No charges laid,153
+2014,September,Benalla,Unsolved,314
+2014,September,Boroondara,Charges laid,"1,356"
+2014,September,Boroondara,No charges laid,624
+2014,September,Boroondara,Unsolved,"3,904"
+2014,September,Brimbank,Charges laid,"5,200"
+2014,September,Brimbank,No charges laid,"1,310"
+2014,September,Brimbank,Unsolved,"7,189"
+2014,September,Buloke,Charges laid,69
+2014,September,Buloke,No charges laid,28
+2014,September,Buloke,Unsolved,76
+2014,September,Campaspe,Charges laid,733
+2014,September,Campaspe,No charges laid,377
+2014,September,Campaspe,Unsolved,"1,042"
+2014,September,Cardinia,Charges laid,"1,373"
+2014,September,Cardinia,No charges laid,721
+2014,September,Cardinia,Unsolved,"1,806"
+2014,September,Casey,Charges laid,"4,200"
+2014,September,Casey,No charges laid,"2,270"
+2014,September,Casey,Unsolved,"6,204"
+2014,September,Central Goldfields,Charges laid,372
+2014,September,Central Goldfields,No charges laid,156
+2014,September,Central Goldfields,Unsolved,274
+2014,September,Colac-Otway,Charges laid,433
+2014,September,Colac-Otway,No charges laid,269
+2014,September,Colac-Otway,Unsolved,394
+2014,September,Corangamite,Charges laid,187
+2014,September,Corangamite,No charges laid,90
+2014,September,Corangamite,Unsolved,220
+2014,September,Darebin,Charges laid,"3,229"
+2014,September,Darebin,No charges laid,"1,188"
+2014,September,Darebin,Unsolved,"6,943"
+2014,September,East Gippsland,Charges laid,"1,218"
+2014,September,East Gippsland,No charges laid,757
+2014,September,East Gippsland,Unsolved,957
+2014,September,Frankston,Charges laid,"4,901"
+2014,September,Frankston,No charges laid,"1,915"
+2014,September,Frankston,Unsolved,"3,844"
+2014,September,Gannawarra,Charges laid,195
+2014,September,Gannawarra,No charges laid,102
+2014,September,Gannawarra,Unsolved,141
+2014,September,Glen Eira,Charges laid,"1,117"
+2014,September,Glen Eira,No charges laid,710
+2014,September,Glen Eira,Unsolved,"2,650"
+2014,September,Glenelg,Charges laid,524
+2014,September,Glenelg,No charges laid,228
+2014,September,Glenelg,Unsolved,584
+2014,September,Golden Plains,Charges laid,108
+2014,September,Golden Plains,No charges laid,46
+2014,September,Golden Plains,Unsolved,270
+2014,September,Greater Bendigo,Charges laid,"2,763"
+2014,September,Greater Bendigo,No charges laid,"1,177"
+2014,September,Greater Bendigo,Unsolved,"2,311"
+2014,September,Greater Dandenong,Charges laid,"4,798"
+2014,September,Greater Dandenong,No charges laid,"2,136"
+2014,September,Greater Dandenong,Unsolved,"4,996"
+2014,September,Greater Geelong,Charges laid,"4,319"
+2014,September,Greater Geelong,No charges laid,"2,004"
+2014,September,Greater Geelong,Unsolved,"8,127"
+2014,September,Greater Shepparton,Charges laid,"2,135"
+2014,September,Greater Shepparton,No charges laid,919
+2014,September,Greater Shepparton,Unsolved,"2,471"
+2014,September,Hepburn,Charges laid,164
+2014,September,Hepburn,No charges laid,75
+2014,September,Hepburn,Unsolved,259
+2014,September,Hindmarsh,Charges laid,67
+2014,September,Hindmarsh,No charges laid,33
+2014,September,Hindmarsh,Unsolved,44
+2014,September,Hobsons Bay,Charges laid,"1,873"
+2014,September,Hobsons Bay,No charges laid,770
+2014,September,Hobsons Bay,Unsolved,"2,962"
+2014,September,Horsham,Charges laid,737
+2014,September,Horsham,No charges laid,354
+2014,September,Horsham,Unsolved,450
+2014,September,Hume,Charges laid,"4,808"
+2014,September,Hume,No charges laid,"1,466"
+2014,September,Hume,Unsolved,"7,024"
+2014,September,Indigo,Charges laid,148
+2014,September,Indigo,No charges laid,54
+2014,September,Indigo,Unsolved,146
+2014,September,Kingston,Charges laid,"2,593"
+2014,September,Kingston,No charges laid,"1,251"
+2014,September,Kingston,Unsolved,"3,507"
+2014,September,Knox,Charges laid,"2,622"
+2014,September,Knox,No charges laid,"1,116"
+2014,September,Knox,Unsolved,"3,673"
+2014,September,Latrobe,Charges laid,"3,830"
+2014,September,Latrobe,No charges laid,"1,475"
+2014,September,Latrobe,Unsolved,"2,316"
+2014,September,Loddon,Charges laid,91
+2014,September,Loddon,No charges laid,44
+2014,September,Loddon,Unsolved,98
+2014,September,Macedon Ranges,Charges laid,592
+2014,September,Macedon Ranges,No charges laid,191
+2014,September,Macedon Ranges,Unsolved,704
+2014,September,Manningham,Charges laid,989
+2014,September,Manningham,No charges laid,441
+2014,September,Manningham,Unsolved,"1,812"
+2014,September,Mansfield,Charges laid,129
+2014,September,Mansfield,No charges laid,84
+2014,September,Mansfield,Unsolved,154
+2014,September,Maribyrnong,Charges laid,"2,227"
+2014,September,Maribyrnong,No charges laid,965
+2014,September,Maribyrnong,Unsolved,"3,532"
+2014,September,Maroondah,Charges laid,"2,347"
+2014,September,Maroondah,No charges laid,841
+2014,September,Maroondah,Unsolved,"2,736"
+2014,September,Melbourne,Charges laid,"8,481"
+2014,September,Melbourne,No charges laid,"6,026"
+2014,September,Melbourne,Unsolved,"9,274"
+2014,September,Melton,Charges laid,"2,503"
+2014,September,Melton,No charges laid,698
+2014,September,Melton,Unsolved,"4,221"
+2014,September,Mildura,Charges laid,"1,732"
+2014,September,Mildura,No charges laid,946
+2014,September,Mildura,Unsolved,"1,972"
+2014,September,Mitchell,Charges laid,882
+2014,September,Mitchell,No charges laid,466
+2014,September,Mitchell,Unsolved,747
+2014,September,Moira,Charges laid,470
+2014,September,Moira,No charges laid,247
+2014,September,Moira,Unsolved,438
+2014,September,Monash,Charges laid,"1,960"
+2014,September,Monash,No charges laid,764
+2014,September,Monash,Unsolved,"4,201"
+2014,September,Moonee Valley,Charges laid,"1,918"
+2014,September,Moonee Valley,No charges laid,837
+2014,September,Moonee Valley,Unsolved,"3,656"
+2014,September,Moorabool,Charges laid,450
+2014,September,Moorabool,No charges laid,220
+2014,September,Moorabool,Unsolved,749
+2014,September,Moreland,Charges laid,"2,647"
+2014,September,Moreland,No charges laid,"1,047"
+2014,September,Moreland,Unsolved,"6,404"
+2014,September,Mornington Peninsula,Charges laid,"2,726"
+2014,September,Mornington Peninsula,No charges laid,"1,645"
+2014,September,Mornington Peninsula,Unsolved,"3,495"
+2014,September,Mount Alexander,Charges laid,278
+2014,September,Mount Alexander,No charges laid,112
+2014,September,Mount Alexander,Unsolved,273
+2014,September,Moyne,Charges laid,190
+2014,September,Moyne,No charges laid,76
+2014,September,Moyne,Unsolved,208
+2014,September,Murrindindi,Charges laid,222
+2014,September,Murrindindi,No charges laid,129
+2014,September,Murrindindi,Unsolved,180
+2014,September,Nillumbik,Charges laid,445
+2014,September,Nillumbik,No charges laid,220
+2014,September,Nillumbik,Unsolved,916
+2014,September,Northern Grampians,Charges laid,308
+2014,September,Northern Grampians,No charges laid,182
+2014,September,Northern Grampians,Unsolved,180
+2014,September,Port Phillip,Charges laid,"2,515"
+2014,September,Port Phillip,No charges laid,"1,527"
+2014,September,Port Phillip,Unsolved,"4,834"
+2014,September,Pyrenees,Charges laid,106
+2014,September,Pyrenees,No charges laid,42
+2014,September,Pyrenees,Unsolved,221
+2014,September,Queenscliffe,Charges laid,14
+2014,September,Queenscliffe,No charges laid,13
+2014,September,Queenscliffe,Unsolved,58
+2014,September,South Gippsland,Charges laid,364
+2014,September,South Gippsland,No charges laid,156
+2014,September,South Gippsland,Unsolved,350
+2014,September,Southern Grampians,Charges laid,353
+2014,September,Southern Grampians,No charges laid,181
+2014,September,Southern Grampians,Unsolved,203
+2014,September,Stonnington,Charges laid,"2,068"
+2014,September,Stonnington,No charges laid,"1,227"
+2014,September,Stonnington,Unsolved,"3,896"
+2014,September,Strathbogie,Charges laid,144
+2014,September,Strathbogie,No charges laid,74
+2014,September,Strathbogie,Unsolved,152
+2014,September,Surf Coast,Charges laid,259
+2014,September,Surf Coast,No charges laid,157
+2014,September,Surf Coast,Unsolved,563
+2014,September,Swan Hill,Charges laid,796
+2014,September,Swan Hill,No charges laid,405
+2014,September,Swan Hill,Unsolved,404
+2014,September,Towong,Charges laid,69
+2014,September,Towong,No charges laid,44
+2014,September,Towong,Unsolved,74
+2014,September,Wangaratta,Charges laid,744
+2014,September,Wangaratta,No charges laid,478
+2014,September,Wangaratta,Unsolved,488
+2014,September,Warrnambool,Charges laid,840
+2014,September,Warrnambool,No charges laid,388
+2014,September,Warrnambool,Unsolved,639
+2014,September,Wellington,Charges laid,"1,085"
+2014,September,Wellington,No charges laid,596
+2014,September,Wellington,Unsolved,"1,312"
+2014,September,West Wimmera,Charges laid,46
+2014,September,West Wimmera,No charges laid,20
+2014,September,West Wimmera,Unsolved,36
+2014,September,Whitehorse,Charges laid,"1,658"
+2014,September,Whitehorse,No charges laid,677
+2014,September,Whitehorse,Unsolved,"3,444"
+2014,September,Whittlesea,Charges laid,"3,098"
+2014,September,Whittlesea,No charges laid,"1,395"
+2014,September,Whittlesea,Unsolved,"6,025"
+2014,September,Wodonga,Charges laid,"1,135"
+2014,September,Wodonga,No charges laid,323
+2014,September,Wodonga,Unsolved,973
+2014,September,Wyndham,Charges laid,"3,533"
+2014,September,Wyndham,No charges laid,975
+2014,September,Wyndham,Unsolved,"5,811"
+2014,September,Yarra,Charges laid,"3,117"
+2014,September,Yarra,No charges laid,"1,474"
+2014,September,Yarra,Unsolved,"5,464"
+2014,September,Yarra Ranges,Charges laid,"1,958"
+2014,September,Yarra Ranges,No charges laid,976
+2014,September,Yarra Ranges,Unsolved,"2,579"
+2014,September,Yarriambiack,Charges laid,72
+2014,September,Yarriambiack,No charges laid,49
+2014,September,Yarriambiack,Unsolved,65
+2013,September,Alpine,Charges laid,128
+2013,September,Alpine,No charges laid,91
+2013,September,Alpine,Unsolved,117
+2013,September,Ararat,Charges laid,453
+2013,September,Ararat,No charges laid,176
+2013,September,Ararat,Unsolved,270
+2013,September,Ballarat,Charges laid,"2,524"
+2013,September,Ballarat,No charges laid,"1,291"
+2013,September,Ballarat,Unsolved,"4,373"
+2013,September,Banyule,Charges laid,"2,329"
+2013,September,Banyule,No charges laid,648
+2013,September,Banyule,Unsolved,"2,959"
+2013,September,Bass Coast,Charges laid,684
+2013,September,Bass Coast,No charges laid,424
+2013,September,Bass Coast,Unsolved,713
+2013,September,Baw Baw,Charges laid,968
+2013,September,Baw Baw,No charges laid,366
+2013,September,Baw Baw,Unsolved,875
+2013,September,Bayside,Charges laid,790
+2013,September,Bayside,No charges laid,503
+2013,September,Bayside,Unsolved,"2,160"
+2013,September,Benalla,Charges laid,328
+2013,September,Benalla,No charges laid,167
+2013,September,Benalla,Unsolved,320
+2013,September,Boroondara,Charges laid,"1,256"
+2013,September,Boroondara,No charges laid,710
+2013,September,Boroondara,Unsolved,"4,016"
+2013,September,Brimbank,Charges laid,"5,062"
+2013,September,Brimbank,No charges laid,"1,701"
+2013,September,Brimbank,Unsolved,"8,718"
+2013,September,Buloke,Charges laid,74
+2013,September,Buloke,No charges laid,38
+2013,September,Buloke,Unsolved,80
+2013,September,Campaspe,Charges laid,751
+2013,September,Campaspe,No charges laid,361
+2013,September,Campaspe,Unsolved,"1,153"
+2013,September,Cardinia,Charges laid,"1,365"
+2013,September,Cardinia,No charges laid,712
+2013,September,Cardinia,Unsolved,"2,182"
+2013,September,Casey,Charges laid,"3,835"
+2013,September,Casey,No charges laid,"2,324"
+2013,September,Casey,Unsolved,"5,991"
+2013,September,Central Goldfields,Charges laid,317
+2013,September,Central Goldfields,No charges laid,207
+2013,September,Central Goldfields,Unsolved,304
+2013,September,Colac-Otway,Charges laid,386
+2013,September,Colac-Otway,No charges laid,240
+2013,September,Colac-Otway,Unsolved,412
+2013,September,Corangamite,Charges laid,148
+2013,September,Corangamite,No charges laid,94
+2013,September,Corangamite,Unsolved,204
+2013,September,Darebin,Charges laid,"2,592"
+2013,September,Darebin,No charges laid,"1,159"
+2013,September,Darebin,Unsolved,"5,481"
+2013,September,East Gippsland,Charges laid,"1,081"
+2013,September,East Gippsland,No charges laid,669
+2013,September,East Gippsland,Unsolved,"1,287"
+2013,September,Frankston,Charges laid,"4,245"
+2013,September,Frankston,No charges laid,"2,531"
+2013,September,Frankston,Unsolved,"4,084"
+2013,September,Gannawarra,Charges laid,176
+2013,September,Gannawarra,No charges laid,81
+2013,September,Gannawarra,Unsolved,163
+2013,September,Glen Eira,Charges laid,"1,003"
+2013,September,Glen Eira,No charges laid,732
+2013,September,Glen Eira,Unsolved,"2,988"
+2013,September,Glenelg,Charges laid,471
+2013,September,Glenelg,No charges laid,161
+2013,September,Glenelg,Unsolved,506
+2013,September,Golden Plains,Charges laid,89
+2013,September,Golden Plains,No charges laid,43
+2013,September,Golden Plains,Unsolved,260
+2013,September,Greater Bendigo,Charges laid,"2,328"
+2013,September,Greater Bendigo,No charges laid,"1,151"
+2013,September,Greater Bendigo,Unsolved,"2,374"
+2013,September,Greater Dandenong,Charges laid,"4,564"
+2013,September,Greater Dandenong,No charges laid,"2,625"
+2013,September,Greater Dandenong,Unsolved,"5,319"
+2013,September,Greater Geelong,Charges laid,"3,946"
+2013,September,Greater Geelong,No charges laid,"2,112"
+2013,September,Greater Geelong,Unsolved,"7,668"
+2013,September,Greater Shepparton,Charges laid,"1,848"
+2013,September,Greater Shepparton,No charges laid,995
+2013,September,Greater Shepparton,Unsolved,"2,194"
+2013,September,Hepburn,Charges laid,158
+2013,September,Hepburn,No charges laid,63
+2013,September,Hepburn,Unsolved,331
+2013,September,Hindmarsh,Charges laid,95
+2013,September,Hindmarsh,No charges laid,42
+2013,September,Hindmarsh,Unsolved,65
+2013,September,Hobsons Bay,Charges laid,"1,581"
+2013,September,Hobsons Bay,No charges laid,813
+2013,September,Hobsons Bay,Unsolved,"3,166"
+2013,September,Horsham,Charges laid,671
+2013,September,Horsham,No charges laid,234
+2013,September,Horsham,Unsolved,402
+2013,September,Hume,Charges laid,"4,078"
+2013,September,Hume,No charges laid,"1,510"
+2013,September,Hume,Unsolved,"6,076"
+2013,September,Indigo,Charges laid,114
+2013,September,Indigo,No charges laid,74
+2013,September,Indigo,Unsolved,160
+2013,September,Kingston,Charges laid,"2,526"
+2013,September,Kingston,No charges laid,"1,347"
+2013,September,Kingston,Unsolved,"3,385"
+2013,September,Knox,Charges laid,"2,029"
+2013,September,Knox,No charges laid,"1,137"
+2013,September,Knox,Unsolved,"3,549"
+2013,September,Latrobe,Charges laid,"3,542"
+2013,September,Latrobe,No charges laid,"1,390"
+2013,September,Latrobe,Unsolved,"2,708"
+2013,September,Loddon,Charges laid,114
+2013,September,Loddon,No charges laid,56
+2013,September,Loddon,Unsolved,104
+2013,September,Macedon Ranges,Charges laid,508
+2013,September,Macedon Ranges,No charges laid,240
+2013,September,Macedon Ranges,Unsolved,614
+2013,September,Manningham,Charges laid,857
+2013,September,Manningham,No charges laid,474
+2013,September,Manningham,Unsolved,"1,560"
+2013,September,Mansfield,Charges laid,86
+2013,September,Mansfield,No charges laid,76
+2013,September,Mansfield,Unsolved,126
+2013,September,Maribyrnong,Charges laid,"2,154"
+2013,September,Maribyrnong,No charges laid,"1,150"
+2013,September,Maribyrnong,Unsolved,"3,697"
+2013,September,Maroondah,Charges laid,"2,035"
+2013,September,Maroondah,No charges laid,799
+2013,September,Maroondah,Unsolved,"2,411"
+2013,September,Melbourne,Charges laid,"7,946"
+2013,September,Melbourne,No charges laid,"7,076"
+2013,September,Melbourne,Unsolved,"9,574"
+2013,September,Melton,Charges laid,"2,074"
+2013,September,Melton,No charges laid,655
+2013,September,Melton,Unsolved,"4,016"
+2013,September,Mildura,Charges laid,"1,570"
+2013,September,Mildura,No charges laid,952
+2013,September,Mildura,Unsolved,"1,979"
+2013,September,Mitchell,Charges laid,736
+2013,September,Mitchell,No charges laid,362
+2013,September,Mitchell,Unsolved,831
+2013,September,Moira,Charges laid,366
+2013,September,Moira,No charges laid,206
+2013,September,Moira,Unsolved,460
+2013,September,Monash,Charges laid,"1,702"
+2013,September,Monash,No charges laid,772
+2013,September,Monash,Unsolved,"4,263"
+2013,September,Moonee Valley,Charges laid,"1,779"
+2013,September,Moonee Valley,No charges laid,963
+2013,September,Moonee Valley,Unsolved,"3,596"
+2013,September,Moorabool,Charges laid,447
+2013,September,Moorabool,No charges laid,212
+2013,September,Moorabool,Unsolved,837
+2013,September,Moreland,Charges laid,"2,429"
+2013,September,Moreland,No charges laid,"1,177"
+2013,September,Moreland,Unsolved,"5,487"
+2013,September,Mornington Peninsula,Charges laid,"2,247"
+2013,September,Mornington Peninsula,No charges laid,"1,357"
+2013,September,Mornington Peninsula,Unsolved,"3,608"
+2013,September,Mount Alexander,Charges laid,252
+2013,September,Mount Alexander,No charges laid,110
+2013,September,Mount Alexander,Unsolved,257
+2013,September,Moyne,Charges laid,139
+2013,September,Moyne,No charges laid,74
+2013,September,Moyne,Unsolved,199
+2013,September,Murrindindi,Charges laid,187
+2013,September,Murrindindi,No charges laid,100
+2013,September,Murrindindi,Unsolved,219
+2013,September,Nillumbik,Charges laid,485
+2013,September,Nillumbik,No charges laid,220
+2013,September,Nillumbik,Unsolved,882
+2013,September,Northern Grampians,Charges laid,313
+2013,September,Northern Grampians,No charges laid,161
+2013,September,Northern Grampians,Unsolved,213
+2013,September,Port Phillip,Charges laid,"2,341"
+2013,September,Port Phillip,No charges laid,"1,855"
+2013,September,Port Phillip,Unsolved,"4,948"
+2013,September,Pyrenees,Charges laid,69
+2013,September,Pyrenees,No charges laid,33
+2013,September,Pyrenees,Unsolved,170
+2013,September,Queenscliffe,Charges laid,14
+2013,September,Queenscliffe,No charges laid,8
+2013,September,Queenscliffe,Unsolved,63
+2013,September,South Gippsland,Charges laid,367
+2013,September,South Gippsland,No charges laid,162
+2013,September,South Gippsland,Unsolved,410
+2013,September,Southern Grampians,Charges laid,296
+2013,September,Southern Grampians,No charges laid,232
+2013,September,Southern Grampians,Unsolved,339
+2013,September,Stonnington,Charges laid,"2,053"
+2013,September,Stonnington,No charges laid,"1,327"
+2013,September,Stonnington,Unsolved,"3,992"
+2013,September,Strathbogie,Charges laid,134
+2013,September,Strathbogie,No charges laid,96
+2013,September,Strathbogie,Unsolved,147
+2013,September,Surf Coast,Charges laid,245
+2013,September,Surf Coast,No charges laid,211
+2013,September,Surf Coast,Unsolved,585
+2013,September,Swan Hill,Charges laid,696
+2013,September,Swan Hill,No charges laid,309
+2013,September,Swan Hill,Unsolved,368
+2013,September,Towong,Charges laid,64
+2013,September,Towong,No charges laid,52
+2013,September,Towong,Unsolved,71
+2013,September,Wangaratta,Charges laid,676
+2013,September,Wangaratta,No charges laid,511
+2013,September,Wangaratta,Unsolved,475
+2013,September,Warrnambool,Charges laid,810
+2013,September,Warrnambool,No charges laid,404
+2013,September,Warrnambool,Unsolved,693
+2013,September,Wellington,Charges laid,975
+2013,September,Wellington,No charges laid,479
+2013,September,Wellington,Unsolved,"1,387"
+2013,September,West Wimmera,Charges laid,56
+2013,September,West Wimmera,No charges laid,23
+2013,September,West Wimmera,Unsolved,52
+2013,September,Whitehorse,Charges laid,"1,482"
+2013,September,Whitehorse,No charges laid,674
+2013,September,Whitehorse,Unsolved,"3,668"
+2013,September,Whittlesea,Charges laid,"2,627"
+2013,September,Whittlesea,No charges laid,"1,171"
+2013,September,Whittlesea,Unsolved,"5,739"
+2013,September,Wodonga,Charges laid,894
+2013,September,Wodonga,No charges laid,335
+2013,September,Wodonga,Unsolved,"1,073"
+2013,September,Wyndham,Charges laid,"3,198"
+2013,September,Wyndham,No charges laid,"1,015"
+2013,September,Wyndham,Unsolved,"5,700"
+2013,September,Yarra,Charges laid,"2,380"
+2013,September,Yarra,No charges laid,"1,539"
+2013,September,Yarra,Unsolved,"5,016"
+2013,September,Yarra Ranges,Charges laid,"1,655"
+2013,September,Yarra Ranges,No charges laid,794
+2013,September,Yarra Ranges,Unsolved,"2,535"
+2013,September,Yarriambiack,Charges laid,86
+2013,September,Yarriambiack,No charges laid,55
+2013,September,Yarriambiack,Unsolved,82
+2012,September,Alpine,Charges laid,135
+2012,September,Alpine,No charges laid,61
+2012,September,Alpine,Unsolved,115
+2012,September,Ararat,Charges laid,366
+2012,September,Ararat,No charges laid,216
+2012,September,Ararat,Unsolved,319
+2012,September,Ballarat,Charges laid,"2,288"
+2012,September,Ballarat,No charges laid,"1,240"
+2012,September,Ballarat,Unsolved,"4,635"
+2012,September,Banyule,Charges laid,"2,215"
+2012,September,Banyule,No charges laid,653
+2012,September,Banyule,Unsolved,"3,175"
+2012,September,Bass Coast,Charges laid,609
+2012,September,Bass Coast,No charges laid,360
+2012,September,Bass Coast,Unsolved,836
+2012,September,Baw Baw,Charges laid,816
+2012,September,Baw Baw,No charges laid,362
+2012,September,Baw Baw,Unsolved,856
+2012,September,Bayside,Charges laid,715
+2012,September,Bayside,No charges laid,369
+2012,September,Bayside,Unsolved,"2,499"
+2012,September,Benalla,Charges laid,280
+2012,September,Benalla,No charges laid,154
+2012,September,Benalla,Unsolved,322
+2012,September,Boroondara,Charges laid,"1,025"
+2012,September,Boroondara,No charges laid,638
+2012,September,Boroondara,Unsolved,"4,140"
+2012,September,Brimbank,Charges laid,"4,172"
+2012,September,Brimbank,No charges laid,"1,556"
+2012,September,Brimbank,Unsolved,"9,229"
+2012,September,Buloke,Charges laid,74
+2012,September,Buloke,No charges laid,48
+2012,September,Buloke,Unsolved,104
+2012,September,Campaspe,Charges laid,611
+2012,September,Campaspe,No charges laid,443
+2012,September,Campaspe,Unsolved,"1,084"
+2012,September,Cardinia,Charges laid,"1,181"
+2012,September,Cardinia,No charges laid,560
+2012,September,Cardinia,Unsolved,"1,944"
+2012,September,Casey,Charges laid,"3,547"
+2012,September,Casey,No charges laid,"1,916"
+2012,September,Casey,Unsolved,"5,792"
+2012,September,Central Goldfields,Charges laid,252
+2012,September,Central Goldfields,No charges laid,185
+2012,September,Central Goldfields,Unsolved,261
+2012,September,Colac-Otway,Charges laid,359
+2012,September,Colac-Otway,No charges laid,247
+2012,September,Colac-Otway,Unsolved,581
+2012,September,Corangamite,Charges laid,148
+2012,September,Corangamite,No charges laid,83
+2012,September,Corangamite,Unsolved,302
+2012,September,Darebin,Charges laid,"2,753"
+2012,September,Darebin,No charges laid,"1,033"
+2012,September,Darebin,Unsolved,"6,124"
+2012,September,East Gippsland,Charges laid,746
+2012,September,East Gippsland,No charges laid,598
+2012,September,East Gippsland,Unsolved,"1,194"
+2012,September,Frankston,Charges laid,"3,773"
+2012,September,Frankston,No charges laid,"2,096"
+2012,September,Frankston,Unsolved,"4,177"
+2012,September,Gannawarra,Charges laid,190
+2012,September,Gannawarra,No charges laid,85
+2012,September,Gannawarra,Unsolved,120
+2012,September,Glen Eira,Charges laid,974
+2012,September,Glen Eira,No charges laid,587
+2012,September,Glen Eira,Unsolved,"3,112"
+2012,September,Glenelg,Charges laid,359
+2012,September,Glenelg,No charges laid,178
+2012,September,Glenelg,Unsolved,549
+2012,September,Golden Plains,Charges laid,85
+2012,September,Golden Plains,No charges laid,36
+2012,September,Golden Plains,Unsolved,251
+2012,September,Greater Bendigo,Charges laid,"2,003"
+2012,September,Greater Bendigo,No charges laid,997
+2012,September,Greater Bendigo,Unsolved,"2,514"
+2012,September,Greater Dandenong,Charges laid,"4,325"
+2012,September,Greater Dandenong,No charges laid,"2,227"
+2012,September,Greater Dandenong,Unsolved,"4,933"
+2012,September,Greater Geelong,Charges laid,"3,489"
+2012,September,Greater Geelong,No charges laid,"1,847"
+2012,September,Greater Geelong,Unsolved,"7,675"
+2012,September,Greater Shepparton,Charges laid,"1,781"
+2012,September,Greater Shepparton,No charges laid,963
+2012,September,Greater Shepparton,Unsolved,"2,162"
+2012,September,Hepburn,Charges laid,175
+2012,September,Hepburn,No charges laid,61
+2012,September,Hepburn,Unsolved,320
+2012,September,Hindmarsh,Charges laid,70
+2012,September,Hindmarsh,No charges laid,59
+2012,September,Hindmarsh,Unsolved,76
+2012,September,Hobsons Bay,Charges laid,"1,474"
+2012,September,Hobsons Bay,No charges laid,722
+2012,September,Hobsons Bay,Unsolved,"3,515"
+2012,September,Horsham,Charges laid,616
+2012,September,Horsham,No charges laid,298
+2012,September,Horsham,Unsolved,450
+2012,September,Hume,Charges laid,"3,676"
+2012,September,Hume,No charges laid,"1,481"
+2012,September,Hume,Unsolved,"6,535"
+2012,September,Indigo,Charges laid,97
+2012,September,Indigo,No charges laid,91
+2012,September,Indigo,Unsolved,186
+2012,September,Kingston,Charges laid,"2,298"
+2012,September,Kingston,No charges laid,"1,110"
+2012,September,Kingston,Unsolved,"3,897"
+2012,September,Knox,Charges laid,"2,157"
+2012,September,Knox,No charges laid,946
+2012,September,Knox,Unsolved,"3,501"
+2012,September,Latrobe,Charges laid,"3,144"
+2012,September,Latrobe,No charges laid,"1,204"
+2012,September,Latrobe,Unsolved,"2,883"
+2012,September,Loddon,Charges laid,125
+2012,September,Loddon,No charges laid,76
+2012,September,Loddon,Unsolved,134
+2012,September,Macedon Ranges,Charges laid,375
+2012,September,Macedon Ranges,No charges laid,233
+2012,September,Macedon Ranges,Unsolved,650
+2012,September,Manningham,Charges laid,818
+2012,September,Manningham,No charges laid,433
+2012,September,Manningham,Unsolved,"1,776"
+2012,September,Mansfield,Charges laid,75
+2012,September,Mansfield,No charges laid,64
+2012,September,Mansfield,Unsolved,120
+2012,September,Maribyrnong,Charges laid,"2,238"
+2012,September,Maribyrnong,No charges laid,"1,085"
+2012,September,Maribyrnong,Unsolved,"4,193"
+2012,September,Maroondah,Charges laid,"2,020"
+2012,September,Maroondah,No charges laid,675
+2012,September,Maroondah,Unsolved,"2,435"
+2012,September,Melbourne,Charges laid,"7,416"
+2012,September,Melbourne,No charges laid,"6,900"
+2012,September,Melbourne,Unsolved,"9,990"
+2012,September,Melton,Charges laid,"1,610"
+2012,September,Melton,No charges laid,695
+2012,September,Melton,Unsolved,"4,494"
+2012,September,Mildura,Charges laid,"1,512"
+2012,September,Mildura,No charges laid,981
+2012,September,Mildura,Unsolved,"1,948"
+2012,September,Mitchell,Charges laid,727
+2012,September,Mitchell,No charges laid,384
+2012,September,Mitchell,Unsolved,812
+2012,September,Moira,Charges laid,350
+2012,September,Moira,No charges laid,227
+2012,September,Moira,Unsolved,591
+2012,September,Monash,Charges laid,"1,372"
+2012,September,Monash,No charges laid,636
+2012,September,Monash,Unsolved,"4,392"
+2012,September,Moonee Valley,Charges laid,"1,767"
+2012,September,Moonee Valley,No charges laid,"1,072"
+2012,September,Moonee Valley,Unsolved,"3,964"
+2012,September,Moorabool,Charges laid,309
+2012,September,Moorabool,No charges laid,176
+2012,September,Moorabool,Unsolved,778
+2012,September,Moreland,Charges laid,"2,046"
+2012,September,Moreland,No charges laid,"1,085"
+2012,September,Moreland,Unsolved,"6,546"
+2012,September,Mornington Peninsula,Charges laid,"2,022"
+2012,September,Mornington Peninsula,No charges laid,"1,431"
+2012,September,Mornington Peninsula,Unsolved,"3,769"
+2012,September,Mount Alexander,Charges laid,228
+2012,September,Mount Alexander,No charges laid,113
+2012,September,Mount Alexander,Unsolved,299
+2012,September,Moyne,Charges laid,181
+2012,September,Moyne,No charges laid,127
+2012,September,Moyne,Unsolved,274
+2012,September,Murrindindi,Charges laid,160
+2012,September,Murrindindi,No charges laid,100
+2012,September,Murrindindi,Unsolved,194
+2012,September,Nillumbik,Charges laid,382
+2012,September,Nillumbik,No charges laid,216
+2012,September,Nillumbik,Unsolved,869
+2012,September,Northern Grampians,Charges laid,312
+2012,September,Northern Grampians,No charges laid,144
+2012,September,Northern Grampians,Unsolved,234
+2012,September,Port Phillip,Charges laid,"2,055"
+2012,September,Port Phillip,No charges laid,"1,724"
+2012,September,Port Phillip,Unsolved,"4,645"
+2012,September,Pyrenees,Charges laid,64
+2012,September,Pyrenees,No charges laid,28
+2012,September,Pyrenees,Unsolved,138
+2012,September,Queenscliffe,Charges laid,19
+2012,September,Queenscliffe,No charges laid,15
+2012,September,Queenscliffe,Unsolved,73
+2012,September,South Gippsland,Charges laid,357
+2012,September,South Gippsland,No charges laid,190
+2012,September,South Gippsland,Unsolved,353
+2012,September,Southern Grampians,Charges laid,273
+2012,September,Southern Grampians,No charges laid,210
+2012,September,Southern Grampians,Unsolved,309
+2012,September,Stonnington,Charges laid,"1,621"
+2012,September,Stonnington,No charges laid,"1,377"
+2012,September,Stonnington,Unsolved,"4,289"
+2012,September,Strathbogie,Charges laid,132
+2012,September,Strathbogie,No charges laid,56
+2012,September,Strathbogie,Unsolved,168
+2012,September,Surf Coast,Charges laid,227
+2012,September,Surf Coast,No charges laid,201
+2012,September,Surf Coast,Unsolved,755
+2012,September,Swan Hill,Charges laid,653
+2012,September,Swan Hill,No charges laid,330
+2012,September,Swan Hill,Unsolved,396
+2012,September,Towong,Charges laid,71
+2012,September,Towong,No charges laid,33
+2012,September,Towong,Unsolved,100
+2012,September,Wangaratta,Charges laid,724
+2012,September,Wangaratta,No charges laid,511
+2012,September,Wangaratta,Unsolved,463
+2012,September,Warrnambool,Charges laid,666
+2012,September,Warrnambool,No charges laid,499
+2012,September,Warrnambool,Unsolved,714
+2012,September,Wellington,Charges laid,877
+2012,September,Wellington,No charges laid,429
+2012,September,Wellington,Unsolved,"1,271"
+2012,September,West Wimmera,Charges laid,50
+2012,September,West Wimmera,No charges laid,36
+2012,September,West Wimmera,Unsolved,46
+2012,September,Whitehorse,Charges laid,"1,306"
+2012,September,Whitehorse,No charges laid,645
+2012,September,Whitehorse,Unsolved,"3,454"
+2012,September,Whittlesea,Charges laid,"2,472"
+2012,September,Whittlesea,No charges laid,"1,068"
+2012,September,Whittlesea,Unsolved,"6,196"
+2012,September,Wodonga,Charges laid,946
+2012,September,Wodonga,No charges laid,384
+2012,September,Wodonga,Unsolved,"1,257"
+2012,September,Wyndham,Charges laid,"2,589"
+2012,September,Wyndham,No charges laid,"1,177"
+2012,September,Wyndham,Unsolved,7215
+2012,September,Yarra,Charges laid,"2,467"
+2012,September,Yarra,No charges laid,"1,458"
+2012,September,Yarra,Unsolved,"5,349"
+2012,September,Yarra Ranges,Charges laid,"1,562"
+2012,September,Yarra Ranges,No charges laid,841
+2012,September,Yarra Ranges,Unsolved,"2,678"
+2012,September,Yarriambiack,Charges laid,125
+2012,September,Yarriambiack,No charges laid,69
+2012,September,Yarriambiack,Unsolved,113
+2011,September,Alpine,Charges laid,125
+2011,September,Alpine,No charges laid,60
+2011,September,Alpine,Unsolved,101
+2011,September,Ararat,Charges laid,266
+2011,September,Ararat,No charges laid,198
+2011,September,Ararat,Unsolved,345
+2011,September,Ballarat,Charges laid,"2,092"
+2011,September,Ballarat,No charges laid,"1,269"
+2011,September,Ballarat,Unsolved,"4,785"
+2011,September,Banyule,Charges laid,"1,802"
+2011,September,Banyule,No charges laid,616
+2011,September,Banyule,Unsolved,"2,998"
+2011,September,Bass Coast,Charges laid,480
+2011,September,Bass Coast,No charges laid,371
+2011,September,Bass Coast,Unsolved,783
+2011,September,Baw Baw,Charges laid,652
+2011,September,Baw Baw,No charges laid,283
+2011,September,Baw Baw,Unsolved,709
+2011,September,Bayside,Charges laid,667
+2011,September,Bayside,No charges laid,356
+2011,September,Bayside,Unsolved,"1,804"
+2011,September,Benalla,Charges laid,280
+2011,September,Benalla,No charges laid,123
+2011,September,Benalla,Unsolved,348
+2011,September,Boroondara,Charges laid,850
+2011,September,Boroondara,No charges laid,578
+2011,September,Boroondara,Unsolved,"3,799"
+2011,September,Brimbank,Charges laid,"3,401"
+2011,September,Brimbank,No charges laid,"1,501"
+2011,September,Brimbank,Unsolved,"9,320"
+2011,September,Buloke,Charges laid,81
+2011,September,Buloke,No charges laid,56
+2011,September,Buloke,Unsolved,128
+2011,September,Campaspe,Charges laid,549
+2011,September,Campaspe,No charges laid,342
+2011,September,Campaspe,Unsolved,955
+2011,September,Cardinia,Charges laid,"1,030"
+2011,September,Cardinia,No charges laid,529
+2011,September,Cardinia,Unsolved,"1,740"
+2011,September,Casey,Charges laid,"3,086"
+2011,September,Casey,No charges laid,"1,874"
+2011,September,Casey,Unsolved,"6,082"
+2011,September,Central Goldfields,Charges laid,290
+2011,September,Central Goldfields,No charges laid,152
+2011,September,Central Goldfields,Unsolved,316
+2011,September,Colac-Otway,Charges laid,394
+2011,September,Colac-Otway,No charges laid,242
+2011,September,Colac-Otway,Unsolved,454
+2011,September,Corangamite,Charges laid,178
+2011,September,Corangamite,No charges laid,91
+2011,September,Corangamite,Unsolved,274
+2011,September,Darebin,Charges laid,"2,364"
+2011,September,Darebin,No charges laid,"1,084"
+2011,September,Darebin,Unsolved,"5,897"
+2011,September,East Gippsland,Charges laid,743
+2011,September,East Gippsland,No charges laid,682
+2011,September,East Gippsland,Unsolved,"1,136"
+2011,September,Frankston,Charges laid,"2,967"
+2011,September,Frankston,No charges laid,"1,899"
+2011,September,Frankston,Unsolved,"4,418"
+2011,September,Gannawarra,Charges laid,171
+2011,September,Gannawarra,No charges laid,109
+2011,September,Gannawarra,Unsolved,221
+2011,September,Glen Eira,Charges laid,981
+2011,September,Glen Eira,No charges laid,576
+2011,September,Glen Eira,Unsolved,"2,832"
+2011,September,Glenelg,Charges laid,395
+2011,September,Glenelg,No charges laid,236
+2011,September,Glenelg,Unsolved,649
+2011,September,Golden Plains,Charges laid,77
+2011,September,Golden Plains,No charges laid,29
+2011,September,Golden Plains,Unsolved,190
+2011,September,Greater Bendigo,Charges laid,"1,684"
+2011,September,Greater Bendigo,No charges laid,870
+2011,September,Greater Bendigo,Unsolved,"2,386"
+2011,September,Greater Dandenong,Charges laid,"3,990"
+2011,September,Greater Dandenong,No charges laid,"2,135"
+2011,September,Greater Dandenong,Unsolved,"4,814"
+2011,September,Greater Geelong,Charges laid,"2,912"
+2011,September,Greater Geelong,No charges laid,"1,796"
+2011,September,Greater Geelong,Unsolved,"7,807"
+2011,September,Greater Shepparton,Charges laid,"1,558"
+2011,September,Greater Shepparton,No charges laid,892
+2011,September,Greater Shepparton,Unsolved,"2,423"
+2011,September,Hepburn,Charges laid,117
+2011,September,Hepburn,No charges laid,65
+2011,September,Hepburn,Unsolved,331
+2011,September,Hindmarsh,Charges laid,47
+2011,September,Hindmarsh,No charges laid,49
+2011,September,Hindmarsh,Unsolved,62
+2011,September,Hobsons Bay,Charges laid,"1,190"
+2011,September,Hobsons Bay,No charges laid,628
+2011,September,Hobsons Bay,Unsolved,"2,788"
+2011,September,Horsham,Charges laid,522
+2011,September,Horsham,No charges laid,277
+2011,September,Horsham,Unsolved,504
+2011,September,Hume,Charges laid,"3,019"
+2011,September,Hume,No charges laid,"1,463"
+2011,September,Hume,Unsolved,"6,430"
+2011,September,Indigo,Charges laid,101
+2011,September,Indigo,No charges laid,83
+2011,September,Indigo,Unsolved,177
+2011,September,Kingston,Charges laid,"2,217"
+2011,September,Kingston,No charges laid,"1,076"
+2011,September,Kingston,Unsolved,"3,551"
+2011,September,Knox,Charges laid,"1,830"
+2011,September,Knox,No charges laid,945
+2011,September,Knox,Unsolved,"3,280"
+2011,September,Latrobe,Charges laid,"2,708"
+2011,September,Latrobe,No charges laid,"1,158"
+2011,September,Latrobe,Unsolved,"2,913"
+2011,September,Loddon,Charges laid,96
+2011,September,Loddon,No charges laid,51
+2011,September,Loddon,Unsolved,165
+2011,September,Macedon Ranges,Charges laid,275
+2011,September,Macedon Ranges,No charges laid,253
+2011,September,Macedon Ranges,Unsolved,662
+2011,September,Manningham,Charges laid,769
+2011,September,Manningham,No charges laid,463
+2011,September,Manningham,Unsolved,"1,503"
+2011,September,Mansfield,Charges laid,79
+2011,September,Mansfield,No charges laid,75
+2011,September,Mansfield,Unsolved,110
+2011,September,Maribyrnong,Charges laid,"1,884"
+2011,September,Maribyrnong,No charges laid,990
+2011,September,Maribyrnong,Unsolved,"4,126"
+2011,September,Maroondah,Charges laid,"1,702"
+2011,September,Maroondah,No charges laid,758
+2011,September,Maroondah,Unsolved,"2,339"
+2011,September,Melbourne,Charges laid,"6,683"
+2011,September,Melbourne,No charges laid,"7,224"
+2011,September,Melbourne,Unsolved,"10,280"
+2011,September,Melton,Charges laid,"1,285"
+2011,September,Melton,No charges laid,570
+2011,September,Melton,Unsolved,"4,016"
+2011,September,Mildura,Charges laid,"1,531"
+2011,September,Mildura,No charges laid,"1,171"
+2011,September,Mildura,Unsolved,"1,996"
+2011,September,Mitchell,Charges laid,697
+2011,September,Mitchell,No charges laid,375
+2011,September,Mitchell,Unsolved,781
+2011,September,Moira,Charges laid,385
+2011,September,Moira,No charges laid,233
+2011,September,Moira,Unsolved,508
+2011,September,Monash,Charges laid,"1,323"
+2011,September,Monash,No charges laid,630
+2011,September,Monash,Unsolved,"4,682"
+2011,September,Moonee Valley,Charges laid,"1,518"
+2011,September,Moonee Valley,No charges laid,932
+2011,September,Moonee Valley,Unsolved,"3,544"
+2011,September,Moorabool,Charges laid,297
+2011,September,Moorabool,No charges laid,188
+2011,September,Moorabool,Unsolved,623
+2011,September,Moreland,Charges laid,"1,793"
+2011,September,Moreland,No charges laid,994
+2011,September,Moreland,Unsolved,"5,984"
+2011,September,Mornington Peninsula,Charges laid,"1,851"
+2011,September,Mornington Peninsula,No charges laid,"1,431"
+2011,September,Mornington Peninsula,Unsolved,"3,827"
+2011,September,Mount Alexander,Charges laid,263
+2011,September,Mount Alexander,No charges laid,128
+2011,September,Mount Alexander,Unsolved,309
+2011,September,Moyne,Charges laid,136
+2011,September,Moyne,No charges laid,74
+2011,September,Moyne,Unsolved,225
+2011,September,Murrindindi,Charges laid,118
+2011,September,Murrindindi,No charges laid,137
+2011,September,Murrindindi,Unsolved,185
+2011,September,Nillumbik,Charges laid,312
+2011,September,Nillumbik,No charges laid,201
+2011,September,Nillumbik,Unsolved,911
+2011,September,Northern Grampians,Charges laid,286
+2011,September,Northern Grampians,No charges laid,211
+2011,September,Northern Grampians,Unsolved,327
+2011,September,Port Phillip,Charges laid,"1,824"
+2011,September,Port Phillip,No charges laid,"1,701"
+2011,September,Port Phillip,Unsolved,"4,739"
+2011,September,Pyrenees,Charges laid,43
+2011,September,Pyrenees,No charges laid,31
+2011,September,Pyrenees,Unsolved,149
+2011,September,Queenscliffe,Charges laid,13
+2011,September,Queenscliffe,No charges laid,9
+2011,September,Queenscliffe,Unsolved,71
+2011,September,South Gippsland,Charges laid,310
+2011,September,South Gippsland,No charges laid,153
+2011,September,South Gippsland,Unsolved,387
+2011,September,Southern Grampians,Charges laid,306
+2011,September,Southern Grampians,No charges laid,221
+2011,September,Southern Grampians,Unsolved,321
+2011,September,Stonnington,Charges laid,"1,397"
+2011,September,Stonnington,No charges laid,"1,360"
+2011,September,Stonnington,Unsolved,"4,045"
+2011,September,Strathbogie,Charges laid,105
+2011,September,Strathbogie,No charges laid,66
+2011,September,Strathbogie,Unsolved,174
+2011,September,Surf Coast,Charges laid,155
+2011,September,Surf Coast,No charges laid,228
+2011,September,Surf Coast,Unsolved,613
+2011,September,Swan Hill,Charges laid,587
+2011,September,Swan Hill,No charges laid,340
+2011,September,Swan Hill,Unsolved,419
+2011,September,Towong,Charges laid,59
+2011,September,Towong,No charges laid,41
+2011,September,Towong,Unsolved,62
+2011,September,Wangaratta,Charges laid,559
+2011,September,Wangaratta,No charges laid,573
+2011,September,Wangaratta,Unsolved,551
+2011,September,Warrnambool,Charges laid,616
+2011,September,Warrnambool,No charges laid,473
+2011,September,Warrnambool,Unsolved,729
+2011,September,Wellington,Charges laid,763
+2011,September,Wellington,No charges laid,362
+2011,September,Wellington,Unsolved,"1,236"
+2011,September,West Wimmera,Charges laid,35
+2011,September,West Wimmera,No charges laid,13
+2011,September,West Wimmera,Unsolved,42
+2011,September,Whitehorse,Charges laid,"1,340"
+2011,September,Whitehorse,No charges laid,564
+2011,September,Whitehorse,Unsolved,"3,310"
+2011,September,Whittlesea,Charges laid,"1,888"
+2011,September,Whittlesea,No charges laid,"1,084"
+2011,September,Whittlesea,Unsolved,"5,483"
+2011,September,Wodonga,Charges laid,803
+2011,September,Wodonga,No charges laid,412
+2011,September,Wodonga,Unsolved,"1,132"
+2011,September,Wyndham,Charges laid,"1,898"
+2011,September,Wyndham,No charges laid,"1,007"
+2011,September,Wyndham,Unsolved,"6,387"
+2011,September,Yarra,Charges laid,"2,333"
+2011,September,Yarra,No charges laid,"1,370"
+2011,September,Yarra,Unsolved,"5,030"
+2011,September,Yarra Ranges,Charges laid,"1,417"
+2011,September,Yarra Ranges,No charges laid,796
+2011,September,Yarra Ranges,Unsolved,"2,678"
+2011,September,Yarriambiack,Charges laid,89
+2011,September,Yarriambiack,No charges laid,57
+2011,September,Yarriambiack,Unsolved,117
