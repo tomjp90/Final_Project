@@ -30,29 +30,8 @@ def scrape_house_listing(url):
       
       # ------------------------ DOMAIN.COM.AU SCRAPE -----------------------------------
       try:
-            # # visit url and save html
-            # options = webdriver.ChromeOptions()
-            # options.add_argument("--headless")
-            # options.add_argument("--disable-dev-shm-usage")
-            # options.add_argument("--no-sandbox")
-            # options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-            # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=options)
-
-            # options.headless = True
-            
-            # DRIVER_PATH = 'chromedriver'
-            # driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
-            # driver.get(url) 
-
-            # time.sleep(10)           
-            # html = driver.page_source 
-
-
             # https://stackoverflow.com/questions/50831469/i-am-not-able-to-scrape-the-web-data-from-the-given-website-using-python        
-            # print(html)
-            # print("HTML SHOULD BE BEFORE THIS")
-
-
+            # prevent automation detection - create a 'valid user'
             headers = {
                   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
             html_content = requests.get(url, headers=headers)
@@ -63,9 +42,8 @@ def scrape_house_listing(url):
             soup = bs(html, 'html.parser')
 
             summary = soup.find("div", class_="css-fpm9y")
-            print(summary) 
             property_features = summary.find_all('span', class_='css-1rzse3v')
-            print(property_features)
+            
             # extract property features
             bedrooms = property_features[0].text.split(' ')[0]
             bathrooms = property_features[1].text.split(' ')[0]  
@@ -124,7 +102,8 @@ def scrape_house_listing(url):
                   "melbourne_avg": [],
                   "suburb_distance_crime": [],
                   "predict_format": [],
-                  "future_predict": []                        
+                  "future_predict": [],
+                  "future_predict_format": []                          
                   }
 
                   # results if scraping failed
@@ -135,8 +114,6 @@ def scrape_house_listing(url):
       except Exception as e:
             driver.quit()
             house_features = e
-            print(e)
-            print("Hello!")
 
       # return dictionary of features
       return house_features

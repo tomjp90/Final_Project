@@ -116,38 +116,32 @@
       <img  src="{{features.image_url}}"  class="img-responsive"  alt="Responsive image"/>
       <br>
       <br>
-      <h1> The predicted value for this <a href={{ features.listing_url }}>property</a> is <b>${{ features.prediction }}</b> made on {{features.day}}/{{features.month}}/{{features.year}}      </h1>
+      <h1><b>${{ features.predict_format[0] }}</b></h1>
+      <h2> The predicted value for this <a href={{ features.listing_url }}>property</a> is made on {{features.day}}/{{features.month}}/{{features.year}}      </h2>
       <br>
-         <h4>
-          Bedrooms: {{features.bedrooms}} <br>
-          Bathrooms: {{features.bathrooms}} <br>
-          Cars: {{features.cars}} <br>
-          Landsize: {{features.landsize}}m² <br>
-          Property Type: {{features.ptype}} <br>
-          Suburb: {{features.suburb}} <br>
-          Suburb Distance to CBD: {{ features.suburb_distance_crime[0] }}km
-      </h4>
+         <h5>
+          <b>Bedrooms:</b> {{features.bedrooms}} <br>
+          <b>athrooms:</b> {{features.bathrooms}} <br>
+          <b>Cars:</b> {{features.cars}} <br>
+          <b>Landsize:</b> {{features.landsize}}m² <br>
+          <b>Property Type:</b> {{features.ptype}} <br>
+          <b>Suburb:</b> {{features.suburb}} <br>
+          <b>Suburb Distance to CBD:</b> {{ features.suburb_distance_crime[0] }}km
+      </h5>
           <br>
           <br>
-          <!-- {{features}}
-
-
-
-          <br>
-          <br>
-          
-          Melbourne Averages: {{features.melbourne_avg}}<br>
-          Suburb Distance and Crime: {{features.suburb_distance_crime}} -->
         
     
           <br>
-            {{features}}
+           
           
           <h1> At a glance</h1>
           <h4> Comparison of listing to average {{ features.type }} for Melbourne </h4>
           <br>
           <br>
           <br>
+
+          {{features}}
           
 
     
@@ -164,23 +158,29 @@
                         <canvas id="bar-chart" width="400" height="400"
                         style="display: block; height: 30px; width: 60px;"></canvas>                              
                   
-                        <script>                  
-                              var listing_bedrooms = parseInt( {{ features.bedrooms }} )
-                                    var avg_bed = parseInt( {{ features.melbourne_avg[0] }} )
+                        <script> 
+                        console.log(parseInt( {{ features.future_predict[0] }} ))      
+                              var startYear = parseInt( {{ features.prediction[0] }} )
+                              var secondYear = parseInt( {{ features.future_predict[0] }} )
+                              var thirdYear = parseInt( {{ features.future_predict[1] }} )
+                              var fourthYear = parseInt( {{ features.future_predict[2] }} )
+                                    
                                     var chartData = {
-                                          labels: ['Melbourne Average', 'Listing Bedrooms'],
+                                          labels: ['Today', '2022', '2023', '2024'],
+                                          // 
                                           datasets: [{
-                                                label: 'Bredrooms',
-                                                data: [avg_bed, listing_bedrooms],
+                                                label: 'Predicted Future Price',
+                                                data: [startYear, secondYear, thirdYear, fourthYear],
+                                               
                                           spanGaps: true,
-                                          backgroundColor: ['green', 'green'],
+                                          backgroundColor: ['green','green','green','green'],
                                     }]
                                     }
                                     // get chart canvas
-                              var ctx = document.getElementById("bar-chart").getContext("2d");
-                              // create the chart using the chart canvas
-                              var myChart = new Chart(ctx, {
-                                                            type: 'bar',
+                                    var ctx = document.getElementById("bar-chart").getContext("2d");
+                                    // create the chart using the chart canvas
+                                    var myChart = new Chart(ctx, {
+                                                            type: 'line',
                                                             data: chartData,                                          
                                                             options: {
                                                                         scales:
@@ -195,7 +195,7 @@
                                                                         },
                                                                         title: {
                                                                               display: true,
-                                                                              text: 'Bredrooms'
+                                                                              text: 'Predicted Future Price'
                                                                         }
                                                                   }
                                           });
@@ -206,22 +206,14 @@
               </div>
             </div>
           </div>
-
- 
-          
-
-
-
-
-
-
-
-
-
+  
 
     </section>
+    
 
-  </main><!-- End #main -->
+  </main>
+  
+  <!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
