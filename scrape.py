@@ -30,40 +30,42 @@ def scrape_house_listing(url):
       
       # ------------------------ DOMAIN.COM.AU SCRAPE -----------------------------------
       try:
-            # visit url and save html
-            options = webdriver.ChromeOptions()
-            options.add_argument("--headless")
-            options.add_argument("--disable-dev-shm-usage")
-            options.add_argument("--no-sandbox")
-            options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
-            driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=options)
+            # # visit url and save html
+            # options = webdriver.ChromeOptions()
+            # options.add_argument("--headless")
+            # options.add_argument("--disable-dev-shm-usage")
+            # options.add_argument("--no-sandbox")
+            # options.binary_location = os.environ.get("GOOGLE_CHROME_BIN")
+            # driver = webdriver.Chrome(executable_path=os.environ.get("CHROMEDRIVER_PATH"), chrome_options=options)
 
-            options.headless = True
+            # options.headless = True
             
             # DRIVER_PATH = 'chromedriver'
             # driver = webdriver.Chrome(options=options, executable_path=DRIVER_PATH)
-            driver.get(url) 
+            # driver.get(url) 
 
-            time.sleep(10)           
-            html = driver.page_source 
+            # time.sleep(10)           
+            # html = driver.page_source 
 
 
-                    
-            print(html)
-            print("HTML SHOULD BE BEFORE THIS")
+            # https://stackoverflow.com/questions/50831469/i-am-not-able-to-scrape-the-web-data-from-the-given-website-using-python        
+            # print(html)
+            # print("HTML SHOULD BE BEFORE THIS")
+
+
             headers = {
                   'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102 Safari/537.36'}
             html_content = requests.get(url, headers=headers)
             html = html_content.text
-            print(html)
-            print("HTML WITH REQUESTS LIBRARY")
+            # print(html)
+            # print("HTML WITH REQUESTS LIBRARY")
             # find and store relevant html
             soup = bs(html, 'html.parser')
 
             summary = soup.find("div", class_="css-fpm9y")
-             
+            print(summary) 
             property_features = summary.find_all('span', class_='css-1rzse3v')
-            
+            print(property_features)
             # extract property features
             bedrooms = property_features[0].text.split(' ')[0]
             bathrooms = property_features[1].text.split(' ')[0]  
