@@ -14,6 +14,8 @@ import xgboost
 
 
 app = Flask(__name__)
+
+
 #---------------------- LOAD MODELS   -----------------------------------
 MODEL_PATH = "xgboost_best_model_2024.joblib"
 
@@ -45,6 +47,14 @@ def predict_value_NL(X):
       prediction = model.predict(X)                 
 
       return prediction
+
+
+
+
+
+
+
+
 
 # Home route ----------------------------------------------------------------------------------------
 @app.route("/")
@@ -153,16 +163,18 @@ def login():
                               # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
                               X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                       ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
-                              
-                              
-                              # run predict function from persist
-                              predict = round(predict_value(X)[0])
+                              print("PREDICTION VALUES ARE")
                               print(X)
+                              model = load("xgboost_best_model_2024.joblib")
+                              # run predict function from persist
+                              predict = round(model.predict(X))
+                              print("I PREDICTED")
+                              print(predict)
                               # format value predicted
-                              prediction_formated = f"{predict:,}"
+                              # prediction_formated = f"{predict:,}"
                               # append values to features
                               features["prediction"].append(predict)
-                              features["predict_format"].append(prediction_formated)
+                              # features["predict_format"].append(prediction_formated)
 
                               #==========================================================================================
 
