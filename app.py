@@ -1,7 +1,7 @@
 from flask import Flask, render_template, redirect, jsonify, request
 import scrape
 from match_csvs import melb_avg, distance_crime
-# from model.persist import load_model, load_model_NL, predict_value, predict_value_NL
+from model.persist import load_model, load_model_NL, predict_value, predict_value_NL
 
 import requests
 from flask import Flask, redirect, url_for, request
@@ -14,44 +14,6 @@ import xgboost
 
 
 app = Flask(__name__)
-
-
-#---------------------- LOAD MODELS   -----------------------------------
-MODEL_PATH = "xgboost_best_model_2024.joblib"
-
-def load_model():
-
-      return load(MODEL_PATH)
-      print("I loaded")
-
-
-MODEL_PATH_NL = "final_model_no_landsize.joblib"
-
-def load_model_NL():
-      
-      return load(MODEL_PATH_NL)
-
-#-------------------- PREDICTION FUNCTIONS -----------------------------
-def predict_value(X):
-
-      model = load_model()
-      prediction = model.predict(X)     
-      print(prediction)            
-
-      return prediction
-
-
-def predict_value_NL(X):
-
-      model = load_model_NL()
-      prediction = model.predict(X)                 
-
-      return prediction
-
-
-
-
-
 
 
 
