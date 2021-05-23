@@ -228,9 +228,8 @@ def login():
                         # return error html if all features not scraped
                         return render_template('inner-page_prediction_error_template.html', error=error)
             else:
-                  error = "Invalid url"
                   # return error html if features is empty
-                  return render_template('inner-page_prediction_error_template.html', error=error)
+                  return render_template('inner-page_predict_template.html')
       except:
             
             return render_template('inner-page_predict_template.html')
