@@ -17,12 +17,8 @@ app = Flask(__name__)
 @app.route("/")
 def home():
       #return index html from home route    
-<<<<<<< HEAD
       return render_template("index_template.html")
 # predict route ----------------------------------------------------------------------------------------
-=======
-      return render_template("index_template.html", name="default")
->>>>>>> 44500680bac5e005ca1333fc2b0dc03b27cad7f2
 
 # Crime source route----------------------------------------------------------------------------------------
 @app.route("/source_crime")
@@ -59,7 +55,7 @@ def login():
                   domain_listing = request.form['nm']
                   # run scraping function fro new domain listing url
                   features = scrape.scrape_house_listing(domain_listing)
-
+                  print(f"SCRAPED FEATURES:{features}")
                   # ------------------------------ PREDICTION ------------------------------------
                   # check whether any features returned are from VIC and include all values
                   if (features["cars"] != "Unknown"):
