@@ -13,15 +13,37 @@ import xgboost
 app = Flask(__name__)
 
 
-
 # Home route ----------------------------------------------------------------------------------------
 @app.route("/")
 def home():
       #return index html from home route    
       return render_template("index_template.html", name="default")
-# predict route ----------------------------------------------------------------------------------------
 
+# Crime source route----------------------------------------------------------------------------------------
+@app.route("/source_crime")
+def source_crime():
+      #return index html from home route    
+      return render_template("inner-page_source_crime_template.html", name="default")
 
+# Kaggle source route----------------------------------------------------------------------------------------
+@app.route("/source_kaggle")
+def source_kaggle():
+      #return index html from home route    
+      return render_template("inner-page_source_kaggle_template.html", name="default")
+
+# Team route----------------------------------------------------------------------------------------
+@app.route("/team")
+def team():
+      #return index html from home route    
+      return render_template("inner-page_team_template.html", name="default")
+
+# Trends route----------------------------------------------------------------------------------------
+@app.route("/trends")
+def trends():
+      #return index html from home route    
+      return render_template("inner-page_trends_template.html", name="default")
+      
+# Predict route ----------------------------------------------------------------------------------------
 @app.route('/predict', methods=['POST', 'GET'])
 def login():
 
@@ -206,12 +228,12 @@ def login():
                         # return error html if all features not scraped
                         return render_template('inner-page_prediction_error_template.html', error=error)
             else:
-                  
+                  error = "Invalid url"
                   # return error html if features is empty
-                  return render_template('inner-page_predict_template.html')
+                  return render_template('inner-page_prediction_error_template.html', error=error)
       except:
             
-            return render_template('inner-page_predict_template.html', error=error)
+            return render_template('inner-page_predict_template.html')
  
 
 if __name__ == "__main__":
