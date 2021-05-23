@@ -24,7 +24,7 @@ def melb_avg(type_lower):
         
 def distance_crime(suburb_lower): 
 
-      suburb_c_t = pd.read_csv("data/suburb_crime_dist.csv")                  
+      suburb_c_t = pd.read_csv("data/suburb_crime_distance_avincrease.csv")                  
       #loop through rows
       for index, row in suburb_c_t.iterrows():
             # find row that matches scrapes suburb    
@@ -32,5 +32,6 @@ def distance_crime(suburb_lower):
                   # store row values                              
                   distance = row["Distance"]                             
                   crime  = row["Crime"]
-      
+                  avg_increase = row["Average_increase"]
+
       return(distance, crime)

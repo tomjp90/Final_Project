@@ -64,10 +64,6 @@ def home():
 # predict route ----------------------------------------------------------------------------------------
 
 
-
-
-
-
 @app.route('/predict', methods=['POST', 'GET'])
 def login():
 
@@ -78,7 +74,6 @@ def login():
                   domain_listing = request.form['nm']
                   # run scraping function fro new domain listing url
                   features = scrape.scrape_house_listing(domain_listing)
-                  print(features)
 
                   # ------------------------------ PREDICTION ------------------------------------
                   # check whether any features returned are from VIC and include all values
@@ -87,11 +82,10 @@ def login():
                         # Check State only Victoria
                         if (features["state"] == 'VIC'):
                               # ---------------- PROPERTY TYPE CONVERTED -----------
-                              convert_type = features["ptype"][0]
-                              print(f"the converted type {convert_type}")
+                             
                               # catch all types for apartment/unit/new apartment/flat
                               # and convert to numerical value
-                              
+                              convert_type = features["ptype"][0]
                               # If House or Villa-------------------------------
                               if (convert_type == "H"):
                                     Type_h = 1
@@ -167,7 +161,7 @@ def login():
                                                       ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
                                     model = load("xgboost_best_model_2024.joblib")
                                     # run predict function from persist
-                                    predict = round(model.predict(X)[0])
+                                    predict = round(model.predict(X)[0]) 
                                     # format value predicted
                                     prediction_formated = f"{predict:,}"
                                     # append values to features
@@ -212,7 +206,7 @@ def login():
                                     # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
                                     X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                             ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
-                                    print("HELP")
+                                   
                                     # run predict function from persist
                                     predict = round(predict_value_NL(X)[0])
                                     print(X)
@@ -248,6 +242,8 @@ def login():
                                     features["future_predict_format"].append(prediction_formated3)  
                                     features["future_predict"].append(predict3) 
                                     #==========================================================================================
+
+                                    
                                     return render_template('inner-page_prediction_NL_template.html', features=features)
 
                         else:
@@ -260,10 +256,10 @@ def login():
             else:
                   
                   # return error html if features is empty
-                  return render_template('inner-page_predict_template.html', error=error)
+                  return render_template('inner-page_predict_template.html')
       except:
-            error = "Invalid URL!"
-            return render_template('inner-page_prediction_error_template.html', error=error)
+            
+            return render_template('inner-page_predict_template.html', error=error)
  
 
 if __name__ == "__main__":

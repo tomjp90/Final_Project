@@ -153,7 +153,7 @@
           <div class="footer-newsletter">
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-lg-3">
+                <div class="col-lg-5">
             
                         <canvas id="bar-chart" width="400" height="400"
                         style="display: block; height: 30px; width: 60px;"></canvas>                              
@@ -171,9 +171,9 @@
                                           datasets: [{
                                                 label: 'Predicted Future Price',
                                                 data: [startYear, secondYear, thirdYear, fourthYear],
-                                               
-                                          spanGaps: true,
-                                          backgroundColor: ['green','green','green','green'],
+                                                                                             
+                                                spanGaps: true,
+                                                backgroundColor: 'red'
                                     }]
                                     }
                                     // get chart canvas
@@ -183,6 +183,14 @@
                                                             type: 'line',
                                                             data: chartData,                                          
                                                             options: {
+                                                                        // plugins: {
+                                                                        //       title: {
+                                                                        //             font: 1000,
+                                                                        //             display: true,                                                                         
+                                                                        //             text: 'Predicted Future Price'
+                                                                        //       }
+                                                                        // },
+                                                                        responsive: true,
                                                                         scales:
                                                                         {
                                                                               yAxes:
@@ -194,14 +202,16 @@
                                                                                     }]
                                                                         },
                                                                         title: {
-                                                                              display: true,
-                                                                              text: 'Predicted Future Price'
+                                                                              
+                                                                              fontSize: 100,
+                                                                                    display: true,                                                                         
+                                                                                    text: 'Predicted Future Price'
+                                                                    
                                                                         }
                                                                   }
                                           });
 
                                     </script>
-
                   </div>
               </div>
             </div>
