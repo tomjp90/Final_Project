@@ -11,7 +11,7 @@ For this project, we have used Machine Learning to predict house prices in Melbo
 
 ## Heroku deployment
 
-The project has been deployed to Heroku and the visualisation is available at: [https://melbournepropertypredictor.herokuapp.com/]
+The project has been deployed to Heroku and the visualisation is available [here](https://melbournepropertypredictor.herokuapp.com/)
 
 ## Project Team 
 
