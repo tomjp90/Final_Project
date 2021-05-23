@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Predict Page</title>
+  <title>Trends Page</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -28,6 +28,10 @@
   <!-- Template Main CSS File -->
   <link href="../static/assets/css/style.css" rel="stylesheet">
 
+  <!-- D3 and plotly -->
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
   <!-- =======================================================
   * Template Name: Arsha - v4.2.0
   * Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
@@ -42,14 +46,13 @@
   <header id="header" class="fixed-top header-inner-pages">
     <div class="container d-flex align-items-center">
 
-      <h1 class="logo me-auto"><a href="#">PREDICT NOW</a></h1>
-
+      <h1 class="logo me-auto"><a href="inner-page_predict_template.html">PREDICT NOW</a></h1>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto " href="index_template.html">Home</a></li>
           <li><a class="nav-link scrollto" href="index_template.html#about">About</a></li>
-          <li><a class="nav-link scrollto" href="inner-page_trends_template.html">Market Trends</a></li>
+          <li><a class="nav-link scrollto" href="#">Market Trends</a></li>
           <li><a class="nav-link scrollto" href="inner-page_team_template.html">The Team</a></li>
           <li class="dropdown"><a href="#"><span>Data Sources</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -74,85 +77,50 @@
 
         <ol>
           <li><a href="index_template.html">Home</a></li>
-          <li>Predict Now</li>
+          <li>Market Trends</li>
         </ol>
       </div>
     </section><!-- End Breadcrumbs -->
 
-   
-    <section class="inner-page">
-      <div class="container">
-        <h5>
-          MELBOURNE PRICE PREDICTOR
-        </h5>
-      </div>
-    </section>
 
-    <section id="about" class="about">
+    <!-- Line Graph Section  -->
+    <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Predict now!</h2>
+          <h2>Melbourne House Price Trends</h2>
+          <p>Select a variable from the drop down to visualise the trend in house prices</p>
         </div>
 
+        <div class="row">
 
-        <div class="container">
-          <div class="row justify-content-center">
-            <div class="col-md-6">
-            <ul>
-              <li>Search for your Melbourne listing on <a href="https://www.domain.com.au/"target="_blank" class="btn-learn-more">Domain</a> </li>
-              <li>Copy the Domain URL and paste it in the search bar</li>
-              <li>Click "Predict"!</li>
-            </ul>
-              <!-- <div class="container-fluid centre"> -->
-    
-              </form>
-            </div>
-          </div>
-        </div>
+          <div class="col-lg-12">
 
+            <!-- <h1 id="heading"></h1> -->
+            <div id="lineplots"></div>
 
-
-        <div class="row content">
-          <div class="col-lg-6">
-            <div class="row justify-content-center">
-            <p>
-                  <p><a class="btn btn-primary btn-lg" href="/scrape" role="button"></a></p>
-      
-                  <form action = "http://localhost:5000/predict" method = "post">
-                    <p>Enter Domain Site:</p>
-                    <p><input type = "text" name = "nm" /></p>
-                    <p><input type = "submit" value = "Predict" /></p>
-                 </form> 
-            </p>
-          </div>
-<<<<<<< HEAD
-
+            <select id="selDataset">
+              <option value="dataset1">Bedrooms</option>
+              <option value="dataset2">Bathrooms</option>
+              <option value="dataset3">Distance to CBD</option>
+              <option value="dataset4">Land Size</option>
+            </select>
           
-          <!-- <div class="col-lg-6 pt-4 pt-lg-0">
-            <p>
-              This website includes the following:
-              </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> The Team</li>
-                  <li><i class="ri-check-double-line"></i> Data sources</li>
-                </ul>
-            <a href="inner-page_team_template.html" class="btn-learn-more">Learn about the team and their skills</a>
           </div>
-        </div> -->
-=======
->>>>>>> b76c8898f6e94934f5411fe16e4344cf5e8bca75
+
+        </div>
 
       </div>
     </section>
+    <!-- End Line Graph Section -->
 
+
+  
   </main><!-- End #main -->
-
-
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
-    
+
     <div class="container footer-bottom clearfix">
 
       <div class="container">
@@ -188,6 +156,10 @@
 
   <!-- Template Main JS File -->
   <script src="../static/assets/js/main.js"></script>
+
+  <!-- Plot file -->
+  <script src="../static/assets/js/plots.js"></script>
+
 
 </body>
 
