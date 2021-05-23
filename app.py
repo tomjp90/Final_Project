@@ -127,10 +127,11 @@ def login():
                               # read in csv file and find distance and crime based on suburb that is scraped                    
                                                 
                               suburb_lower = features["suburb"].lower()
-                              distance, crime = distance_crime(suburb_lower)
+                              distance, crime, avg_increase = distance_crime(suburb_lower)
                               
                               features["suburb_distance_crime"].append(round(distance,2))
-                              features["suburb_distance_crime"].append(round(crime,2)) 
+                              features["suburb_distance_crime"].append(round(crime,2))
+                              features["suburb_distance_crime"].append(round(avg_increase,2))  
 
                               # ------------------ PREDICTION VALUES SCALED BY MIN AND MAX VALUES --------------------------
                               # scale all values to predict
@@ -161,37 +162,64 @@ def login():
                                                       ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
                                     model = load("xgboost_best_model_2024.joblib")
                                     # run predict function from persist
-                                    predict = round(model.predict(X)[0]) 
+                                    # This value is predicted for Year 2018
+                                    predict = model.predict(X)[0]
                                     # format value predicted
                                     prediction_formated = f"{predict:,}"
-                                    # append values to features
-                                    features["prediction"].append(predict)
-                                    features["predict_format"].append(prediction_formated)
+
+                                    # Average % increase for the last 10 year ------------------------------------
+                                    inc_avg = 1 + (features["suburb_distance_crime"][2])/100
+                                    #---2019 ------- PREDICTED VALUE
+                                    pred_2019 = predict * inc_avg                                    
+                                    #---2020 
+                                    pred_2020 = pred_2019 * inc_avg                                                                       
+                                    #---2021 
+                                    pred_2021 = round(pred_2020 * inc_avg)                                   
+                                    pred_2021_f = f"{pred_2021:,}" 
+                                    features["prediction"].append(pred_2021)
+                                    features["predict_format"].append(pred_2021_f)                                   
+                                    #---2022 
+                                    pred_2022 = round(pred_2021 * inc_avg)                                                                      
+                                    pred_2022_f = f"{pred_2022 :,}"
+                                    features["future_predict"].append(pred_2022)
+                                    features["future_predict_format"].append(pred_2022_f)                                       
+                                    #---2023 
+                                    pred_2023 = round(pred_2022 * inc_avg)
+                                    pred_2023_f = f"{pred_2023:,}"  
+                                    features["future_predict"].append(pred_2023)
+                                    features["future_predict_format"].append(pred_2023_f)                                     
+                                    #---2024 
+                                    pred_2024 = round(pred_2023 * inc_avg)
+                                    pred_2024_f = f"{pred_2024:,}"
+                                    features["future_predict"].append(pred_2024)
+                                    features["future_predict_format"].append(pred_2024_f)   
+                                    
+
 
                                     #------------------------------------ FUTURE PREDICTION - NEXT 3 YEARS ------------------------------------------                      
-                                    predict_1 = ((float(features["year"]) + 1) - 2016)/(2024-2016)
-                                    X1 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, predict_1, Month, Crime, Type_h, Type_t, Type_u], 
-                                                      ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
-                                    predict1 = round(predict_value(X1)[0])
-                                    prediction_formated1 = f"{predict1:,}"  
-                                    features["future_predict_format"].append(prediction_formated1)
-                                    features["future_predict"].append(predict1) 
+                                    # predict_1 = ((float(features["year"]) + 1) - 2016)/(2024-2016)
+                                    # X1 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, predict_1, Month, Crime, Type_h, Type_t, Type_u], 
+                                    #                   ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
+                                    # predict1 = round(predict_value(X1)[0])
+                                    # prediction_formated1 = f"{predict1:,}"  
+                                    # features["future_predict_format"].append(prediction_formated1)
+                                    # features["future_predict"].append(predict1) 
 
-                                    predict_2 = ((float(features["year"]) + 2) - 2016)/(2024-2016)
-                                    X2 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, predict_2, Month, Crime, Type_h, Type_t, Type_u], 
-                                                      ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
-                                    predict2 = round(predict_value(X1)[0])
-                                    prediction_formated2 = f"{predict2:,}" 
-                                    features["future_predict_format"].append(prediction_formated2) 
-                                    features["future_predict"].append(predict2) 
+                                    # predict_2 = ((float(features["year"]) + 2) - 2016)/(2024-2016)
+                                    # X2 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, predict_2, Month, Crime, Type_h, Type_t, Type_u], 
+                                    #                   ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
+                                    # predict2 = round(predict_value(X1)[0])
+                                    # prediction_formated2 = f"{predict2:,}" 
+                                    # features["future_predict_format"].append(prediction_formated2) 
+                                    # features["future_predict"].append(predict2) 
 
-                                    predict_3 = ((float(features["year"]) + 3) - 2016)/(2024-2016)  
-                                    X3 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, predict_3, Month, Crime, Type_h, Type_t, Type_u], 
-                                                      ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
-                                    predict3 = round(predict_value(X1)[0])
-                                    prediction_formated3 = f"{predict3:,}"
-                                    features["future_predict_format"].append(prediction_formated3)  
-                                    features["future_predict"].append(predict3) 
+                                    # predict_3 = ((float(features["year"]) + 3) - 2016)/(2024-2016)  
+                                    # X3 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, predict_3, Month, Crime, Type_h, Type_t, Type_u], 
+                                    #                   ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
+                                    # predict3 = round(predict_value(X1)[0])
+                                    # prediction_formated3 = f"{predict3:,}"
+                                    # features["future_predict_format"].append(prediction_formated3)  
+                                    # features["future_predict"].append(predict3) 
                                     #==========================================================================================
 
                                     # return prediction if everything scraped and predicted correctly
@@ -243,7 +271,7 @@ def login():
                                     features["future_predict"].append(predict3) 
                                     #==========================================================================================
 
-                                    
+
                                     return render_template('inner-page_prediction_NL_template.html', features=features)
 
                         else:

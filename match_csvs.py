@@ -34,4 +34,4 @@ def distance_crime(suburb_lower):
                   crime  = row["Crime"]
                   avg_increase = row["Average_increase"]
 
-      return(distance, crime)
+      return(distance, crime, avg_increase)

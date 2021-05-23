@@ -83,7 +83,7 @@
 
     <!-- ======= Breadcrumbs ======= -->
     <section id="breadcrumbs" class="breadcrumbs">
-      <div class="container">
+      
 
         <ol>
           <li><a href="index.html">Home</a></li>
@@ -97,6 +97,12 @@
 
     <!----------------------------------------THIS IS THE CONTENT NEEDED ----------------------------------------->
     <section class="inner-page">
+      <div class="footer-newsletter">
+            <div class="container">
+              <div class="row justify-content-center">
+                <div class="col-lg-12">
+
+
       <div class="container">
         
         <form action = "/predict" method = "post">
@@ -141,7 +147,12 @@
           <br>
           <br>
 
-          {{features}}
+                  </div>
+            </div>
+      </div>
+</div>
+
+         
           
 
     
@@ -155,7 +166,7 @@
               <div class="row justify-content-center">
                 <div class="col-lg-5">
             
-                        <canvas id="bar-chart" width="400" height="400"
+                        <canvas id="bar-chart" width="600" height="400"
                         style="display: block; height: 30px; width: 60px;"></canvas>                              
                   
                         <script> 
@@ -173,7 +184,7 @@
                                                 data: [startYear, secondYear, thirdYear, fourthYear],
                                                                                              
                                                 spanGaps: true,
-                                                backgroundColor: 'red'
+                                                backgroundColor: 'rgb(255,0,0,0.4)'
                                     }]
                                     }
                                     // get chart canvas
@@ -197,13 +208,13 @@
                                                                                     [{
                                                                                           ticks:
                                                                                           {
-                                                                                                beginAtZero: true
+                                                                                                beginAtZero: false
                                                                                           }
                                                                                     }]
                                                                         },
                                                                         title: {
                                                                               
-                                                                              fontSize: 100,
+                                                                              fontSize: 20,
                                                                                     display: true,                                                                         
                                                                                     text: 'Predicted Future Price'
                                                                     
