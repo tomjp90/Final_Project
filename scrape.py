@@ -36,14 +36,14 @@ def scrape_house_listing(url):
                   'User-Agent': 'Chrome/5.0 (Macintosh; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'}
             html_content = requests.get(url, headers=headers)
             html = html_content.text
-            # print(html)
-            # print("HTML WITH REQUESTS LIBRARY")
+            print(html)
+            print("HTML WITH REQUESTS LIBRARY")
             # find and store relevant html
             soup = bs(html, 'html.parser')
-
+            print(soup)
             summary = soup.find("div", class_="css-fpm9y")
             property_features = summary.find_all('span', class_='css-1rzse3v')
-            
+            print(summary)
             # extract property features
             bedrooms = property_features[0].text.split(' ')[0]
             bathrooms = property_features[1].text.split(' ')[0]  
