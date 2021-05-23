@@ -17,7 +17,6 @@ app = Flask(__name__)
 
 
 
-
 # Home route ----------------------------------------------------------------------------------------
 @app.route("/")
 def home():
@@ -122,13 +121,63 @@ def login():
                                     # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
                                     X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                       ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
-                                    model = load("xgboost_best_model_2024.joblib")
-                                    # run predict function from persist
-                                    # This value is predicted for Year 2018
+                                    model = load("model/xgboost_best_model_2024.joblib")
+                                    # run predict function from persist                                      
                                     predict = model.predict(X)[0]
                                     # format value predicted
                                     prediction_formated = f"{predict:,}"
 
+                                    # Average % increase for the last 10 year ------------------------------------
+                                    inc_avg = 1 + (features["suburb_distance_crime"][2])/100
+                                    #------- PREDICTED VALUE                                                                     
+                                    #---2021 
+                                    pred_2021 = round(predict)                                   
+                                    pred_2021_f = f"{pred_2021:,}" 
+                                    features["prediction"].append(pred_2021)
+                                    features["predict_format"].append(pred_2021_f)                                   
+                                    #---2022 
+                                    pred_2022 = round(pred_2021 * inc_avg)                                                                      
+                                    pred_2022_f = f"{pred_2022 :,}"
+                                    features["future_predict"].append(pred_2022)
+                                    features["future_predict_format"].append(pred_2022_f)                                       
+                                    #---2023 
+                                    pred_2023 = round(pred_2022 * inc_avg)
+                                    pred_2023_f = f"{pred_2023:,}"  
+                                    features["future_predict"].append(pred_2023)
+                                    features["future_predict_format"].append(pred_2023_f)                                     
+                                    #---2024 
+                                    pred_2024 = round(pred_2023 * inc_avg)
+                                    pred_2024_f = f"{pred_2024:,}"
+                                    features["future_predict"].append(pred_2024)
+                                    features["future_predict_format"].append(pred_2024_f)   
+                                    
+
+
+
+                                    # return prediction if everything scraped and predicted correctly
+                                    return render_template('inner-page_prediction_template.html', features=features)                
+
+                              #IF NO LANDSIZE FOUND
+                              elif (features["landsize"] == 'Unknown'):
+
+                                    #================================ PREDICTION ==============================================
+                                    #==========================================================================================
+                                    #create pandas df to predict value with all features scaled
+                                    # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
+                                    X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Year, Month, Crime, Type_h, Type_t, Type_u], 
+                                                            ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
+                                   
+                                    # run predict function from persist
+                                    predict = round(predict_value_NL(X)[0])
+                                    print(X)
+                                    # format value predicted
+                                    prediction_formated = f"{predict:,}"
+                                    # append values to features
+                                    features["prediction"].append(predict)
+                                    features["predict_format"].append(prediction_formated)
+                                    
+
+                                    #------------------------------------ FUTURE PREDICTION - NEXT 3 YEARS ------------------------------------------                      
                                     # Average % increase for the last 10 year ------------------------------------
                                     inc_avg = 1 + (features["suburb_distance_crime"][2])/100
                                     #---2019 ------- PREDICTED VALUE
@@ -156,81 +205,6 @@ def login():
                                     features["future_predict"].append(pred_2024)
                                     features["future_predict_format"].append(pred_2024_f)   
                                     
-
-
-                                    #------------------------------------ FUTURE PREDICTION - NEXT 3 YEARS ------------------------------------------                      
-                                    # predict_1 = ((float(features["year"]) + 1) - 2016)/(2024-2016)
-                                    # X1 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, predict_1, Month, Crime, Type_h, Type_t, Type_u], 
-                                    #                   ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
-                                    # predict1 = round(predict_value(X1)[0])
-                                    # prediction_formated1 = f"{predict1:,}"  
-                                    # features["future_predict_format"].append(prediction_formated1)
-                                    # features["future_predict"].append(predict1) 
-
-                                    # predict_2 = ((float(features["year"]) + 2) - 2016)/(2024-2016)
-                                    # X2 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, predict_2, Month, Crime, Type_h, Type_t, Type_u], 
-                                    #                   ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
-                                    # predict2 = round(predict_value(X1)[0])
-                                    # prediction_formated2 = f"{predict2:,}" 
-                                    # features["future_predict_format"].append(prediction_formated2) 
-                                    # features["future_predict"].append(predict2) 
-
-                                    # predict_3 = ((float(features["year"]) + 3) - 2016)/(2024-2016)  
-                                    # X3 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, predict_3, Month, Crime, Type_h, Type_t, Type_u], 
-                                    #                   ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
-                                    # predict3 = round(predict_value(X1)[0])
-                                    # prediction_formated3 = f"{predict3:,}"
-                                    # features["future_predict_format"].append(prediction_formated3)  
-                                    # features["future_predict"].append(predict3) 
-                                    #==========================================================================================
-
-                                    # return prediction if everything scraped and predicted correctly
-                                    return render_template('inner-page_prediction_template.html', features=features)                
-
-                              #IF NO LANDSIZE FOUND
-                              elif (features["landsize"] == 'Unknown'):
-
-                                    #================================ PREDICTION ==============================================
-                                    #==========================================================================================
-                                    #create pandas df to predict value with all features scaled
-                                    # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
-                                    X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Year, Month, Crime, Type_h, Type_t, Type_u], 
-                                                            ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
-                                   
-                                    # run predict function from persist
-                                    predict = round(predict_value_NL(X)[0])
-                                    print(X)
-                                    # format value predicted
-                                    prediction_formated = f"{predict:,}"
-                                    # append values to features
-                                    features["prediction"].append(predict)
-                                    features["predict_format"].append(prediction_formated)
-                                    
-
-                                    #------------------------------------ FUTURE PREDICTION - NEXT 3 YEARS ------------------------------------------                      
-                                    predict_1 = ((float(features["year"]) + 1) - 2016)/(2024-2016)
-                                    X1 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, predict_1, Month, Crime, Type_h, Type_t, Type_u], 
-                                                      ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
-                                    predict1 = round(predict_value_NL(X1)[0])
-                                    prediction_formated1 = f"{predict1:,}"  
-                                    features["future_predict_format"].append(prediction_formated1)
-                                    features["future_predict"].append(predict1)                                     
-
-                                    predict_2 = ((float(features["year"]) + 2) - 2016)/(2024-2016)
-                                    X2 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, predict_2, Month, Crime, Type_h, Type_t, Type_u], 
-                                                      ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
-                                    predict2 = round(predict_value_NL(X1)[0])
-                                    prediction_formated2 = f"{predict2:,}" 
-                                    features["future_predict_format"].append(prediction_formated2) 
-                                    features["future_predict"].append(predict2) 
-
-                                    predict_3 = ((float(features["year"]) + 3) - 2016)/(2024-2016)  
-                                    X3 = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, predict_3, Month, Crime, Type_h, Type_t, Type_u], 
-                                                      ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T 
-                                    predict3 = round(predict_value_NL(X1)[0])
-                                    prediction_formated3 = f"{predict3:,}"
-                                    features["future_predict_format"].append(prediction_formated3)  
-                                    features["future_predict"].append(predict3) 
                                     #==========================================================================================
 
 
