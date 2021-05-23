@@ -9,6 +9,12 @@ For this project, we have used Machine Learning to predict house prices in Melbo
 - Caveats
 - Potential improvements
 
+## Heroku deployment
+
+The project has been deployed to Heroku and the visualisation is available at: [https://melbournepropertypredictor.herokuapp.com/]
+
+## Project Team 
+
 The project team consists of:
 Catherine Sloan
 Danielle Cahill
@@ -30,7 +36,6 @@ We have supplemented the house price data with the Victorian crime rates, which 
 ## Libraries and technologies used
 
 - Machine Learning
-	- Sci kit learn
 	- XGBoost
 	- Joblib
 
@@ -87,10 +92,21 @@ We have supplemented the house price data with the Victorian crime rates, which 
 
 6. Heroku deployment
 
-Caveats
+## Caveats
 -	Dropped columns that had nulls/NAs. 
 -	Bedrooms 2 came from other source to ignored and used number of rooms instead
 -	What date to scrape and pass in to the model for the prediction. Not all listings are auctions so we don’t know the date that they will sell. Using the date the prediction is made instead. 
 
 
-## Potential improvements
+## Challenges and potential improvements
+
+Challenges encountered:
+- 	Data availability (limited to Melbourne and 2016-2018 only)
+- 	Linear regression wasn't a suitable approach for ML (negative R2 values) so other options had to be 
+-	Domain.com.au blocks web scraping through BeautifulSoup
+
+Potential improvements:
+- 	More recent data to make a more accurate model
+- 	Extending the app to predict from other resources such as realestate.com
+- 	The opportunity to compare multiple houses on the website
+
