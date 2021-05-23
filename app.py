@@ -13,15 +13,42 @@ import xgboost
 app = Flask(__name__)
 
 
-
 # Home route ----------------------------------------------------------------------------------------
 @app.route("/")
 def home():
       #return index html from home route    
+<<<<<<< HEAD
       return render_template("index_template.html")
 # predict route ----------------------------------------------------------------------------------------
+=======
+      return render_template("index_template.html", name="default")
+>>>>>>> 44500680bac5e005ca1333fc2b0dc03b27cad7f2
 
+# Crime source route----------------------------------------------------------------------------------------
+@app.route("/source_crime")
+def source_crime():
+      #return index html from home route    
+      return render_template("inner-page_source_crime_template.html", name="default")
 
+# Kaggle source route----------------------------------------------------------------------------------------
+@app.route("/source_kaggle")
+def source_kaggle():
+      #return index html from home route    
+      return render_template("inner-page_source_kaggle_template.html", name="default")
+
+# Team route----------------------------------------------------------------------------------------
+@app.route("/team")
+def team():
+      #return index html from home route    
+      return render_template("inner-page_team_template.html", name="default")
+
+# Trends route----------------------------------------------------------------------------------------
+@app.route("/trends")
+def trends():
+      #return index html from home route    
+      return render_template("inner-page_trends_template.html", name="default")
+      
+# Predict route ----------------------------------------------------------------------------------------
 @app.route('/predict', methods=['POST', 'GET'])
 def login():
 
@@ -40,7 +67,7 @@ def login():
                         # Check State only Victoria
                         if (features["state"] == 'VIC'):
                               # ---------------- PROPERTY TYPE CONVERTED -----------
-                             
+                              
                               # catch all types for apartment/unit/new apartment/flat
                               # and convert to numerical value
                               convert_type = features["ptype"][0]
@@ -163,7 +190,7 @@ def login():
                                     # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
                                     X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                             ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
-                                   
+                                    
                                     model = load("model/final_model_no_landsize.joblib")
                                     # run predict function from persist                                      
                                     predict = model.predict(X)[0]
@@ -206,12 +233,11 @@ def login():
                         # return error html if all features not scraped
                         return render_template('inner-page_prediction_error_template.html', error=error)
             else:
-                  
                   # return error html if features is empty
                   return render_template('inner-page_predict_template.html')
       except:
             
-            return render_template('inner-page_predict_template.html', error=error)
+            return render_template('inner-page_predict_template.html')
  
 
 if __name__ == "__main__":
