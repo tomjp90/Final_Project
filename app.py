@@ -2,13 +2,10 @@ from flask import Flask, render_template, redirect, jsonify, request
 import scrape
 from match_csvs import melb_avg, distance_crime
 from model.persist import load_model, load_model_NL, predict_value, predict_value_NL
-
 import requests
 from flask import Flask, redirect, url_for, request
 import numpy as np
 import pandas as pd
-
-
 from joblib import dump, load
 import xgboost
 
@@ -167,25 +164,17 @@ def login():
                                     X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                             ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
                                    
-                                    # run predict function from persist
-                                    predict = round(predict_value_NL(X)[0])
-                                    print(X)
+                                    model = load("model/final_model_no_landsize.joblib")
+                                    # run predict function from persist                                      
+                                    predict = model.predict(X)[0]
                                     # format value predicted
                                     prediction_formated = f"{predict:,}"
-                                    # append values to features
-                                    features["prediction"].append(predict)
-                                    features["predict_format"].append(prediction_formated)
-                                    
 
-                                    #------------------------------------ FUTURE PREDICTION - NEXT 3 YEARS ------------------------------------------                      
                                     # Average % increase for the last 10 year ------------------------------------
                                     inc_avg = 1 + (features["suburb_distance_crime"][2])/100
-                                    #---2019 ------- PREDICTED VALUE
-                                    pred_2019 = predict * inc_avg                                    
-                                    #---2020 
-                                    pred_2020 = pred_2019 * inc_avg                                                                       
+                                    #------- PREDICTED VALUE                                                                     
                                     #---2021 
-                                    pred_2021 = round(pred_2020 * inc_avg)                                   
+                                    pred_2021 = round(predict)                                   
                                     pred_2021_f = f"{pred_2021:,}" 
                                     features["prediction"].append(pred_2021)
                                     features["predict_format"].append(pred_2021_f)                                   
@@ -205,7 +194,6 @@ def login():
                                     features["future_predict"].append(pred_2024)
                                     features["future_predict_format"].append(pred_2024_f)   
                                     
-                                    #==========================================================================================
 
 
                                     return render_template('inner-page_prediction_NL_template.html', features=features)
