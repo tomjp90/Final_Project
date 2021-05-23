@@ -18,7 +18,7 @@ app = Flask(__name__)
 @app.route("/")
 def home():
       #return index html from home route    
-      return render_template("index_template.html", name="default")
+      return render_template("index_template.html")
 # predict route ----------------------------------------------------------------------------------------
 
 
@@ -106,7 +106,7 @@ def login():
                               Type_t = float(Type_t)                     
                               Type_u = float(Type_u)  
 
-
+                              print(features)
                               # IF LAND SIZE FOUND
                               if (features["landsize"] != "Unknown"): 
                         
