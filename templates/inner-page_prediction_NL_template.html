@@ -110,19 +110,6 @@
       </h4>
           <br>
           <br>
-          <!-- {{features}}
-
-
-
-          <br>
-          <br>
-          
-          Melbourne Averages: {{features.melbourne_avg}}<br>
-          Suburb Distance and Crime: {{features.suburb_distance_crime}} -->
-        
-    
-          <br>
-            {{features}}
           
           <h1> At a glance</h1>
           <h4> Comparison of listing to average {{ features.type }} for Melbourne </h4>
@@ -140,66 +127,69 @@
           <div class="footer-newsletter">
             <div class="container">
               <div class="row justify-content-center">
-                <div class="col-lg-3">
+                <div class="col-lg-5">
             
-                        <canvas id="bar-chart" width="400" height="400"
-                        style="display: block; height: 30px; width: 60px;"></canvas>
-                              
+                        <canvas id="bar-chart" width="600" height="400"
+                        style="display: block; height: 30px; width: 60px;"></canvas>                              
                   
-                        <script>                  
-                              var listing_bedrooms = parseInt( {{ features.bedrooms }} )
-                                    var avg_bed = parseInt( {{ features.melbourne_avg[0] }} )
+                        <script> 
+                        console.log(parseInt( {{ features.future_predict[0] }} ))      
+                              var startYear = parseInt( {{ features.prediction[0] }} )
+                              var secondYear = parseInt( {{ features.future_predict[0] }} )
+                              var thirdYear = parseInt( {{ features.future_predict[1] }} )
+                              var fourthYear = parseInt( {{ features.future_predict[2] }} )
+                                    
                                     var chartData = {
-                                          labels: ['Melbourne Average', 'Listing Bedrooms'],
+                                          labels: ['Today', '2022', '2023', '2024'],
+                                          // 
                                           datasets: [{
-                                                label: 'Bredrooms',
-                                                data: [avg_bed, listing_bedrooms],
-                                          spanGaps: true,
-                                          backgroundColor: ['green', 'green'],
+                                                label: 'Predicted Future Price',
+                                                data: [startYear, secondYear, thirdYear, fourthYear],
+                                                                                             
+                                                spanGaps: true,
+                                                backgroundColor: 'rgb(255,0,0,0.4)'
                                     }]
                                     }
                                     // get chart canvas
-                              var ctx = document.getElementById("bar-chart").getContext("2d");
-                              // create the chart using the chart canvas
-                              var myChart = new Chart(ctx, {
-                                                            type: 'bar',
+                                    var ctx = document.getElementById("bar-chart").getContext("2d");
+                                    // create the chart using the chart canvas
+                                    var myChart = new Chart(ctx, {
+                                                            type: 'line',
                                                             data: chartData,                                          
                                                             options: {
+                                                                        // plugins: {
+                                                                        //       title: {
+                                                                        //             font: 1000,
+                                                                        //             display: true,                                                                         
+                                                                        //             text: 'Predicted Future Price'
+                                                                        //       }
+                                                                        // },
+                                                                        responsive: true,
                                                                         scales:
                                                                         {
                                                                               yAxes:
                                                                                     [{
                                                                                           ticks:
                                                                                           {
-                                                                                                beginAtZero: true
+                                                                                                beginAtZero: false
                                                                                           }
                                                                                     }]
                                                                         },
                                                                         title: {
-                                                                              display: true,
-                                                                              text: 'Bredrooms'
+                                                                              
+                                                                              fontSize: 20,
+                                                                                    display: true,                                                                         
+                                                                                    text: 'Predicted Future Price'
+                                                                    
                                                                         }
                                                                   }
                                           });
 
                                     </script>
-
                   </div>
               </div>
             </div>
           </div>
-
- 
-          
-
-
-
-
-
-
-
-
-
 
     </section>
 
