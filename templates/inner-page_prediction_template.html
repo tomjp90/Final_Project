@@ -72,74 +72,88 @@
       </div>
     </section><!-- End Breadcrumbs -->
 
-   
-    <!----------------------------------------THIS IS THE CONTENT NEEDED ----------------------------------------->
-    <section class="inner-page">
-      <div class="container">
-        <div class="col-lg-4 justify-content-center text-center">
 
-          <form action = "/predict" method = "post">
-            <h4><b>Enter Another Domain Listing Here:</b></h4>
-            <p><input type = "text" name = "nm" /></p>
-            <p><input type = "submit" value = "PREDICT NOW" /></p>
-         </form> 
-         </div>
+    <!-- ======= Results bar ======= -->
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Prediction Results</h2>
         </div>
+        
+        </div>
+      </section>     <!-- ======= End of results bar ======= -->
 
-         <section class="inner-page">
-          <div class="container">
-            <div class="col-lg-6">
-
-
-         <h1>
+ <!----------------------------------------THIS IS THE CONTENT NEEDED ----------------------------------------->
+ 
+  <section class="inner-page">
+    <div class="container">
+      <div class="row content">
+        <div class="col-lg-6">
+        
+        <!-- Result address -->
+        <h1 class="text-center">
          {{features.address}}
          </h1>
+         <!-- Result image -->
          <br>    
-    
-      <img  src="{{features.image_url}}"  class="img-responsive"  alt="Responsive image"/>
-      <br>
-      <br>
-      <h1><b>${{ features.predict_format[0] }}</b></h1>
-      <h2> The predicted value for this <a href={{ features.listing_url }}>property</a> is made on {{features.day}}/{{features.month}}/{{features.year}}      </h2>
-      <br>
-         <h5>
-          <b>Bedrooms:</b> {{features.bedrooms}} <br>
-          <b>athrooms:</b> {{features.bathrooms}} <br>
-          <b>Cars:</b> {{features.cars}} <br>
-          <b>Landsize:</b> {{features.landsize}}m² <br>
-          <b>Property Type:</b> {{features.ptype}} <br>
-          <b>Suburb:</b> {{features.suburb}} <br>
-          <b>Suburb Distance to CBD:</b> {{ features.suburb_distance_crime[0] }}km
-      </h5>
+         <img  src="{{features.image_url}}"  class="img-responsive"  alt="Responsive image"/>
+         <br>
+         <br>
+
+         <!-- Date Details -->
+         <h3 class="text-center"> The predicted value for this <a href={{ features.listing_url }} target="_blank">property</a> was made on {{features.day}}/{{features.month}}/{{features.year}}      
+         </h3>
+
+         </div>
+
+         <div class="col-lg-6">     
+         <!-- Result details -->
+           <br>
+           <br>
+           <br>
+           <br>
+           <br>
+           <!-- Price details -->
+           <br>
+           <br>
+          <h1 class="text-center"><b>${{ features.predict_format[0] }}</b></h1>
           <br>
-          <br>
-        
-    
-          <br>
-           
+          <!-- House details --> 
+          <h4 class="text-center">
+            <b>Bedrooms:</b> {{features.bedrooms}} <br>
+            <b>Bathrooms:</b> {{features.bathrooms}} <br>
+            <b>Cars:</b> {{features.cars}} <br>
+            <b>Landsize:</b> {{features.landsize}}m² <br>
+            <b>Property Type:</b> {{features.ptype}} <br>
+            <b>Suburb:</b> {{features.suburb}} <br>
+            <b>Suburb Distance to CBD:</b> {{ features.suburb_distance_crime[0] }}km
+          </h4>
+        </div>
+        </div>
+        </div>
+  </section>
+  
+
+<!-- at a glance -->
+  <section class="inner-page">
+    <div class="container">
+      <div class="container row justify-content-center">
+        <div class="col-lg-8 justify-content-center text-center">
           
-          <h1> At a glance</h1>
-          <h4> Comparison of listing to average {{ features.type }} for Melbourne </h4>
+          <h1> AT A GLANCE...</h1>
+          <!-- <h4> Comparison of listing to average {{ features.type }} for Melbourne </h4> -->
+          <h4>Predicted future prices for this listing, based off the suburbs average growth</h4>
           <br>
           <br>
-          <br>
-
-                  </div>
-            </div>
-      </div>
-</div>
-
-
-
+  
+  
 <!---==================================== PLOTS =======================================================-->
           <!-- Chart.js FILE -->
           <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
 
           <!------------------------- Average Bedroom ---------------------------------------->
-          <div class="footer-newsletter">
-            <div class="container">
-              <div class="row justify-content-center">
-                <div class="col-lg-5">
             
                         <canvas id="bar-chart" width="600" height="400"
                         style="display: block; height: 30px; width: 60px;"></canvas>                              
@@ -155,7 +169,7 @@
                                           labels: ['Today', '2022', '2023', '2024'],
                                           // 
                                           datasets: [{
-                                                label: 'Predicted Future Price',
+                                                label: 'Predicted Price for Years 2022 - 2024',
                                                 data: [startYear, secondYear, thirdYear, fourthYear],
                                                                                              
                                                 spanGaps: true,
@@ -169,13 +183,6 @@
                                                             type: 'line',
                                                             data: chartData,                                          
                                                             options: {
-                                                                        // plugins: {
-                                                                        //       title: {
-                                                                        //             font: 1000,
-                                                                        //             display: true,                                                                         
-                                                                        //             text: 'Predicted Future Price'
-                                                                        //       }
-                                                                        // },
                                                                         responsive: true,
                                                                         scales:
                                                                         {
@@ -191,25 +198,41 @@
                                                                               
                                                                               fontSize: 20,
                                                                                     display: true,                                                                         
-                                                                                    text: 'Predicted Future Price'
+                                                                                    text: 'Predicted Future Price for Listing'
                                                                     
                                                                         }
                                                                   }
                                           });
 
                                     </script>
-                  </div>
-              </div>
-            </div>
+                                    </div>
+                                    </div>
+                                    </div>
+                                    </section>
+
+
+
+
+    <section id="about" class="about">
+      <div class="container">
+        
+        <div class="container row justify-content-center">
+          <div class="col-lg-6 justify-content-center text-center">
+            <form action = "/predict" method = "post">
+              <h4><b>Enter Another Domain Listing Here:</b></h4>
+              <p><input type = "text" name = "nm" /></p>
+              <p><input type = "submit" value = "PREDICT NOW" /></p>
+            </form> 
           </div>
-  
-
-    </section>
-
-  </main><!-- End #main -->
+        
+        </div>
+      </section>
 
 
-  <!-- ======= Footer ======= -->
+  </main> 
+
+
+  // <!-- ======= Footer ======= -->
   <footer id="footer">
 
     <div class="container footer-bottom clearfix">
@@ -224,19 +247,15 @@
         &copy; Copyright <strong><span>Arsha</span></strong>. All Rights Reserved
       </div>
       <div class="credits">
-        <!-- All the links in the footer should remain intact. -->
-        <!-- You can delete the links only if you purchased the pro version. -->
-        <!-- Licensing information: https://bootstrapmade.com/license/ -->
-        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/ -->
         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
       </div>
     </div>
-  </footer><!-- End Footer -->
+  </footer>
 
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 
-  <!-- Vendor JS Files -->
+  // <!-- Vendor JS Files -->
   <script src="../static/assets/vendor/aos/aos.js"></script>
   <script src="../static/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="../static/assets/vendor/glightbox/js/glightbox.min.js"></script>
@@ -245,7 +264,7 @@
   <script src="../static/assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="../static/assets/vendor/waypoints/noframework.waypoints.js"></script>
 
-  <!-- Template Main JS File -->
+  // <!-- Template Main JS File -->
   <script src="../static/assets/js/main.js"></script>
 
 </body>
