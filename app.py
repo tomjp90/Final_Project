@@ -231,7 +231,7 @@ def login():
                   # return error html if features is empty
                   return render_template('inner-page_predict_template.html')
       except:
-            error = "Invalid Property Features"
+            error = "Invalid URL"
                   # return error html if all features not scraped
             return render_template('inner-page_prediction_error_template.html', error=error)
 
