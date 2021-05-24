@@ -30,7 +30,7 @@ We have used the following datasources:
 - Testing data: 
 [Domain](https://www.domain.com.au/)
 
-We have supplemented the house price data with the Victorian crime rates, which can be found [here](https://discover.data.vic.gov.au/dataset/crime-by-location-data-table) .
+We have supplemented the house price data with the Victorian crime rates, which can be found [here](https://discover.data.vic.gov.au/dataset/crime-by-location-data-table)
 
 
 ## Libraries and technologies used
