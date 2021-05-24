@@ -16,10 +16,10 @@ The project has been deployed to Heroku and is available [here](https://melbourn
 ## Project Team 
 
 The project team consists of:
-Catherine Sloan
-Danielle Cahill
-Anne Wieggers
-Tom Peddlesden
+Catherine Sloan,
+Danielle Cahill,
+Anne Wieggers,
+Tom Peddlesden &
 Joe Quinn
 
 ## Data sources 
