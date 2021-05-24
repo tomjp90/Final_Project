@@ -141,7 +141,7 @@ def login():
                                     # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
                                     X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                       ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
-                                    model = load("model/xgboost_best_model_2024.joblib")
+                                    model = load("model/models/model.joblib")
                                     # run predict function from persist                                      
                                     predict = model.predict(X)[0]
                                     # format value predicted
@@ -187,7 +187,7 @@ def login():
                                     X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                             ['Rooms', 'Distance', 'Bathroom', 'Car', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
                                     
-                                    model = load("model/final_model_no_landsize.joblib")
+                                    model = load("model/models/model_without_landsize.joblib")
                                     # run predict function from persist                                      
                                     predict = model.predict(X)[0]
                                     # format value predicted

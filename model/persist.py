@@ -3,14 +3,14 @@ import xgboost
 
 
 #---------------------- LOAD MODELS   -----------------------------------
-MODEL_PATH = "xgboost_best_model_2024.joblib"
+MODEL_PATH = "model/models/model.joblib"
 
 def load_model():
 
       return load(MODEL_PATH)
 
 
-MODEL_PATH_NL = "final_model_no_landsize.joblib"
+MODEL_PATH_NL = "model/models/model_without_landsize.joblib"
 
 def load_model_NL():
       
