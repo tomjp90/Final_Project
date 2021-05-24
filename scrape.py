@@ -113,7 +113,7 @@ def scrape_house_listing(url):
       
       except Exception as e:
             driver.quit()
-            house_features = e
+            house_features = ""
 
       # return dictionary of features
       return house_features
