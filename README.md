@@ -2,30 +2,6 @@
 
 This project utilises Machine Learning to predict Melbourne property prices. It provides a simple resource for prospective property buyers to value listings they have found on Domain.com.au.  The web app scrapes property information from a provided Domain URL, appending crime and location information to the scraped data. The model then predicts a value for the property based on the listing information it receives.
 
-The XGBRegressor model from the XGBoost library was utilised for this project. Two versions of the model were created to accomodate the variation in property information included on Domain.
-
-Model 1 was trained on the following features:
-1. Number of Bedrooms
-2. Number of Bathrooms
-3. Number of Car Spaces
-4. Property Type (Unit, Townhouse, House)
-5. Year of sale
-6. Month of sale
-7. Suburb Crime Rate
-8. Distance from CBD
-9. Land Size
-
-Model 2 was trained on the following features:
-1. Number of Bedrooms
-2. Number of Bathrooms
-3. Number of Car Spaces
-4. Property Type (Unit, Townhouse, House)
-5. Year of sale
-6. Month of sale
-7. Suburb Crime Rate
-8. Distance from CBD
-
-
 ## Heroku deployment
 
 The project has been deployed to Heroku and is available [here](https://melbpricepredictor.herokuapp.com/)
@@ -73,6 +49,31 @@ Front end
 - Javascript
 - Bootstrap
 
+
+## The Model
+
+The XGBRegressor model from the XGBoost library was utilised for this project. Two versions of the model were created to accomodate the variation in property information included on Domain.
+
+Model 1 was trained on the following features:
+1. Number of Bedrooms
+2. Number of Bathrooms
+3. Number of Car Spaces
+4. Property Type (Unit, Townhouse, House)
+5. Year of sale
+6. Month of sale
+7. Suburb Crime Rate
+8. Distance from CBD
+9. Land Size
+
+Model 2 was trained on the following features:
+1. Number of Bedrooms
+2. Number of Bathrooms
+3. Number of Car Spaces
+4. Property Type (Unit, Townhouse, House)
+5. Year of sale
+6. Month of sale
+7. Suburb Crime Rate
+8. Distance from CBD
 
 ## Overview repository
 
