@@ -1,6 +1,29 @@
-# Melbourne Price Predictor - Final Project
+# Melbourne Price Predictor 
 
-For this project, we have used Machine Learning to predict house prices in Melbourne and in order to assess whether or not current house listings are over or undervalued. We have combined this with the Victorian crime rates as this would provide further insight in whether crime rates affect house prices. This will help a potential house buyer whether or not to bid on a property. 
+This project utilises Machine Learning to predict Melbourne property prices. It provides a simple resource for prospective property buyers to value listings they have found on Domain.com.au.  The web app scrapes property information from a provided Domain URL, appending crime and location information to the scraped data. The model then predicts a value for the property based on the listing information it receives.
+
+The XGBRegressor model from the XGBoost library was utilised for this project. Two versions of the model were created to accomodate the variation in property information included on Domain.
+
+Model 1 was trained on the following features:
+1. Number of Bedrooms
+2. Number of Bathrooms
+3. Number of Car Spaces
+4. Property Type (Unit, Townhouse, House)
+5. Year of sale
+6. Month of sale
+7. Suburb Crime Rate
+8. Distance from CBD
+9. Land Size
+
+Model 2 was trained on the following features:
+1. Number of Bedrooms
+2. Number of Bathrooms
+3. Number of Car Spaces
+4. Property Type (Unit, Townhouse, House)
+5. Year of sale
+6. Month of sale
+7. Suburb Crime Rate
+8. Distance from CBD
 
 
 ## Heroku deployment
@@ -16,42 +39,39 @@ The project has been deployed to Heroku and is available [here](https://melbpric
 - Joe Quinn: https://github.com/joeq94
 
 ## Data sources 
-We have used the following datasources:
-- Training data:
-[Melbourne house prices](https://www.kaggle.com/anthonypino/melbourne-housing-market?select=Melbourne_housing_FULL.csv)
 
-- Testing data: 
-[Domain](https://www.domain.com.au/)
+- [Melbourne Housing Data](https://www.kaggle.com/anthonypino/melbourne-housing-market?select=Melbourne_housing_FULL.csv)
 
-We have supplemented the house price data with the Victorian crime rates, which can be found [here](https://discover.data.vic.gov.au/dataset/crime-by-location-data-table)
+- [Victorian Crime Data](https://discover.data.vic.gov.au/dataset/crime-by-location-data-table)
 
 
 ## Libraries and Technologies 
 
 Machine Learning
-    -  XGBoost
-    - Scikit-learn
-    - Pandas
-    - Joblib
+-  XGBoost
+- Scikit-learn
+- Pandas
+- Joblib
 
 Back End
 - Flask
 - Flask PyMongo
-	- Numpy	
-	- scrape_mars
-	- requests
-	- BeautifulSoup 
-        - Selenium
-	- OS
-	- Splinter
-	- ChromeDriverManager
-	- Time
-	- Sys
+- Numpy	
+- scrape_mars
+- requests
+- BeautifulSoup 
+- Selenium
+- OS
+- Splinter
+- ChromeDriverManager
+- Time
+- Sys
 
-- Front end
-	- HTML
-	- CSS
-	- Javascript
+Front end
+- HTML
+- CSS
+- Javascript
+- Bootstrap
 
 
 ## Overview repository
