@@ -54,7 +54,7 @@ Front end
 
 The XGBRegressor model from the XGBoost library was utilised for this project. Two versions of the model were created to accomodate the variation in property information included on Domain.
 
-Model 1 was trained on the following features:
+**Model 1** was trained on the following features:
 1. Number of Bedrooms
 2. Number of Bathrooms
 3. Number of Car Spaces
@@ -65,7 +65,7 @@ Model 1 was trained on the following features:
 8. Distance from CBD
 9. Land Size
 
-Model 2 was trained on the following features:
+**Model 2** was trained on the following features:
 1. Number of Bedrooms
 2. Number of Bathrooms
 3. Number of Car Spaces
