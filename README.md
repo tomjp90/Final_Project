@@ -17,7 +17,7 @@ The project has been deployed to Heroku and is available [here](https://melbpric
 - Joe Quinn: https://github.com/joeq94
 
 
-## Data sources 
+## Data Sources 
 
 - [Melbourne Housing Data](https://www.kaggle.com/anthonypino/melbourne-housing-market?select=Melbourne_housing_FULL.csv)
 
