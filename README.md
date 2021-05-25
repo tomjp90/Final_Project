@@ -78,6 +78,6 @@ Model 2 was trained on the following features:
 
 ## Preview
 
-![Preview_1](data/images/preview_1)
+![Preview_1](data/images/preview_1.png)
 
 
