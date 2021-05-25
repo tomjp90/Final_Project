@@ -80,4 +80,8 @@ Model 2 was trained on the following features:
 
 ![Preview_1](data/images/preview_1.png)
 
+![Preview_2](data/images/preview_2.png)
+
+![Preview_3](data/images/preview_3.png)
+
 
