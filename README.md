@@ -2,9 +2,11 @@
 
 This project utilises Machine Learning to predict Melbourne property prices. It provides a simple resource for prospective property buyers to value listings they have found on Domain.com.au.  The web app scrapes property information from a provided Domain URL, appending crime and location information to the scraped data. The model then predicts a value for the property based on the listing information it receives. The webpage also provides housing trend visualisations to assist potential property buyers in their research.
 
-## Heroku deployment
+
+## Deployment
 
 The project has been deployed to Heroku and is available [here](https://melbpricepredictor.herokuapp.com/)
+
 
 ## The Team 
 
@@ -13,6 +15,7 @@ The project has been deployed to Heroku and is available [here](https://melbpric
 - Anne Wieggers: https://github.com/annewieggers
 - Tom Peddlesden: https://github.com/tomjp90 
 - Joe Quinn: https://github.com/joeq94
+
 
 ## Data sources 
 
@@ -29,7 +32,7 @@ Machine Learning
 - Pandas
 - Joblib
 
-Back End
+Back-End
 - Flask
 - Flask PyMongo
 - Numpy	
@@ -43,14 +46,14 @@ Back End
 - Time
 - Sys
 
-Front end
+Front-End
 - HTML
 - CSS
 - Javascript
 - Bootstrap
 
 
-## The Model
+## Model
 
 The XGBRegressor model from the XGBoost library was utilised for this project. Two versions of the model were created to accomodate the variation in property information included on Domain.
 
@@ -75,16 +78,6 @@ The XGBRegressor model from the XGBoost library was utilised for this project. T
 7. Suburb Crime Rate
 8. Distance from CBD
 
-
-## Preview
-
-![Preview_1](data/images/preview_1.png)
-
-![Preview_2](data/images/preview_2.png)
-
-![Preview_3](data/images/preview_3.png)
-
-
 ## File Structure
 
 - **data** folder: Contains CSVs used for the model input and graphing.
@@ -95,4 +88,16 @@ The XGBRegressor model from the XGBoost library was utilised for this project. T
 - **match_csvs.py** file: A python file that matches scraped data with additional csv data.
 - **requirements.txt**: The requirements needed for the project to work. If running the project locally these requirements will need to be met.
 - **scrape.py**: A python file that scrapes input data from Domain.com.
+
+
+## Preview
+
+![Preview_1](data/images/preview_1.png)
+
+![Preview_2](data/images/preview_2.png)
+
+![Preview_3](data/images/preview_3.png)
+
+
+
 
