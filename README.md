@@ -28,16 +28,15 @@ We have supplemented the house price data with the Victorian crime rates, which 
 
 ## Libraries and Technologies 
 
-- Machine Learning
-        - XGBoost
-	- Joblib
-        - Scikit-learn
-        - Pandas
-    
+Machine Learning
+    -  XGBoost
+    - Scikit-learn
+    - Pandas
+    - Joblib
 
-- Back end
-	- Flask
-	- Flask PyMongo
+Back End
+- Flask
+- Flask PyMongo
 	- Numpy	
 	- scrape_mars
 	- requests
