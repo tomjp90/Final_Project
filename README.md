@@ -88,11 +88,11 @@ Model 2 was trained on the following features:
 ## File Structure
 
 - **data** folder: Contains CSVs used for the model input and graphing.
-- *model* folder: Contains data inputs, cleaning files, data outputs, model training files, the models and a python file that runs the models.
-- 'static' folder: Contains javascript files, css files, bootstrap templates and images used for the webpage.
-- 'templates' folder: Contains all HTML files.
-- 'app.py' file: Backend flask file which references all HTML routes.
-- 'match_csvs.py' file: A python file that matches scraped data with additional csv data.
-- 'requirements.txt': The requirements needed for the project to work. If running the project locally these requirements will need to be met.
-- 'scrape.py': A python file that scrapes input data from Domain.com.
+- **model** folder: Contains data inputs, cleaning files, data outputs, model training files, the models and a python file that runs the models.
+- **static** folder: Contains javascript files, css files, bootstrap templates and images used for the webpage.
+- **templates** folder: Contains all HTML files.
+- **app.py** file: Backend flask file which references all HTML routes.
+- **match_csvs.py** file: A python file that matches scraped data with additional csv data.
+- **requirements.txt**: The requirements needed for the project to work. If running the project locally these requirements will need to be met.
+- **scrape.py**: A python file that scrapes input data from Domain.com.
 
