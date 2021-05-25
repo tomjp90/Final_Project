@@ -1,4 +1,4 @@
-# Predicting house prices in Melbourne - Final Project
+# Melbourne Price Predictor - Final Project
 
 For this project, we have used Machine Learning to predict house prices in Melbourne and in order to assess whether or not current house listings are over or undervalued. We have combined this with the Victorian crime rates as this would provide further insight in whether crime rates affect house prices. This will help a potential house buyer whether or not to bid on a property. 
 
@@ -15,12 +15,11 @@ The project has been deployed to Heroku and is available [here](https://melbpric
 
 ## Project Team 
 
-The project team consists of:
-Catherine Sloan,
-Danielle Cahill,
-Anne Wieggers,
-Tom Peddlesden &
-Joe Quinn
+- Catherine Sloan
+- Danielle Cahill
+- Anne Wieggers
+- Tom Peddlesden: github.com/tomjp90 
+- Joe Quinn
 
 ## Data sources 
 We have used the following datasources:
