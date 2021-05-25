@@ -26,13 +26,13 @@ The project has been deployed to Heroku and is available [here](https://melbpric
 
 ## Libraries and Technologies 
 
-Machine Learning
+**Machine Learning:**
 -  XGBoost
 - Scikit-learn
 - Pandas
 - Joblib
 
-Back-End
+**Back-End:**
 - Flask
 - Flask PyMongo
 - Numpy	
@@ -46,7 +46,7 @@ Back-End
 - Time
 - Sys
 
-Front-End
+**Front-End:**
 - HTML
 - CSS
 - Javascript
