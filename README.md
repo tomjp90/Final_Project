@@ -87,8 +87,8 @@ Model 2 was trained on the following features:
 
 ## File Structure
 
-- 'data' folder: Contains CSVs used for the model input and graphing.
-- 'model' folder: Contains data inputs, cleaning files, data outputs, model training files, the models and a python file that runs the models.
+- **data** folder: Contains CSVs used for the model input and graphing.
+- *model* folder: Contains data inputs, cleaning files, data outputs, model training files, the models and a python file that runs the models.
 - 'static' folder: Contains javascript files, css files, bootstrap templates and images used for the webpage.
 - 'templates' folder: Contains all HTML files.
 - 'app.py' file: Backend flask file which references all HTML routes.
