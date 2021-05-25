@@ -2,24 +2,18 @@
 
 For this project, we have used Machine Learning to predict house prices in Melbourne and in order to assess whether or not current house listings are over or undervalued. We have combined this with the Victorian crime rates as this would provide further insight in whether crime rates affect house prices. This will help a potential house buyer whether or not to bid on a property. 
 
-- Data sources
-- Libraries and technologies used
-- Overview repository
-- Steps taken
-- Caveats
-- Potential improvements
 
 ## Heroku deployment
 
 The project has been deployed to Heroku and is available [here](https://melbpricepredictor.herokuapp.com/)
 
-## Project Team 
+## The Team 
 
-- Catherine Sloan
-- Danielle Cahill
-- Anne Wieggers
-- Tom Peddlesden: github.com/tomjp90 
-- Joe Quinn
+- Catherine Sloan: https://github.com/catherinesloan
+- Danielle Cahill: https://github.com/dan1ellec
+- Anne Wieggers: https://github.com/annewieggers
+- Tom Peddlesden: https://github.com/tomjp90 
+- Joe Quinn: https://github.com/joeq94
 
 ## Data sources 
 We have used the following datasources:
@@ -32,11 +26,14 @@ We have used the following datasources:
 We have supplemented the house price data with the Victorian crime rates, which can be found [here](https://discover.data.vic.gov.au/dataset/crime-by-location-data-table)
 
 
-## Libraries and technologies used
+## Libraries and Technologies 
 
 - Machine Learning
 	- XGBoost
 	- Joblib
+        - Scikit-learn
+        - Pandas
+    
 
 - Back end
 	- Flask
@@ -44,9 +41,9 @@ We have supplemented the house price data with the Victorian crime rates, which 
 	- Numpy	
 	- scrape_mars
 	- requests
-	- BeautifulSoup
+	- BeautifulSoup 
+        - Selenium
 	- OS
-	- Pandas
 	- Splinter
 	- ChromeDriverManager
 	- Time
