@@ -32,6 +32,7 @@ def scrape_house_listing(url):
       try:
             # https://stackoverflow.com/questions/50831469/i-am-not-able-to-scrape-the-web-data-from-the-given-website-using-python        
             # prevent automation detection - create a 'valid user'
+<<<<<<< HEAD
             #----------------------------- RANDOMLY CREATE A 'USER' -------------------------------------------
             rand = np.random.randint(7)
 
@@ -43,6 +44,11 @@ def scrape_house_listing(url):
                         "'User-Agent': 'Chrome/5.1 (Macintosh; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'"
                         ]
             headers = rand_headers[rand]
+=======
+            #----------------------------- RANDOMLY CREATE A 'USER' --------------------------------------------
+            headers = {
+                  'User-Agent': 'Chrome/5.1 (Mac; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'}
+>>>>>>> f1af5423b6f5a84a647628aa014588fd55a4a5f5
 
             html_content = requests.get(url, headers=headers)
             html = html_content.text
