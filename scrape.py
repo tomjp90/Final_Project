@@ -32,18 +32,21 @@ def scrape_house_listing(url):
       try:
             # https://stackoverflow.com/questions/50831469/i-am-not-able-to-scrape-the-web-data-from-the-given-website-using-python        
             # prevent automation detection - create a 'valid user'
-            #----------------------------- RANDOMLY CREATE A 'USER' -------------------------------------------
-            rand = np.random.randint(7)
+            # #----------------------------- RANDOMLY CREATE A 'USER' -------------------------------------------
+            rand = np.random.randint(6)
 
-            rand_headers = ["'User-Agent': 'Chrome/6.1 (Mac; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'",
-                        "'User-Agent': 'Opera/8.4 (Macintosh; Mac OS X 10_11_6) Kit/538.36 (KHTML, like Gecko) Opera/50.1.3.54",
-                        "'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (HTML) Chrome/50.0.21.12'",
-                        "'User-Agent': 'Chrome/5.2 (Windows; Win OS 10.3) WebKit/537.36 (KHTML, like Gecko) Chrome/5012.0.21.12'",
-                        "'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (like Gecko) Chrome/53.0.21.12'",
-                        "'User-Agent': 'Chrome/5.1 (Macintosh; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'"
-                        ]
-            headers = rand_headers[rand]
-
+            rand_headers0 = {'User-Agent': 'Chrome/6.1 (Mac; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102',}
+            rand_headers1 = {'User-Agent': 'Opera/8.4 (Macintosh; Mac OS X 10_11_6) Kit/538.36 (KHTML, like Gecko) Opera/50.1.3.54'}
+            rand_headers2 = {'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (HTML) Chrome/50.0.21.12'}
+            rand_headers3 = {'User-Agent': 'Chrome/5.2 (Windows; Win OS 10.3) WebKit/537.36 (KHTML, like Gecko) Chrome/5012.0.21.12'}
+            rand_headers4 = {'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (like Gecko) Chrome/53.0.21.12'}
+            rand_headers5 = {'User-Agent': 'Chrome/5.1 (Macintosh; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'}
+            headers_list = [rand_headers0,rand_headers1,rand_headers2,rand_headers3,rand_headers4,rand_headers5]          
+            headers = headers_list[rand]
+            print(f'======================= THE RANDOM NUMBER {rand}')
+            # headers = {
+            #       'User-Agent': 'Chrome/5.0 (Macintosh; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'}
+            print(headers)
             html_content = requests.get(url, headers=headers)
             html = html_content.text
             soup = bs(html, 'html.parser')
