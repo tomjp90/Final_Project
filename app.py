@@ -221,7 +221,7 @@ def login():
                                     return render_template('inner-page_prediction_NL_template.html', features=features)
 
                         else:
-                              error = "Wrong State! Only Melbourne Suburbs"
+                              error = "Wrong State! Only Property Listings from Victoria"
                               return render_template('inner-page_prediction_error_template.html', error=error)
                   else: 
                         error = "Cannot find all features to predict!"

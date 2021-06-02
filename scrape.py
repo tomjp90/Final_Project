@@ -9,7 +9,7 @@ import time
 import sys
 from datetime import datetime
 from selenium import webdriver
-
+import numpy as np
 # from selenium.webdriver.chrome.options import Options
 
 
@@ -32,38 +32,49 @@ def scrape_house_listing(url):
       try:
             # https://stackoverflow.com/questions/50831469/i-am-not-able-to-scrape-the-web-data-from-the-given-website-using-python        
             # prevent automation detection - create a 'valid user'
-            headers = {
-                  'User-Agent': 'Chrome/5.1 (Mac; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'}
+            #----------------------------- RANDOMLY CREATE A 'USER' -------------------------------------------
+            rand = np.random.randint(7)
+
+            rand_headers = ["'User-Agent': 'Chrome/6.1 (Mac; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'",
+                        "'User-Agent': 'Opera/8.4 (Macintosh; Mac OS X 10_11_6) Kit/538.36 (KHTML, like Gecko) Opera/50.1.3.54",
+                        "'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (HTML) Chrome/50.0.21.12'",
+                        "'User-Agent': 'Chrome/5.2 (Windows; Win OS 10.3) WebKit/537.36 (KHTML, like Gecko) Chrome/5012.0.21.12'",
+                        "'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (like Gecko) Chrome/53.0.21.12'",
+                        "'User-Agent': 'Chrome/5.1 (Macintosh; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'"
+                        ]
+            headers = rand_headers[rand]
+
             html_content = requests.get(url, headers=headers)
             html = html_content.text
-            print(html)
-            print("HTML WITH REQUESTS LIBRARY")
-            # find and store relevant html
             soup = bs(html, 'html.parser')
-            print(soup)
-            summary = soup.find("div", class_="css-fpm9y")
-            property_features = summary.find_all('span', class_='css-1rzse3v')
-            print(summary)
-            # extract property features
-            bedrooms = property_features[0].text.split(' ')[0]
-            bathrooms = property_features[1].text.split(' ')[0]  
+            
+            # ---------------------------- FIND CLASS NAMES THAT CHANGE PERIODICALLY -----------------------------------
+            address_class = soup.find(attrs={"data-testid": "listing-details__button-copy-wrapper"}).find("h1")["class"][0]
+            pfeatures_class = soup.findAll("span", attrs={"data-testid": "property-features-feature"})[4]["class"][0]
+            ptype_class = soup.find(attrs={"data-testid": "listing-summary-property-type"}).find("span")["class"][0]
+            img_class = soup.find("picture")["class"][0]
 
+
+            #-------------------------------------- SCRAPE PROPERTY FEATURES -------------------------------------------------
+            property_features = soup.find_all('span', class_ = pfeatures_class)
+            bedrooms = property_features[0].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0]
+            bathrooms = property_features[1].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0]
             # try and catch when features cannot be scraped
             try:
-                  cars = property_features[2].text.split(' ')[0] 
+                  cars = property_features[2].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0]
             except:
                   cars = "Unknown"
             try:
-                  landsize = property_features[3].text.split(' ')[0][:-2]
+                  landsize = property_features[3].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0][:-2]
             except:
-                  landsize = "Unknown"                  
+                  landsize = "Unknown"
             try:
-                  property_type = summary.find('span', class_='css-in3yi3').text
+                  property_type = soup.findAll('span', class_ = ptype_class)[1].text
             except:
                   property_type = "Unknown" 
 
             # find address from property features
-            address = summary.find('h1', class_='css-164r41r').text
+            address = soup.find('h1', class_ = address_class).text
             postcode = address.split(' ')[-1]
             state = address.split(' ')[-2]       
 
@@ -80,7 +91,7 @@ def scrape_house_listing(url):
                         break
 
             # find property feature image
-            property_img = soup.find("picture", class_="css-8yo374").find("source")['srcset']            
+            property_img = soup.find("picture", class_ = img_class).find("source")['srcset']            
             
             # pass all features to dictionary 
             house_features = {
