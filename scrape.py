@@ -35,13 +35,14 @@ def scrape_house_listing(url):
             # #----------------------------- RANDOMLY CREATE A 'USER' -------------------------------------------
             rand = np.random.randint(6)
 
-            rand_headers0 = {'User-Agent': 'Chrome/6.1 (Mac; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102',}
-            rand_headers1 = {'User-Agent': 'Opera/8.4 (Macintosh; Mac OS X 10_11_6) Kit/538.36 (KHTML, like Gecko) Opera/50.1.3.54'}
-            rand_headers2 = {'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (HTML) Chrome/50.0.21.12'}
-            rand_headers3 = {'User-Agent': 'Chrome/5.2 (Windows; Win OS 10.3) WebKit/537.36 (KHTML, like Gecko) Chrome/5012.0.21.12'}
-            rand_headers4 = {'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (like Gecko) Chrome/53.0.21.12'}
-            rand_headers5 = {'User-Agent': 'Chrome/5.1 (Macintosh; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'}
-            headers_list = [rand_headers0,rand_headers1,rand_headers2,rand_headers3,rand_headers4,rand_headers5]          
+            headers_list = [{'User-Agent': 'Chrome/6.1 (Mac; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102',},
+                              {'User-Agent': 'Opera/8.4 (Macintosh; Mac OS X 10_11_6) Kit/538.36 (KHTML, like Gecko) Opera/50.1.3.54'},
+                              {'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (HTML) Chrome/50.0.21.12'},
+                              {'User-Agent': 'Chrome/5.2 (Windows; Win OS 10.3) WebKit/537.36 (KHTML, like Gecko) Chrome/5012.0.21.12'},
+                              {'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (like Gecko) Chrome/53.0.21.12'},
+                              {'User-Agent': 'Chrome/5.1 (Macintosh; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'}
+                              ]      
+                                  
             headers = headers_list[rand]
             print(f'======================= THE RANDOM NUMBER {rand}')
             # headers = {
@@ -60,15 +61,23 @@ def scrape_house_listing(url):
 
             #-------------------------------------- SCRAPE PROPERTY FEATURES -------------------------------------------------
             property_features = soup.find_all('span', class_ = pfeatures_class)
+
             bedrooms = property_features[0].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0]
+            print(f"THE BEDS ARE {bedrooms}")
             bathrooms = property_features[1].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0]
+            print(f"THE BATHS ARE {bathrooms}")
             # try and catch when features cannot be scraped
             try:
                   cars = property_features[2].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0]
             except:
                   cars = "Unknown"
             try:
-                  landsize = property_features[3].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0][:-2]
+                  landsize = property_features[3].find(attrs={"data-testid": "property-features-text-container"}).text
+                  print(f"SCRAPED LANDSIXE *********************** {landsize}")
+                  if 'Beds' in landsize:
+                        landsize = "Unknown"
+                  else:
+                        landsize = landsize[:-3]
             except:
                   landsize = "Unknown"
             try:
@@ -92,6 +101,11 @@ def scrape_house_listing(url):
                                     suburb = temp.split(f" {state}")[0]                                              
                                     break
                         break
+            
+
+            if landsize is None:
+                  landsize = "Unknown"
+                  
 
             # find property feature image
             property_img = soup.find("picture", class_ = img_class).find("source")['srcset']            
@@ -119,8 +133,9 @@ def scrape_house_listing(url):
                   "future_predict": [],
                   "future_predict_format": []                          
                   }
-
+                  
                   # results if scraping failed
+            print(house_features)
             
 
                   # house_features = "error"        
