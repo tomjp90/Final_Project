@@ -34,7 +34,6 @@ def scrape_house_listing(url):
             # prevent automation detection - create a 'valid user'
             # #----------------------------- RANDOMLY CREATE A 'USER' -------------------------------------------
             rand = np.random.randint(6)
-
             headers_list = [{'User-Agent': 'Chrome/6.1 (Mac; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102',},
                               {'User-Agent': 'Opera/8.4 (Macintosh; Mac OS X 10_11_6) Kit/538.36 (KHTML, like Gecko) Opera/50.1.3.54'},
                               {'User-Agent': 'Chrome/5.1 (Windows; Win OS 10.3) WebKit/537.36 (HTML) Chrome/50.0.21.12'},
@@ -44,12 +43,11 @@ def scrape_house_listing(url):
                               ]      
                                   
             headers = headers_list[rand]
-            print(f'======================= THE RANDOM NUMBER {rand}')
             # headers = {
             #       'User-Agent': 'Chrome/5.0 (Macintosh; Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.102'}
-            print(headers)
             html_content = requests.get(url, headers=headers)
             html = html_content.text
+            print(f"THE HTML CONTENT {html}")
             soup = bs(html, 'html.parser')
             
             # ---------------------------- FIND CLASS NAMES THAT CHANGE PERIODICALLY -----------------------------------

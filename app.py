@@ -55,7 +55,7 @@ def login():
             domain_listing = request.form['nm']
             # run scraping function fro new domain listing url
             features = scrape.scrape_house_listing(domain_listing)
-            print(f"SCRAPED FEATURES:{features}")
+            print(f"************** SCRAPED FEATURES:{features}")
             # ------------------------------ PREDICTION ------------------------------------
             # check whether any features returned are from VIC and include all values
             if (features["cars"] != "Unknown"):
@@ -134,8 +134,10 @@ def login():
                         print(features)
                         # IF LAND SIZE FOUND
                         if (features["landsize"] != "Unknown"): 
+
                               lands = features["landsize"]
                               print(f"==================THE LANDSIZE '{lands}'")
+
                               Landsize = (float(features["landsize"]) - 0) / (433014 - 0)
 
                               #================================ PREDICTION ==============================================
