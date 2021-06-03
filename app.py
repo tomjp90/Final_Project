@@ -47,18 +47,16 @@ def trends():
 # Predict route ----------------------------------------------------------------------------------------
 @app.route('/predict', methods=['POST', 'GET'])
 def login():
-
      
+      try:
       # when request POST domain listing is sent and updated
-      if request.method == 'POST':
-            # save value inputed in form
-            domain_listing = request.form['nm']
-            # run scraping function fro new domain listing url
-            features = scrape.scrape_house_listing(domain_listing)
-            print(f"************** SCRAPED FEATURES:{features}")
-            # ------------------------------ PREDICTION ------------------------------------
-            # check whether any features returned are from VIC and include all values
-            if (features["cars"] != "Unknown"):
+            if request.method == 'POST':
+                  # save value inputed in form
+                  domain_listing = request.form['nm']
+                  # run scraping function fro new domain listing url
+                  features = scrape.scrape_house_listing(domain_listing)
+                  print(f"************** SCRAPED FEATURES:{features}")
+                  # ------------------------------ PREDICTION ------------------------------------
 
                   # Check State only Victoria
                   if (features["state"] == 'VIC'):
@@ -142,7 +140,7 @@ def login():
 
                               #================================ PREDICTION ==============================================
                               #==========================================================================================
-                               #create pandas df to predict value with all features scaled
+                              #create pandas df to predict value with all features scaled
                               # #['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']
                               X = pd.DataFrame([Rooms, Distance, Bathrooms, Cars, Landsize, Year, Month, Crime, Type_h, Type_t, Type_u], 
                                                 ['Rooms', 'Distance', 'Bathroom', 'Car', 'Landsize', 'Year', 'Month', 'Crime', 'Type_h', 'Type_t', 'Type_u']).T
@@ -226,17 +224,17 @@ def login():
                   else:
                         error = "Wrong State! Only Property Listings from Victoria"
                         return render_template('inner-page_prediction_error_template.html', error=error)
-            else: 
-                  error = "Cannot find all features to predict!"
+                  # else: 
+                  #       error = "Cannot find all features to predict!"
+                  #       # return error html if all features not scraped
+                  #       return render_template('inner-page_prediction_error_template.html', error=error)
+            else:
+                  # return error html if features is empty
+                  return render_template('inner-page_predict_template.html')
+      except:
+            error = "Invalid URL"
                   # return error html if all features not scraped
-                  return render_template('inner-page_prediction_error_template.html', error=error)
-      else:
-            # return error html if features is empty
-            return render_template('inner-page_predict_template.html')
-      # except:
-      #       error = "Invalid URL"
-      #             # return error html if all features not scraped
-      #       return render_template('inner-page_prediction_error_template.html', error=error)
+            return render_template('inner-page_prediction_error_template.html', error=error)
 
  
 

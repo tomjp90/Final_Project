@@ -101,8 +101,8 @@ def scrape_house_listing(url):
                         break
             
 
-            if landsize is None:
-                  landsize = "Unknown"
+            if '−' in cars:
+                  cars = "0"
                   
 
             # find property feature image
@@ -141,6 +141,7 @@ def scrape_house_listing(url):
       except Exception as e:
             driver.quit()
             house_features = ""
+            print("THE HOUSE FEATURES ERROR")
 
       # return dictionary of features
       return house_features
