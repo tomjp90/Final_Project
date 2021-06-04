@@ -20,7 +20,7 @@ def scrape_house_listing(url):
       
       # check if domain or realestate website
       domain = 'domain'
-      realestatate = 'realestate'
+      realestatate = '' 
 
       # --------------------- CURRENT DATE---------------------------
       # get current day, month and year
