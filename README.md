@@ -102,6 +102,8 @@ The flow diagram shown belows illustrates how the lightweight web framework usin
 
 ![Preview_2](data/images/preview_2.png)
 
+![Preview_4](data/images/preview_4.JPG)
+
 ![Preview_3](data/images/preview_3.png)
 
 
