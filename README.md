@@ -80,6 +80,7 @@ The XGBRegressor model from the XGBoost library was utilised for this project. T
 
 # Back End
 The flow diagram shown belows illustrates how the lightweight web framework using FLask and written in Python works. 
+
 ![Preview_1](data/images/back_end_flow.gif)
 
 # File Structure
