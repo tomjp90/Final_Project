@@ -53,7 +53,8 @@ The project has been deployed to Heroku and is available [here](https://melbpric
 - Bootstrap
 
 
-## Model
+## Machine Learning Models
+
 
 The XGBRegressor model from the XGBoost library was utilised for this project. Two versions of the model were created to accomodate the variation in property information included on Domain.
 
