@@ -3,48 +3,47 @@
 This project utilises Machine Learning to predict Melbourne property prices. It provides a simple resource for prospective property buyers to value listings they have found on Domain.com.au.  The web app scrapes property information from a provided Domain URL, appending crime and location information to the scraped data. The model then predicts a value for the property based on the listing information it receives. The web app also provides housing trend visualisations to assist potential property buyers in their research.
 
 
-## Deployment
+# Deployment
 
-The project has been deployed to Heroku and is available [here](https://melbpricepredictor.herokuapp.com/).
+The project has been deployed to Heroku and is available here [https://melbpricepredictor.herokuapp.com/](https://melbpricepredictor.herokuapp.com/).
 
 
-## The Team 
+# The Team 
 
 - Catherine Sloan: https://github.com/catherinesloan
 - Danielle Cahill: https://github.com/dan1ellec
 - Anne Wieggers: https://github.com/annewieggers
 - Tom Peddlesden: https://github.com/tomjp90 
-- Joe Quinn: https://github.com/joeq94
 
 
-## Data Sources 
+# Data Sources 
 
 - [Melbourne Housing Data](https://www.kaggle.com/anthonypino/melbourne-housing-market?select=Melbourne_housing_FULL.csv)
 
 - [Victorian Crime Data](https://discover.data.vic.gov.au/dataset/crime-by-location-data-table)
 
 
-## Libraries and Technologies 
+# Libraries and Technologies 
 
 **Machine Learning:**
--  XGBoost
+- XGBoost
 - Scikit-learn
 - Pandas
 - Joblib
 
 **Back-End:**
+- Python
 - Flask
 - Flask PyMongo
 - Numpy	
-- scrape_mars
-- requests
-- BeautifulSoup 
-- Selenium
+- Web Scraping
+-- Requests
+-- Selenium
+-- BeautifulSoup 
+-- Splinter
 - OS
-- Splinter
-- ChromeDriverManager
 - Time
-- Sys
+- Heroku
 
 **Front-End:**
 - HTML
@@ -53,8 +52,7 @@ The project has been deployed to Heroku and is available [here](https://melbpric
 - Bootstrap
 
 
-## Machine Learning Models
-
+# Machine Learning 
 
 The XGBRegressor model from the XGBoost library was utilised for this project. Two versions of the model were created to accomodate the variation in property information included on Domain.
 
@@ -79,7 +77,11 @@ The XGBRegressor model from the XGBoost library was utilised for this project. T
 7. Suburb Crime Rate
 8. Distance from CBD
 
-## File Structure
+# Back End
+The flow diagram below shows how the lightweight web framework, using FLask and written in Python, that runs on 
+![Preview_1](data/images/back_end_flow.gif)
+
+# File Structure
 
 - **data** folder: Contains CSVs used for the model input and graphing.
 - **model** folder: Contains data inputs, cleaning files, data outputs, model training files, the models and a python file that runs the models.
