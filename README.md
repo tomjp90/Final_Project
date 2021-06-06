@@ -1,4 +1,4 @@
-# Melbourne Price Predictor 
+# Melbourne Property Price Predictor 
 
 This project utilises Machine Learning to predict Melbourne property prices. It provides a simple resource for prospective property buyers to value listings they have found on Domain.com.au.  The web app scrapes property information from a provided Domain URL, appending crime and location information to the scraped data. The model then predicts a value for the property based on the listing information it receives. The web app also provides housing trend visualisations to assist potential property buyers in their research.
 
@@ -35,14 +35,14 @@ The project has been deployed to Heroku and is available here [https://melbprice
 - Python
 - Flask
 - Flask PyMongo
-- Numpy	
 - Web Scraping
--- Requests
--- Selenium
--- BeautifulSoup 
--- Splinter
+  - Requests
+  - Selenium
+  - BeautifulSoup 
+  - Splinter
+- Numpy	
 - OS
-- Time
+- Datetime
 - Heroku
 
 **Front-End:**
@@ -50,11 +50,12 @@ The project has been deployed to Heroku and is available here [https://melbprice
 - CSS
 - Javascript
 - Bootstrap
+- Heroku
 
 
 # Machine Learning 
 
-The XGBRegressor model from the XGBoost library was utilised for this project. Two versions of the model were created to accomodate the variation in property information included on Domain.
+The XGBRegressor model from the XGBoost library was utilised for this project. Two versions of the model were created to accomodate the variation in property information included on Domain. All property features were binary encoded and scaled for train and test our models.
 
 **Model 1** was trained on the following features:
 1. Number of Bedrooms
@@ -78,7 +79,7 @@ The XGBRegressor model from the XGBoost library was utilised for this project. T
 8. Distance from CBD
 
 # Back End
-The flow diagram below shows how the lightweight web framework, using FLask and written in Python, that runs on 
+The flow diagram shown belows illustrates how the lightweight web framework using FLask and written in Python works. 
 ![Preview_1](data/images/back_end_flow.gif)
 
 # File Structure
