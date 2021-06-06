@@ -49,6 +49,7 @@ The project has been deployed to Heroku and is available here [https://melbprice
 - HTML
 - CSS
 - Javascript
+  - Plotly   
 - Bootstrap
 - Heroku
 
