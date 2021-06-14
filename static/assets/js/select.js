@@ -114,10 +114,34 @@ function doPredict() {
             return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
       }
 
+
+
       function showResult(data) {
-            predict_price = numberWithCommas(Math.round(data.result))
+            
             // PREDICTED VALUE --------------------------------------------------------------------------------------------
-            document.getElementById("predict").innerHTML =  "Predicted Value: <br> $" + predict_price
+            predict_price = numberWithCommas(Math.round(data.result))
+            document.getElementById("predict").innerHTML =  "<b> Predicted Value: </b><br>" + predict_price 
+
+            // PREDICTION WARNING --------------------------------------------------------------------------------------------
+            console.log(data.landsize)
+            if (data.landsize == 0){
+                  document.getElementById("warning").innerHTML = "No landsize selected. Prediction is less accurate"
+            } else { 
+                  document.getElementById("warning").innerHTML = ""                  
+            }
+
+            // PROPERTY GROWTH FOR DISTANCE
+            toDecimal = data.dist_inc - 1
+            inc_rounded = parseFloat(toDecimal).toFixed(2)
+            inc_formatted = inc_rounded 
+           
+            document.getElementById("inc").innerHTML = "There is an average property value growth of <b>" + inc_formatted + "%</b> per year at the selected distance for all types of property"
+
+
+            // SELECTED FEATURES
+            document.getElementById("data1").innerHTML = "<b>Prediction Date Used:</b> " + data.date[0] + "/" + data.date[1] + "/" + data.date[2] + "<br><br><b>Selected:</b> <br> Ditance to CBD: " + data.dist_cbd + "<br> Bedrooms: " + data.beds + "<br> Bathrooms: " + data.baths 
+            document.getElementById("data2").innerHTML = "<br><br><br>Cars: " + data.cars + "<br> Property Type: " + data.prop_type + "<br> Landsize: " + data.landsize
+         
 
             // SUBURBS -----------------------------------------------------------------------------------------------------      
             let HTMLsuburbs = []
@@ -129,13 +153,13 @@ function doPredict() {
 
                   if (suburb.includes(sub_string)) {
                         splitSub = suburb.split(' ').join('+')
-                        HTMLsuburbs.push("<a href=" + url + splitSub + "> " + suburb + "</a>")
+                        HTMLsuburbs.push("<a href=" + url + splitSub + " target='_blank'> " + suburb + "</a>")
                   } else {                  
-                        HTMLsuburbs.push("<a href=" + url + suburb + "> " + suburb + "</a>")
+                        HTMLsuburbs.push("<a href=" + url + suburb + " target='_blank'> " + suburb + "</a>")
                   }
             }
-            document.getElementById("suburbs").innerHTML = "Suburbs within ±1km of selected distance: <br>" + HTMLsuburbs;
-  
-      }
-      // ? suburb.split(' ').join('+') : suburb
+            document.getElementById("suburbs").innerHTML = "<b>Suburbs within <b>" + data.dist_cbd + "</b> ± 1km: </b> <br>" + HTMLsuburbs;
+           
+}
+    
 
