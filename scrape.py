@@ -48,13 +48,13 @@ def scrape_house_listing(url):
 
 #-------------------------------------- SCRAPE PROPERTY FEATURES -------------------------------------------------
             property_features = soup.find_all('span', class_ = pfeatures_class)
-      # BEDS =======================================================================
+# BEDS =======================================================================
             bedrooms = property_features[0].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0]
-                  
-      # BATHS ======================================================================
+
+# BATHS ======================================================================
             bathrooms = property_features[1].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0]
 
-      # CARS ========================================================================
+# CARS ========================================================================
             # try and catch when features cannot be scraped
             try:
                   cars = property_features[2].find(attrs={"data-testid": "property-features-text-container"}).text.split(' ')[0]
@@ -63,7 +63,7 @@ def scrape_house_listing(url):
             if '−' in cars:
                   cars = "0"
             
-      # LANDSIZE =====================================================================
+# LANDSIZE =====================================================================
             try:
                   landsize = property_features[3].find(attrs={"data-testid": "property-features-text-container"}).text
                   if 'Beds' in landsize:
@@ -73,23 +73,23 @@ def scrape_house_listing(url):
             except:
                   landsize = "Unknown"
 
-      # PROPERTY TYPE =================================================================
+# PROPERTY TYPE =================================================================
             try:
                   property_type = soup.findAll('span', class_ = ptype_class)[1].text
             except:
                   property_type = "Unknown" 
 
-      # ADDRESS =================================================================
+# ADDRESS =================================================================
             address = soup.find('h1', class_ = address_class).text
 
-      # POSTCODE =================================================================
+# POSTCODE =================================================================
             postcode = address.split(' ')[-1]
 
-      # STATE ==========================================================================
+# STATE ==========================================================================
             state = address.split(' ')[-2]       
 
 
-      # SUBURB ==========================================================================
+# SUBURB ==========================================================================
             # split address around suburb to extract one or two worded suburbs
             street_types = ["street","Street","avenue","Avenue","Rd,", "rd,","road","Road","st","St","Rd"]
             state_names = ["VIC", "NSW", "QLD", "SA", "WA", "NT", "TAS", "ACT"]
@@ -102,10 +102,10 @@ def scrape_house_listing(url):
                                     break
                         break        
 
-      # PROPERTY IMAGE ==========================================================================                
+# PROPERTY IMAGE ==========================================================================                
             property_img = soup.find("picture", class_ = img_class).find("source")['srcset']            
 
-      # DICTIONARY OF ALL FEATURES ==========================================================================           
+# DICTIONARY OF ALL FEATURES ==========================================================================           
             # pass all features to dictionary 
             house_features = {
                   "listing_url": url,
@@ -129,7 +129,8 @@ def scrape_house_listing(url):
                   "future_predict": [],
                   "future_predict_format": []                          
                   }            
-        
+
+                  # house_features = "error"        
       
       except Exception as e:
             house_features = ""
