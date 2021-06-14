@@ -1,5 +1,4 @@
 // Initialising first plot of bedrooms
-
 function init() {
   data = [{
     x: [1, 2, 3, 4, 5, 6],
@@ -28,7 +27,6 @@ function init() {
     paper_bgcolor: 'rgba(0,0,0,0)',
     plot_bgcolor: 'rgba(0,0,0,0)'
   };
-  
 
 
   Plotly.newPlot("lineplots", data, layout);
@@ -41,7 +39,7 @@ d3.selectAll("#selDataset").on("change", updatePlotly);
 function updatePlotly() {
   var dropdownMenu = d3.select("#selDataset");
   var dataset = dropdownMenu.property("value");
-  console.log("hi")
+
   // Initialise 
   var x = [];
   var y = [];

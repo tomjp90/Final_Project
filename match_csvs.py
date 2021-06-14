@@ -1,32 +1,24 @@
 import pandas as pd
 
+################################## ADDITIONAL WORK FOR DEMO DAY ###########################################
 # -------------------- MELB AVG FOR PROPERTY TYPE FOR 2016-2018---------------------------
 # read in CSV and to find the average values for property type
 
-def melb_avg(type_lower):
+# def melb_avg(type_lower):
 
-      avg_type = pd.read_csv("data/type_averages.csv")                 
-      # loop through rows
-      for index, row in avg_type.iterrows():
-            # find row that matches property type                         
-            if (type_lower == row["Type"]):
-
-                  # save all averages
-                  property_type = row["Type"]
-                  if property_type == 'h':
-                        property_type = 'House'
-                  elif property_type == 't':
-                        property_type = 'Townhouse'
-                  elif property_type == 'u':
-                        property_type = 'Unit'
-
-                  avg_rooms = row["Rooms"]
-                  avg_price = row["Price"]
-                  avg_bathroom = row["Bathroom"]
-                  avg_car = row["Car"]
-                  avg_landsize = row["Landsize"]
+#       avg_type = pd.read_csv("data/type_averages.csv")                 
+#       # loop through rows
+#       for index, row in avg_type.iterrows():
+#             # find row that matches property type                         
+#             if (type_lower == row["Type"]):
+#                   # save all averages
+#                   avg_rooms = row["Rooms"]
+#                   avg_price = row["Price"]
+#                   avg_bathroom = row["Bathroom"]
+#                   avg_car = row["Car"]
+#                   avg_landsize = row["Landsize"]
       
-      return(property_type, avg_rooms, avg_price, avg_bathroom, avg_car, avg_landsize)
+#       return(avg_rooms, avg_price, avg_bathroom, avg_car, avg_landsize)
 
 # -------------------- CRIME AND DISTANCE FOR SUBURB AVERAGED FOR 2016-2018  ---------------------------
 # read in csv file and find distance and crime based on suburb that is scraped    
@@ -44,22 +36,3 @@ def distance_crime(suburb_lower):
                   avg_increase = row["Average_increase"]
 
       return(distance, crime, avg_increase)
-
-# --------------------------- FIND SUBURBS FROM DISTANCE TO CBD  ----------------------------------
-def suburbs_by_dist(dist):
-
-      suburbs_distance = pd.read_csv("data/suburb_crime_dist.csv")     
-      suburbs = []            
-      # loop through rows
-      for index, row in suburbs_distance.iterrows():
-            max_dist = dist + 1
-            min_dist = dist - 1             
-
-            distance = row["Distance"]        
-            sub = row["Suburb"].upper()            
-
-            if distance >= min_dist and distance <= max_dist:
-
-                  suburbs.append(sub)
-
-      return suburbs
