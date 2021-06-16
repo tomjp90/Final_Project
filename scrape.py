@@ -89,7 +89,7 @@ def scrape_house_listing(url):
             state = address.split(' ')[-2]       
 
             # split address around suburb to extract one or two worded suburbs
-            street_types = ["street","Street","avenue","Avenue","Rd,", "rd,","road","Road","st","St","Rd"]
+            street_types = ["street","Street","avenue","Avenue","Rd,", "rd,","road","Road","st","St","Rd","Court,","Court","Place,","Place","Grove","Drive","Crescent","Close","Way","Rise","Gr"]
             state_names = ["VIC", "NSW", "QLD", "SA", "WA", "NT", "TAS", "ACT"]
             for t in street_types:
                   if t in address:
